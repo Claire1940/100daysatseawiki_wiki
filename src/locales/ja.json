@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
+      "title": "100 Days At Sea Wiki - Codes, Classes & Survival Guide",
+      "description": "100 Days At Sea Wiki covers Roblox codes, classes, raft survival, badges, weapons, islands, updates, and beginner tips for safer ocean runs.",
+      "keywords": "100 Days At Sea, Roblox, codes, classes, survival, badges, raft, islands",
+      "ogTitle": "100 Days At Sea Wiki - Codes, Classes & Survival Guide",
+      "ogDescription": "100 Days At Sea Wiki covers Roblox codes, classes, raft survival, badges, weapons, islands, updates, and beginner tips for safer ocean runs.",
+      "twitterTitle": "100 Days At Sea Wiki - Codes, Classes & Survival Guide",
+      "twitterDescription": "100 Days At Sea Wiki covers Roblox codes, classes, raft survival, badges, weapons, islands, and beginner tips for safer ocean runs."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "記事は近日公開予定です"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
+    "badge": "Roblox Ocean Survival Adventure",
+    "title": "100 Days At Sea Wiki",
+    "description": "Survive the Bermuda Triangle in a Roblox ocean survival game. Gather resources with your harpoon, build a raft base, explore islands, find weapons, redeem codes, and push toward 100 days at sea.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "97M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
+        "value": "97%",
+        "label": "User Rating"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "1",
+        "label": "Active Codes"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "Nov 14, 2025",
+        "label": "Release Date"
       }
     }
   },
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
-    "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
+    "title": "Ready to Survive 100 Days At Sea?",
+    "description": "Dive into 100 Days At Sea on Roblox, gather resources with your harpoon, build your raft, and redeem codes for free pearls.",
+    "joinCommunity": "Join Stranded Devs",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
-    "resources": "リソース",
-    "community": "コミュニティ",
-    "legal": "法的情報",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
-    "about": "このサイトについて",
-    "privacy": "プライバシーポリシー",
-    "terms": "利用規約",
-    "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
-    "disclaimer": "非公式のファン作成リソースサイトです。"
+    "title": "100 Days At Sea Wiki",
+    "description": "Your complete resource hub for 100 Days At Sea codes, classes, raft survival, badges, weapons, islands, and guides.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "robloxGame": "Play on Roblox",
+    "robloxGroup": "Stranded Devs",
+    "youtube": "Watch Trailer",
+    "website": "Official Site",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 100 Days At Sea Wiki. Not affiliated with Roblox Corporation or Stranded Devs.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

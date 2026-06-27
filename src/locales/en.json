@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "100 Days At Sea Wiki - Codes, Classes & Survival Guide",
+      "description": "100 Days At Sea Wiki covers Roblox codes, classes, raft survival, badges, weapons, islands, updates, and beginner tips for safer ocean runs.",
+      "keywords": "100 Days At Sea, Roblox, codes, classes, survival, badges, raft, islands",
+      "ogTitle": "100 Days At Sea Wiki - Codes, Classes & Survival Guide",
+      "ogDescription": "100 Days At Sea Wiki covers Roblox codes, classes, raft survival, badges, weapons, islands, updates, and beginner tips for safer ocean runs.",
+      "twitterTitle": "100 Days At Sea Wiki - Codes, Classes & Survival Guide",
+      "twitterDescription": "100 Days At Sea Wiki covers Roblox codes, classes, raft survival, badges, weapons, islands, and beginner tips for safer ocean runs."
     }
   },
   "nav": {
@@ -34,26 +34,26 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roblox Ocean Survival Adventure",
+    "title": "100 Days At Sea Wiki",
+    "description": "Survive the Bermuda Triangle in a Roblox ocean survival game. Gather resources with your harpoon, build a raft base, explore islands, find weapons, redeem codes, and push toward 100 days at sea.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "97M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "97%",
+        "label": "User Rating"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "1",
+        "label": "Active Codes"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
+        "value": "Nov 14, 2025",
         "label": "Release Date"
       }
     }
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Survive 100 Days At Sea?",
+    "description": "Dive into 100 Days At Sea on Roblox, gather resources with your harpoon, build your raft, and redeem codes for free pearls.",
+    "joinCommunity": "Join Stranded Devs",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "100 Days At Sea Wiki",
+    "description": "Your complete resource hub for 100 Days At Sea codes, classes, raft survival, badges, weapons, islands, and guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "robloxGame": "Play on Roblox",
+    "robloxGroup": "Stranded Devs",
+    "youtube": "Watch Trailer",
+    "website": "Official Site",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 100 Days At Sea Wiki. Not affiliated with Roblox Corporation or Stranded Devs.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

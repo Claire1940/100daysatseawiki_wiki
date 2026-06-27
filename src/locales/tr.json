@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "description": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları, kontroller, modlar ve topluluk bağlantıları edinin.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, demo indirme, başlangıç rehberi, işbirliği rehberi, üretim, ekipman, modlar, BepInEx, Steam oyunu, gizli oyun",
-      "ogTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "ogDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları ve modlar edinin.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "twitterDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri ve üretim ipuçları edinin."
+      "title": "100 Days At Sea Wiki - Codes, Classes & Survival Guide",
+      "description": "100 Days At Sea Wiki covers Roblox codes, classes, raft survival, badges, weapons, islands, updates, and beginner tips for safer ocean runs.",
+      "keywords": "100 Days At Sea, Roblox, codes, classes, survival, badges, raft, islands",
+      "ogTitle": "100 Days At Sea Wiki - Codes, Classes & Survival Guide",
+      "ogDescription": "100 Days At Sea Wiki covers Roblox codes, classes, raft survival, badges, weapons, islands, updates, and beginner tips for safer ocean runs.",
+      "twitterTitle": "100 Days At Sea Wiki - Codes, Classes & Survival Guide",
+      "twitterDescription": "100 Days At Sea Wiki covers Roblox codes, classes, raft survival, badges, weapons, islands, and beginner tips for safer ocean runs."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Makaleler yakında"
   },
   "hero": {
-    "badge": "Ufak cüceler. Büyük evler. Arkadaşlarla gizli soygunlar.",
-    "title": "Lucid Blocks wiki",
-    "description": "Lucid Blocks için merkeziniz: soygunlar nasıl işliyor, Yüksek Cüce işleri, üretim & geliştirmeler, düşmanlar, kontroller ve her koşuda hayatta kalmanın en hızlı yolları.",
-    "getFreeCodesCTA": "Demo İndir",
-    "playOnSteamCTA": "Steam'de İstek Listesine Ekle",
+    "badge": "Roblox Ocean Survival Adventure",
+    "title": "100 Days At Sea Wiki",
+    "description": "Survive the Bermuda Triangle in a Roblox ocean survival game. Gather resources with your harpoon, build a raft base, explore islands, find weapons, redeem codes, and push toward 100 days at sea.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "15B",
-        "label": "En Yüksek Eş Zamanlı Kullanıcı (Demo)"
+        "value": "97M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "6",
-        "label": "İşbirliği Oyuncusu"
+        "value": "97%",
+        "label": "User Rating"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo Yayın Tarihi"
+        "value": "1",
+        "label": "Active Codes"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Platform"
+        "value": "Nov 14, 2025",
+        "label": "Release Date"
       }
     }
   },
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Soygun Yapmaya Hazır mısınız?",
-    "description": "İşbirliği grupları, güncellemeler ve mod tartışmaları için Discord'da Lucid Blocks topluluğuna katılın!",
-    "joinCommunity": "Discord'a Katıl",
-    "joinGame": "Steam'de Demo Al"
+    "title": "Ready to Survive 100 Days At Sea?",
+    "description": "Dive into 100 Days At Sea on Roblox, gather resources with your harpoon, build your raft, and redeem codes for free pearls.",
+    "joinCommunity": "Join Stranded Devs",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocks gizli soygunları, işbirliği stratejileri, modlar ve topluluk rehberleri için eksiksiz kaynak merkeziniz.",
-    "resources": "Kaynaklar",
-    "community": "Topluluk",
-    "legal": "Yasal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Topluluğu",
-    "steamStore": "Steam Mağazası",
-    "about": "Hakkında",
-    "privacy": "Gizlilik Politikası",
-    "terms": "Hizmet Şartları",
-    "copyrightNotice": "Telif Hakkı",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocks geliştiricileriyle bağlantılı değildir.",
-    "disclaimer": "Resmi olmayan hayran yapımı kaynak web sitesi."
+    "title": "100 Days At Sea Wiki",
+    "description": "Your complete resource hub for 100 Days At Sea codes, classes, raft survival, badges, weapons, islands, and guides.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "robloxGame": "Play on Roblox",
+    "robloxGroup": "Stranded Devs",
+    "youtube": "Watch Trailer",
+    "website": "Official Site",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 100 Days At Sea Wiki. Not affiliated with Roblox Corporation or Stranded Devs.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {
