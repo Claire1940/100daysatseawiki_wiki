@@ -1,11 +1,1141 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki 100 Days At Sea - Kode, Kelas & Panduan Bertahan Hidup",
+      "description": "Wiki 100 Days At Sea mencakup kode Roblox, kelas, cara bertahan hidup di rakit, lencana, senjata, pulau, pembaruan, dan tips pemula untuk pelayaran laut yang lebih aman.",
+      "keywords": "100 Days At Sea, Roblox, kode, kelas, bertahan hidup, lencana, rakit, pulau",
+      "ogTitle": "Wiki 100 Days At Sea - Kode, Kelas & Panduan Bertahan Hidup",
+      "ogDescription": "Wiki 100 Days At Sea mencakup kode Roblox, kelas, cara bertahan hidup di rakit, lencana, senjata, pulau, pembaruan, dan tips pemula untuk pelayaran laut yang lebih aman.",
+      "twitterTitle": "Wiki 100 Days At Sea - Kode, Kelas & Panduan Bertahan Hidup",
+      "twitterDescription": "Wiki 100 Days At Sea mencakup kode Roblox, kelas, cara bertahan hidup di rakit, lencana, senjata, pulau, dan tips pemula untuk pelayaran laut yang lebih aman."
+    }
+  },
   "nav": {
     "codes": "Kode",
     "guide": "Panduan",
     "classes": "Kelas",
     "crafting": "Pembuatan",
-    "revive": "Bangkitkan",
+    "revive": "Hidupkan Kembali",
     "locations": "Lokasi",
     "seeds": "Benih"
+  },
+  "pages": {
+    "codes": {
+      "title": "Kode 100 Days At Sea",
+      "description": "Semua kode 100 Days At Sea aktif untuk Pearl gratis, dengan langkah penukaran yang jelas, catatan kedaluwarsa, dan tempat kode baru dirilis selama acara dan pembaruan Roblox.",
+      "metaTitle": "Kode 100 Days At Sea - Pearl Gratis & Hadiah Aktif",
+      "metaDescription": "Tukarkan kode 100 Days At Sea aktif terbaru untuk mendapatkan Pearl gratis. Langkah penukaran, catatan kedaluwarsa, dan tempat menemukan kode baru, selalu diperbarui.",
+      "categoryLabel": "TUKARKAN KODE",
+      "whatIs": "Apa Itu Kode 100 Days At Sea?",
+      "whatIsDescription": "Kode 100 Days At Sea adalah rangkaian hadiah gratis yang dirilis oleh Stranded Devs melalui acara Roblox dan pembaruan game. Memasukkan kode aktif di menu Kode dalam game akan memberikan Pearl, mata uang premium yang digunakan untuk membuka kelas dan membuka peti pendamping untuk sesi bertahan hidup Anda.",
+      "why": "Mengapa Menukarkan Kode Lebih Awal?",
+      "whySteps": {
+        "step1Title": "Pearl Gratis untuk Membuka Kelas",
+        "step1Description": "Kode aktif memberikan Pearl yang membuka kelas awal seperti Survivor atau Medic, memberikan lebih banyak ruang untuk kesalahan di hari-hari awal Anda.",
+        "step2Title": "Peti Pendamping Lebih Cepat",
+        "step2Description": "Pearl yang disimpan dapat membuka peti pendamping lebih cepat, menambahkan keuntungan pasif seperti pengambilan jarahan, kerusakan jarak dekat, atau pengumpulan makanan ke sesi Anda.",
+        "step3Title": "Penukaran Dalam Game yang Aman",
+        "step3Description": "Kode hanya diklaim melalui menu Kode di dalam game, tidak pernah melalui formulir login eksternal, skrip, atau ekstensi browser."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Kode"
+    },
+    "guide": {
+      "title": "Panduan 100 Days At Sea",
+      "description": "Panduan lengkap 100 Days At Sea yang mencakup tips pemula, walkthrough penuh, siklus bertahan hidup, tujuan, akhir cerita, dan strategi solo untuk mencapai Hari ke-100.",
+      "metaTitle": "Panduan 100 Days At Sea - Walkthrough, Tips & Hari ke-100",
+      "metaDescription": "Kuasai 100 Days At Sea dengan tips pemula, walkthrough penuh, tujuan bertahan hidup, akhir cerita, strategi solo, dan berapa lama waktu yang dibutuhkan untuk menamatkan game.",
+      "categoryLabel": "PANDUAN BERTAHAN HIDUP",
+      "whatIs": "Apa Itu Panduan 100 Days At Sea?",
+      "whatIsDescription": "Panduan 100 Days At Sea merinci siklus bertahan hidup penuh di Segitiga Bermuda: kumpulkan sumber daya dengan harpun Anda, bangun pangkalan rakit dengan struktur dan pertahanan, jelajahi pulau-pulau misterius, temukan senjata, dan berusahalah untuk bertahan selama 100 hari.",
+      "why": "Mengapa Mengikuti Panduan Ini?",
+      "whySteps": {
+        "step1Title": "Rute Pemula yang Rapi",
+        "step1Description": "Mulailah dengan urutan yang benar—kumpulkan dulu, bangun kedua, jelajahi ketiga—agar hari-hari awal tetap stabil dan tidak kacau.",
+        "step2Title": "Pengaturan Rakit yang Efisien",
+        "step2Description": "Bangun untuk bertahan hidup sebelum dekorasi: level api unggun, dukungan makanan, dan pertahanan menjaga sesi tetap hidup melalui serangan.",
+        "step3Title": "Jalur Jelas Menuju Hari ke-100",
+        "step3Description": "Walkthrough dan tujuan memetakan pencapaian, akhir cerita, dan strategi solo sehingga perjalanan panjang menuju Hari ke-100 tetap berada di jalur yang benar."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan"
+    },
+    "classes": {
+      "title": "Kelas 100 Days At Sea",
+      "description": "Setiap kelas 100 Days At Sea diurutkan berdasarkan biaya Pearl, alat awal, buff, dan peran bertahan hidup terbaik, dengan daftar tingkatan lengkap untuk pemula, pertempuran, dan permainan Hari ke-100.",
+      "metaTitle": "Kelas 100 Days At Sea - Daftar Tingkatan & Kelas Terbaik",
+      "metaDescription": "Bandingkan setiap kelas 100 Days At Sea berdasarkan biaya Pearl, alat awal, dan buff. Temukan kelas terbaik untuk keamanan pemula, pertempuran bos, dan bertahan hidup Hari ke-100.",
+      "categoryLabel": "KELAS",
+      "whatIs": "Apa Itu Kelas 100 Days At Sea?",
+      "whatIsDescription": "Kelas di 100 Days At Sea adalah perlengkapan yang dibuka dengan Pearl. Setiap kelas memberikan keuntungan pasif—regenerasi lebih cepat, tambahan kerusakan senjata, pengendalian kapal yang lebih baik, atau kecepatan gerak—sehingga pilihan yang tepat mengubah seberapa aman, cepat, atau siap tempur sebuah permainan terasa.",
+      "why": "Mengapa Memilih Kelas yang Tepat?",
+      "whySteps": {
+        "step1Title": "Kelangsungan Hidup Awal yang Lebih Aman",
+        "step1Description": "Kelas awal seperti Survivor menambahkan regenerasi, oksigen, dan kontrol rasa lapar, memberikan ruang lebih bagi pemain baru untuk melakukan kesalahan.",
+        "step2Title": "Peran Pertempuran yang Lebih Kuat",
+        "step2Description": "Kelas kerusakan seperti Sharpshooter, Pirate, dan Raider meningkatkan output senjata dan aliran amunisi untuk pertarungan bos dan penyerbuan pulau.",
+        "step3Title": "Sinergi Permainan yang Lebih Baik",
+        "step3Description": "Mencocokkan kelas Anda dengan pendamping dan build senjata mengubah pengeluaran Pearl menjadi keuntungan jangka panjang yang jelas."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Kelas"
+    },
+    "crafting": {
+      "title": "Pembuatan 100 Days At Sea",
+      "description": "Panduan pembuatan dan pembangunan markas 100 Days At Sea yang mencakup rakit, tempat berlindung kontainer, pos terdepan, medkit, resep ikan, dan progres api unggun untuk permainan yang lebih aman.",
+      "metaTitle": "Pembuatan 100 Days At Sea - Rakit, Bangunan & Resep",
+      "metaDescription": "Buat dan bangun di 100 Days At Sea: perluasan rakit, tempat berlindung kontainer, pos terdepan, medkit, resep ikan, dan peningkatan api unggun untuk permainan bertahan hidup yang lebih aman.",
+      "categoryLabel": "PEMBUATAN & PEMBANGUNAN",
+      "whatIs": "Apa Itu Pembuatan di 100 Days At Sea?",
+      "whatIsDescription": "Pembuatan di 100 Days At Sea mengubah sumber daya yang dikumpulkan menjadi struktur, pertahanan, makanan, dan alat yang menjaga markas rakit Anda tetap berjalan. Dari rakit awal hingga pos terdepan, medkit, dan makanan matang, setiap keputusan pembangunan memengaruhi seberapa lama Anda bertahan hidup.",
+      "why": "Mengapa Membuat dengan Lebih Cerdas?",
+      "whySteps": {
+        "step1Title": "Fondasi Rakit yang Stabil",
+        "step1Description": "Bangun struktur dan pertahanan rakit lebih awal agar markas dapat bertahan dari penyerbuan dan tekanan malam hari saat Anda mengumpulkan sumber daya dan menjelajah.",
+        "step2Title": "Dukungan Makanan dan Penyembuhan",
+        "step2Description": "Resep seperti filet ikan, sandwich ikan, dan chowder menjaga rasa lapar dan kesehatan tetap terkendali di rute pulau yang lebih panjang.",
+        "step3Title": "Progres Api Unggun yang Jelas",
+        "step3Description": "Meningkatkan api unggun dan tempat berlindung mengubah pembangunan markas menjadi pencapaian nyata yang mengarah ke Hari ke-100."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Pembuatan"
+    },
+    "revive": {
+      "title": "Kebangkitan 100 Days At Sea",
+      "description": "Cara membangkitkan rekan tim dan menyelamatkan pelaut di 100 Days At Sea, mencakup defibrilator, aturan kebangkitan multipemain, dan strategi penyelamatan penyintas untuk permainan kooperatif.",
+      "metaTitle": "Kebangkitan 100 Days At Sea - Selamatkan Rekan Tim & Pelaut",
+      "metaDescription": "Pelajari cara membangkitkan di 100 Days At Sea: penggunaan defibrilator, mekanik kebangkitan multipemain, dan cara menyelamatkan pelaut serta penyintas dalam permainan kooperatif Hari ke-100.",
+      "categoryLabel": "KEBANGKITAN & PENYELAMATAN",
+      "whatIs": "Apa Itu Kebangkitan di 100 Days At Sea?",
+      "whatIsDescription": "Kebangkitan di 100 Days At Sea mencakup mekanik yang membawa kembali kru yang tumbang ke dalam permainan dan tujuan penyelamatan yang menyelamatkan pelaut serta penyintas. Defibrilator adalah alat utama, sementara aturan kebangkitan multipemain menentukan bagaimana kru kooperatif pulih dari kekalahan total.",
+      "why": "Mengapa Mempelajari Mekanik Kebangkitan?",
+      "whySteps": {
+        "step1Title": "Menjaga Permainan Kooperatif Tetap Berjalan",
+        "step1Description": "Mengetahui aturan defibrilator dan kebangkitan multipemain mencegah satu orang yang tumbang menjadi kegagalan permainan yang fatal.",
+        "step2Title": "Selesaikan Tujuan Penyelamatan",
+        "step2Description": "Menyelamatkan pelaut dan penyintas yang diselamatkan membuka pencapaian penyelesaian utama yang terkait dengan Hari ke-100 dan lencana tantangan.",
+        "step3Title": "Pengambilan Risiko yang Lebih Aman",
+        "step3Description": "Kru yang dapat membangkitkan dapat menempuh rute pulau dan pertarungan bos yang lebih sulit tanpa mengakhiri permainan karena satu kesalahan."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Kebangkitan"
+    },
+    "locations": {
+      "title": "Lokasi 100 Days At Sea",
+      "description": "Panduan setiap lokasi dan penanda 100 Days At Sea: kilang minyak, kapal kargo, kapal pesiar, yacht kru, kapal hantu, gunung berapi, kunci merah, dan rute bahan bakar sekoci.",
+      "metaTitle": "Lokasi 100 Days At Sea - Kapal, Pulau & Gunung Berapi",
+      "metaDescription": "Jelajahi lokasi 100 Days At Sea: kilang minyak, kapal kargo, kapal pesiar, kapal hantu, gunung berapi, kunci merah, dan rute bahan bakar sekoci dengan catatan jarahan dan bahaya.",
+      "categoryLabel": "LOKASI",
+      "whatIs": "Apa Itu Lokasi 100 Days At Sea?",
+      "whatIsDescription": "Lokasi di 100 Days At Sea adalah kapal, pulau, dan penanda yang Anda layari untuk mendapatkan jarahan dan progres yang lebih baik. Dari kilang minyak dan kapal kargo hingga kapal pesiar, kapal hantu, dan gunung berapi, setiap rute membawa hadiah, ancaman, dan item kunci tersendiri seperti kunci merah dan bahan bakar sekoci.",
+      "why": "Mengapa Menjelajahi Lokasi?",
+      "whySteps": {
+        "step1Title": "Jarahan dan Senjata yang Lebih Baik",
+        "step1Description": "Kapal dan penanda seperti kilang minyak dan kapal kargo menjatuhkan perlengkapan yang lebih kuat daripada mengumpulkan di perairan terbuka.",
+        "step2Title": "Item Kunci untuk Progres",
+        "step2Description": "Rute yang terikat dengan kunci merah dan bahan bakar sekoci membuka area baru dan membuat penjelajahan pulau terus maju.",
+        "step3Title": "Rute Bos dan Lencana",
+        "step3Description": "Rute gunung berapi, kapal hantu, dan kapal pesiar terhubung ke bos wilayah dan lencana penjelajahan langka."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Lokasi"
+    },
+    "seeds": {
+      "title": "Seed 100 Days At Sea",
+      "description": "Seed 100 Days At Sea dan seed peta terbaik untuk spawn kustom, bioma es, run sulit, dan awal yang kaya sumber daya. Temukan seed yang tepat untuk run bertahan hidup Anda.",
+      "metaTitle": "Seed 100 Days At Sea - Seed Peta & Kustom Terbaik",
+      "metaDescription": "Temukan seed 100 Days At Sea terbaik: seed peta, seed es, seed sulit, dan seed kustom untuk awal yang kaya sumber daya dan run tantangan.",
+      "categoryLabel": "SEED PETA",
+      "whatIs": "Apa Itu Seed 100 Days At Sea?",
+      "whatIsDescription": "Seed di 100 Days At Sea mengontrol bagaimana peta, pulau, bioma, dan spawn sumber daya dihasilkan untuk sebuah run. Seed kustom dapat menempatkan Anda di bioma es, awal yang kaya sumber daya, atau tantangan bertahan hidup yang sulit, memungkinkan Anda membentuk run sebelum Hari ke-1.",
+      "why": "Mengapa Menggunakan Seed yang Tepat?",
+      "whySteps": {
+        "step1Title": "Kendalikan Awal Anda",
+        "step1Description": "Seed peta yang dipilih menentukan pulau, sumber daya, dan bioma terdekat sehingga Anda dapat merencanakan hari-hari awal Anda alih-alih mengandalkan keberuntungan.",
+        "step2Title": "Targetkan Bioma Tertentu",
+        "step2Description": "Seed es dan seed khusus bioma mengarahkan Anda langsung ke wilayah dan bos yang ingin Anda latih.",
+        "step3Title": "Jalankan Tantangan",
+        "step3Description": "Seed sulit menciptakan kondisi bertahan hidup yang lebih tangguh bagi pemain berpengalaman yang mengejar run tantangan dan lencana."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Seed"
+    }
+  },
+  "common": {
+    "home": "Beranda",
+    "more": "Lebih Banyak",
+    "playNow": "Mainkan di Roblox",
+    "switchLanguage": "Ganti Bahasa",
+    "switchTheme": "Ganti Tema",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap",
+    "notFound": "Halaman Tidak Ditemukan",
+    "notFoundDescription": "Halaman yang Anda cari tidak ada.",
+    "backToHome": "Kembali ke Beranda",
+    "relatedArticles": "Artikel Terkait",
+    "readMore": "Baca Selengkapnya",
+    "articlesComingSoon": "Artikel segera hadir"
+  },
+  "hero": {
+    "badge": "Petualangan Bertahan Hidup di Samudra Roblox",
+    "title": "Wiki 100 Days At Sea",
+    "description": "Bertahan hidup di Segitiga Bermuda dalam game bertahan hidup di samudra Roblox. Kumpulkan sumber daya dengan harpun Anda, bangun pangkalan rakit, jelajahi pulau-pulau, temukan senjata, tukarkan kode, dan berusahalah untuk bertahan selama 100 days at sea.",
+    "getFreeCodesCTA": "Dapatkan Kode Gratis",
+    "playOnSteamCTA": "Mainkan di Roblox",
+    "stats": {
+      "stat1": {
+        "value": "97J+",
+        "label": "Total Kunjungan"
+      },
+      "stat2": {
+        "value": "97%",
+        "label": "Penilaian Pengguna"
+      },
+      "stat3": {
+        "value": "1",
+        "label": "Kode Aktif"
+      },
+      "stat4": {
+        "value": "14 Nov 2025",
+        "label": "Tanggal Rilis"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay 100 Days At Sea",
+    "description": "Bertahan hidup di Segitiga Bermuda dalam game bertahan hidup di samudra Roblox. Kumpulkan sumber daya dengan harpun Anda, bangun pangkalan rakit dengan struktur dan pertahanan, jelajahi pulau-pulau misterius, temukan senjata, dan berusahalah untuk bertahan selama 100 days at sea."
+  },
+  "tools": {
+    "title": "100 Days At Sea",
+    "titleHighlight": "Pusat Bertahan Hidup",
+    "subtitle": "Kode, kelas, pendamping, lencana, rute bos, pembuatan rakit, dan pembaruan untuk bertahan hidup selama 100 days at sea di Roblox.",
+    "cards": [
+      {
+        "icon": "Sparkles",
+        "title": "Kode 100 Days At Sea",
+        "description": "Kode hadiah aktif, langkah penukaran, dan tempat untuk memeriksa kode baru"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Panduan Pemula 100 Days At Sea",
+        "description": "Siklus bertahan hidup awal mulai dari mengumpulkan dengan harpun hingga pangkalan rakit dan penjelajahan pulau"
+      },
+      {
+        "icon": "Users",
+        "title": "Daftar Tingkatan Kelas 100 Days At Sea",
+        "description": "Setiap kelas diurutkan berdasarkan biaya Mutiara, alat awal, buff, dan peran bertahan hidup terbaik"
+      },
+      {
+        "icon": "Star",
+        "title": "Daftar Tingkatan Pendamping 100 Days At Sea",
+        "description": "Putaran peti pendamping diurutkan berdasarkan keunggulan, biaya, peluang drop, dan nilai sesi permainan"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Lencana dan Pencapaian 100 Days At Sea",
+        "description": "Pencapaian bertahan hidup, level api unggun, pertarungan bos, target penyelamatan, dan tantangan sesi permainan langka"
+      },
+      {
+        "icon": "Compass",
+        "title": "Pulau, Bos, dan Senjata 100 Days At Sea",
+        "description": "Rute eksplorasi menuju pertarungan bos, target bioma, dan pembukaan kunci senjata peti"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Panduan Membangun Pangkalan Rakit 100 Days At Sea",
+        "description": "Urutan pembangunan untuk sumber daya, ekspansi rakit, pertahanan, makanan, dan kemajuan api unggun"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Pelacak Pembaruan dan Patch 100 Days At Sea",
+        "description": "Statistik Roblox langsung, pembaruan developer, perubahan wilayah, dan aktivitas lencana"
+      }
+    ]
+  },
+  "modules": {
+    "codes": {
+      "title": "Kode 100 Days At Sea",
+      "eyebrow": "Hadiah Gratis",
+      "intro": "100 Days At Sea menggunakan kode hadiah Roblox untuk memberikan sumber daya tambahan sebelum memulai upaya bertahan hidup. Menukarkan kode aktif lebih awal memberi Anda Pearl gratis, dan menu kode adalah satu-satunya tempat aman untuk mengeklaimnya saat Anda berupaya mencapai 100 days at sea.",
+      "activeCode": {
+        "code": "20Pearls",
+        "reward": "20 Pearl",
+        "status": "Aktif",
+        "bestUse": "Simpan Pearl untuk membuka kunci kelas awal atau peti pendamping daripada langsung menghabiskannya."
+      },
+      "redeemSteps": [
+        "Luncurkan 100 Days At Sea di Roblox.",
+        "Pilih tombol CODES di area kiri atas layar permainan.",
+        "Masukkan 20Pearls persis seperti yang ditunjukkan.",
+        "Tekan Submit dan konfirmasikan bahwa Pearl telah ditambahkan ke saldo Anda."
+      ],
+      "sourceCheck": {
+        "title": "Tempat Memeriksa Kode Baru",
+        "points": [
+          "Halaman game Roblox: perhatikan judul pengalaman, deskripsi, dan kata-kata acara selama pembaruan.",
+          "Komunitas Stranded Devs: gunakan halaman komunitas pengembang untuk konteks pembaruan dan berita acara.",
+          "Menu Kode dalam game: tukarkan hanya melalui UI game, jangan pernah melalui formulir login atau skrip eksternal."
+        ]
+      },
+      "safety": {
+        "title": "Aturan Kode yang Penting",
+        "points": [
+          "Kode hanya dapat digunakan satu kali per akun Roblox.",
+          "Kode dapat kedaluwarsa setelah acara atau patch, jadi segera tukarkan.",
+          "Hindari eksekutor skrip, ekstensi browser, atau halaman yang meminta kata sandi Roblox."
+        ]
+      }
+    },
+    "beginnerGuide": {
+      "title": "Cara Bermain 100 Days At Sea",
+      "eyebrow": "Rute Pemula",
+      "intro": "100 Days At Sea adalah game bertahan hidup Roblox dunia terbuka di mana eksplorasi dan pembangunan markas menjadi penggerak setiap permainan. Jalur pemula yang jelas sangat sederhana: kumpulkan dulu, bangun kedua, jelajahi ketiga, dan bertarunglah hanya saat rakit dan peralatan Anda siap untuk 100 days at sea.",
+      "steps": [
+        {
+          "title": "Mulai Misi Samudra",
+          "goal": "Masuk ke pengalaman Roblox dan fokuslah untuk bertahan hidup, jangan terburu-buru.",
+          "whatToDo": "Pelajari kontrolnya, tetaplah dekat dengan rakit Anda, dan anggap Hari ke-100 sebagai tujuan jangka panjang.",
+          "whyItMatters": "Game ini dibangun di sekitar upaya bertahan hidup selama 100 hari sambil mengungkap misteri Segitiga Bermuda."
+        },
+        {
+          "title": "Gunakan Harpun untuk Sumber Daya Awal",
+          "goal": "Tarik item yang berguna dari laut sebelum meninggalkan area aman Anda.",
+          "whatToDo": "Ambil sumber daya yang mengapung atau kaitkan dengan Harpun Anda kapan pun Anda berlayar atau menunggu di dekat rakit.",
+          "whyItMatters": "Pengumpulan dengan harpun adalah salah satu tindakan inti yang tercantum di halaman resmi Roblox."
+        },
+        {
+          "title": "Bangun Markas Rakit yang Ringkas",
+          "goal": "Ubah platform awal menjadi markas yang dapat dipertahankan.",
+          "whatToDo": "Bangun struktur rakit terlebih dahulu, lalu tambahkan pertahanan sebelum memperluas terlalu lebar.",
+          "whyItMatters": "Pembangunan markas adalah lapisan pertahanan hidup utama, dan memperluas secara berlebihan sebelum ada pertahanan membuat rakit lebih sulit dilindungi."
+        },
+        {
+          "title": "Jelajahi Pulau Setelah Persiapan",
+          "goal": "Gunakan pulau untuk sumber daya yang lebih baik, bukan sebagai tempat terjebak di awal.",
+          "whatToDo": "Kunjungi pulau-pulau misterius setelah Anda memiliki persediaan dasar, kebiasaan penyimpanan, dan rute kembali ke rakit.",
+          "whyItMatters": "Eksplorasi pulau sangat penting untuk kemajuan, tetapi menjadi lebih aman setelah rakit dapat mendukung perjalanan yang lebih lama."
+        },
+        {
+          "title": "Siapkan Senjata dan Pertahanan",
+          "goal": "Tangani pertemuan dengan musuh sebelum menjadi masalah besar yang menggagalkan permainan.",
+          "whatToDo": "Temukan senjata, jaga agar pertahanan tetap diperbaiki, dan hindari memulai pertarungan berisiko saat kekurangan makanan atau persediaan.",
+          "whyItMatters": "Deskripsi resmi game memberi tahu pemain untuk menemukan senjata dan menyiapkan pertahanan sebelum menghadapi musuh."
+        },
+        {
+          "title": "Ulangi Siklus Bertahan Hidup",
+          "goal": "Bangun momentum menuju Hari ke-100.",
+          "whatToDo": "Kumpulkan sumber daya, tingkatkan rakit, jelajahi pulau yang lebih jauh, kembali dengan jarahan, dan bersiaplah untuk lonjakan bahaya berikutnya.",
+          "whyItMatters": "100 Days At Sea menghargai persiapan yang mantap lebih dari sekadar eksplorasi yang sembrono."
+        }
+      ]
+    },
+    "classesTierList": {
+      "title": "Daftar Tingkatan Kelas 100 Days At Sea",
+      "eyebrow": "Kelas Terbaik",
+      "intro": "Kelas di 100 Days At Sea adalah loadout yang dibuka dengan Mutiara. Setiap kelas memberikan keuntungan pasif, sehingga pilihan yang tepat mengubah seberapa aman, cepat, atau siap tempur suatu sesi permainan terasa.",
+      "items": [
+        {
+          "tier": "S",
+          "name": "Penyintas",
+          "cost": "50 Mutiara",
+          "starterTool": "Chowder",
+          "mainBuff": "Regenerasi 10% lebih cepat, oksigen ekstra, dan rasa lapar berkurang.",
+          "bestFor": "Kelangsungan hidup pemula dan keamanan solo Hari 1-30.",
+          "note": "Pembukaan pertama terkuat untuk pemain yang membutuhkan lebih banyak ruang untuk kesalahan."
+        },
+        {
+          "tier": "S",
+          "name": "Medis",
+          "cost": "60 Mutiara",
+          "starterTool": "Medkit",
+          "mainBuff": "Regenerasi kesehatan lebih cepat.",
+          "bestFor": "Dukungan co-op, sesi permainan yang berfokus pada pemulihan, dan persiapan bos yang lebih aman.",
+          "note": "Pilihan dukungan yang kuat ketika satu pemain harus menjaga kru tetap hidup."
+        },
+        {
+          "tier": "S",
+          "name": "Penembak Jitu",
+          "cost": "400 Mutiara",
+          "starterTool": "Flintlock",
+          "mainBuff": "Isi ulang lebih cepat dan damage senjata api 50% lebih besar.",
+          "bestFor": "Damage bos dan pertempuran jarak jauh.",
+          "note": "Nilai tinggi setelah amunisi dan senjata jarak jauh menjadi bagian dari sesi permainan."
+        },
+        {
+          "tier": "S",
+          "name": "Bajak Laut",
+          "cost": "500 Mutiara",
+          "starterTool": "Blunderbuss",
+          "mainBuff": "Penanganan perahu yang lebih baik dan damage senjata api 50% lebih besar.",
+          "bestFor": "Pertempuran serba bisa dengan perjalanan laut yang lebih kuat.",
+          "note": "Sangat bagus ketika Anda menginginkan damage sekaligus navigasi yang lebih baik."
+        },
+        {
+          "tier": "S",
+          "name": "Penjarah",
+          "cost": "750 Mutiara",
+          "starterTool": "Pistol Ganda",
+          "mainBuff": "Lebih banyak amunisi setiap lima eliminasi, jatuhan amunisi dari musuh yang dikalahkan, dan sprint 15% lebih cepat.",
+          "bestFor": "Penjarahan pulau dan pertempuran senjata yang berkelanjutan.",
+          "note": "Mahal, tetapi dibuat untuk siklus pertempuran di mana aliran amunisi sangat penting."
+        },
+        {
+          "tier": "S",
+          "name": "Penyihir Api",
+          "cost": "750 Mutiara",
+          "starterTool": "Tongkat Magma",
+          "mainBuff": "damage sihir 50% lebih besar.",
+          "bestFor": "Damage sihir akhir permainan dan pertemuan dengan ancaman tinggi.",
+          "note": "Kelas damage premium untuk pemain yang sudah melewati dasar-dasar."
+        },
+        {
+          "tier": "A",
+          "name": "Pelaut",
+          "cost": "40 Mutiara",
+          "starterTool": "Tidak ada",
+          "mainBuff": "Kecepatan maksimum lebih cepat dan penanganan perahu yang lebih baik.",
+          "bestFor": "Perjalanan pulau dan pembukaan murah pertama.",
+          "note": "Sederhana, murah, dan berguna untuk pemain yang banyak berlayar."
+        },
+        {
+          "tier": "A",
+          "name": "Anggota Kru",
+          "cost": "60 Mutiara",
+          "starterTool": "Flintlock",
+          "mainBuff": "damage senjata api 10% lebih besar.",
+          "bestFor": "Pertempuran jarak jauh awal.",
+          "note": "Opsi damage berbiaya rendah yang bagus sebelum kelas senjata api yang mahal."
+        },
+        {
+          "tier": "A",
+          "name": "Pendekar Pedang",
+          "cost": "250 Mutiara",
+          "starterTool": "Machete",
+          "mainBuff": "damage jarak dekat 50% lebih besar dan 20% kesehatan ekstra.",
+          "bestFor": "Pembersihan jarak dekat dan pertempuran pulau.",
+          "note": "Kuat jika Anda lebih menyukai pertempuran jarak dekat dan dapat mengelola risiko."
+        },
+        {
+          "tier": "A",
+          "name": "Koboi",
+          "cost": "300 Mutiara",
+          "starterTool": "Revolver",
+          "mainBuff": "15% lebih banyak kesehatan dan damage senjata api 33% lebih besar.",
+          "bestFor": "Build senjata api pertengahan permainan.",
+          "note": "Kelas jarak jauh yang seimbang dengan daya tahan ekstra."
+        },
+        {
+          "tier": "A",
+          "name": "Prajurit",
+          "cost": "300 Mutiara",
+          "starterTool": "Assault Rifle",
+          "mainBuff": "Sprint 20% lebih cepat.",
+          "bestFor": "Pertempuran seluler dan reposisi yang lebih aman.",
+          "note": "Assault Rifle awal memberikan nilai praktis di luar buff sprint."
+        },
+        {
+          "tier": "A",
+          "name": "Night",
+          "cost": "380 Mutiara",
+          "starterTool": "Claymore",
+          "mainBuff": "Knight Armor, 30% pengurangan damage, dan sprint 15% lebih cepat.",
+          "bestFor": "Pertempuran defensif dan tekanan malam hari.",
+          "note": "Sangat bagus untuk pemain yang menginginkan pengurangan damage sebelum pertempuran yang lebih sulit."
+        },
+        {
+          "tier": "A",
+          "name": "Pahlawan",
+          "cost": "600 Mutiara",
+          "starterTool": "Pedang Suci",
+          "mainBuff": "25% lebih banyak kesehatan dan rasa lapar berkurang 25%.",
+          "bestFor": "Sesi permainan hibrida kelangsungan hidup-pertempuran tingkat lanjut.",
+          "note": "Statistik yang kuat, tetapi biayanya menjadikannya investasi di kemudian hari."
+        },
+        {
+          "tier": "A",
+          "name": "Penjaga Kebun Binatang",
+          "cost": "600 Mutiara",
+          "starterTool": "Machete",
+          "mainBuff": "Meningkatkan kemampuan Companion secara drastis.",
+          "bestFor": "Build yang berfokus pada Companion.",
+          "note": "Menjadi lebih baik setelah Anda mendapatkan roll companion yang kuat."
+        },
+        {
+          "tier": "A",
+          "name": "Kelinci Tempur",
+          "cost": "700 Mutiara",
+          "starterTool": "Bom Telur",
+          "mainBuff": "Granat Telur dari musuh dan peti, lompatan ganda, dan sprint 20% lebih cepat.",
+          "bestFor": "Mobilitas, penghindaran, dan utilitas peledak.",
+          "note": "Pilihan tingkat lanjut yang fleksibel dengan nilai pergerakan."
+        },
+        {
+          "tier": "B",
+          "name": "Pekemah",
+          "cost": "70 Mutiara",
+          "starterTool": "Kantong Bagus",
+          "mainBuff": "+10% kesehatan.",
+          "bestFor": "Keamanan ekstra berbiaya rendah.",
+          "note": "Berguna di awal, tetapi kurang berdampak dibandingkan Survivor atau Medic."
+        },
+        {
+          "tier": "B",
+          "name": "Petualang",
+          "cost": "250 Mutiara",
+          "starterTool": "Kantong Raksasa",
+          "mainBuff": "15% lebih banyak kesehatan dan rasa lapar berkurang.",
+          "bestFor": "Eksplorasi dan perjalanan yang lebih lama.",
+          "note": "Utilitas yang solid, tetapi berada di belakang kelas kelangsungan hidup dan damage yang lebih kuat."
+        },
+        {
+          "tier": "B",
+          "name": "Olympian",
+          "cost": "250 Mutiara",
+          "starterTool": "Tidak ada",
+          "mainBuff": "Sprint 25% lebih cepat dan 20% kesehatan ekstra.",
+          "bestFor": "Pemain yang sangat mengandalkan pergerakan.",
+          "note": "Pilihan kenyamanan yang bagus, lebih lemah jika Anda membutuhkan alat awal."
+        },
+        {
+          "tier": "B",
+          "name": "Battle Buku",
+          "cost": "250 Mutiara",
+          "starterTool": "Poku Poku",
+          "mainBuff": "damage jarak dekat 25% lebih besar dan diskon MukuMuku.",
+          "bestFor": "Damage jarak dekat dengan sudut pandang diskon toko.",
+          "note": "Berguna, tetapi Swordsman memiliki profil damage jarak dekat yang lebih bersih."
+        },
+        {
+          "tier": "B",
+          "name": "Pedagang",
+          "cost": "350 Mutiara",
+          "starterTool": "100 Doubloon",
+          "mainBuff": "25% lebih banyak Doubloon.",
+          "bestFor": "Rute ekonomi.",
+          "note": "Lebih baik untuk pemain yang sudah tahu di mana rute pengeluaran akan membuahkan hasil."
+        },
+        {
+          "tier": "B",
+          "name": "Miliarder",
+          "cost": "400 Mutiara",
+          "starterTool": "Yacht Mewah",
+          "mainBuff": "Muncul dengan Jumbo Luxury Yacht dan 100x Doubloon.",
+          "bestFor": "Awal yang nyaman dan sesi permainan yang padat ekonomi.",
+          "note": "Kenyamanan pembukaan yang kuat, tetapi nilai kelangsungan hidup langsungnya lebih kecil daripada pertempuran atau penyembuhan."
+        },
+        {
+          "tier": "B",
+          "name": "Pemburu Harta Karun",
+          "cost": "500 Mutiara",
+          "starterTool": "100 Doubloon",
+          "mainBuff": "Lima slot tumpukan lagi dan 25% lebih banyak Doubloon.",
+          "bestFor": "Farming jarahan dan rute inventaris yang padat.",
+          "note": "Bagus untuk pemain yang efisien, kurang penting untuk penyelesaian pertama."
+        },
+        {
+          "tier": "B",
+          "name": "Cumi-Cumi Purba",
+          "cost": "750 Mutiara",
+          "starterTool": "Laser Cumi-Cumi",
+          "mainBuff": "15% lebih banyak kecepatan sprint.",
+          "bestFor": "Utilitas alat khusus dan mobilitas.",
+          "note": "Mahal untuk buff yang berfokus pada sprint, tetapi alat awal dapat menentukan sesi permainan khusus."
+        }
+      ]
+    },
+    "companionsTierList": {
+      "title": "Daftar Tingkatan Pendamping 100 Days At Sea",
+      "eyebrow": "Pendamping Terbaik",
+      "intro": "Pendamping di 100 Days At Sea berasal dari peti Mutiara dan memberikan keuntungan pasif seperti peningkatan kerusakan, kecepatan lari, pengumpulan makanan, pengumpulan material, atau pengurangan rasa lapar. Hasil terbaik dapat mengotomatiskan tugas bertahan hidup atau meningkatkan pertempuran.",
+      "items": [
+        {
+          "tier": "S",
+          "name": "Salamander",
+          "role": "Pengambil Jarahan",
+          "perk": "Mengambil dan mengantarkan jarahan di sekitar.",
+          "sources": "Peti Magma — 120 Mutiara (5%)",
+          "bestFor": "Efisiensi sumber daya dan kenyamanan bertahan hidup."
+        },
+        {
+          "tier": "S",
+          "name": "Magma Golem",
+          "role": "Kerusakan Jarak Dekat",
+          "perk": "+10% kerusakan jarak dekat.",
+          "sources": "Peti Magma — 120 Mutiara (5%)",
+          "bestFor": "Sesi permainan yang berfokus pada pertempuran dan pertarungan jarak dekat."
+        },
+        {
+          "tier": "S",
+          "name": "Swordfish",
+          "role": "Kerusakan Jarak Dekat",
+          "perk": "+10% kerusakan jarak dekat.",
+          "sources": "Peti Prajurit — 80 Mutiara (5%) · Peti Bajak Laut — 120 Mutiara (5%)",
+          "bestFor": "Kelas jarak dekat dan pertempuran di pulau."
+        },
+        {
+          "tier": "S",
+          "name": "Pirate Gunner",
+          "role": "Kerusakan Senjata Api",
+          "perk": "+10% kerusakan senjata api.",
+          "sources": "Peti Bajak Laut — 120 Mutiara (5%)",
+          "bestFor": "Kelas senjata api, tekanan terhadap bos, dan build jarak jauh."
+        },
+        {
+          "tier": "S",
+          "name": "Octopus",
+          "role": "Pengumpulan Material",
+          "perk": "Membawa material dari lingkungan sekitar setiap 120 detik.",
+          "sources": "Peti Prajurit — 80 Mutiara (16%)",
+          "bestFor": "Sesi permainan panjang di mana pendapatan material pasif menghemat waktu."
+        },
+        {
+          "tier": "A",
+          "name": "Crow",
+          "role": "Pengumpulan Makanan",
+          "perk": "Mencari di lingkungan sekitar dan membawa makanan setiap 120 detik.",
+          "sources": "Peti Magma — 120 Mutiara (30%)",
+          "bestFor": "Stabilitas makanan selama rute yang lebih panjang."
+        },
+        {
+          "tier": "A",
+          "name": "Seagull",
+          "role": "Pengumpulan Makanan",
+          "perk": "Membawa makanan setiap 120 detik.",
+          "sources": "Peti Bajak Laut — 120 Mutiara (30%)",
+          "bestFor": "Dukungan makanan dan tempo penjelajahan yang lebih aman."
+        },
+        {
+          "tier": "A",
+          "name": "Parrot",
+          "role": "Kerusakan Senjata Api",
+          "perk": "+7.5% kerusakan senjata api.",
+          "sources": "Peti Bajak Laut — 120 Mutiara (30%)",
+          "bestFor": "Pemain jarak jauh yang belum mendapatkan Pirate Gunner."
+        },
+        {
+          "tier": "A",
+          "name": "Shark",
+          "role": "Kerusakan Jarak Dekat",
+          "perk": "+7.5% kerusakan jarak dekat.",
+          "sources": "Peti Nelayan — 40 Mutiara (13%) · Peti Prajurit — 80 Mutiara (16%)",
+          "bestFor": "Kerusakan jarak dekat awal sebelum mendapatkan pendamping langka."
+        },
+        {
+          "tier": "A",
+          "name": "Dolphin",
+          "role": "Kecepatan Lari",
+          "perk": "+7.5% kecepatan lari.",
+          "sources": "Peti Nelayan — 40 Mutiara (13%) · Peti Magma — 120 Mutiara (30%)",
+          "bestFor": "Penjelajahan, reposisi, dan pergerakan pulau yang lebih cepat."
+        },
+        {
+          "tier": "A",
+          "name": "Whale",
+          "role": "Kesehatan",
+          "perk": "+7.5% kesehatan.",
+          "sources": "Peti Bajak Laut — 120 Mutiara (30%)",
+          "bestFor": "Daya tahan ekstra selama rute yang berisiko."
+        },
+        {
+          "tier": "B",
+          "name": "Lava Snail",
+          "role": "Pengurangan Rasa Lapar",
+          "perk": "7.5% lebih jarang lapar.",
+          "sources": "Peti Magma — 120 Mutiara (30%)",
+          "bestFor": "Jendela bertahan hidup yang lebih lama saat makanan sulit didapat."
+        },
+        {
+          "tier": "B",
+          "name": "Turtle",
+          "role": "Kesehatan",
+          "perk": "+5% kesehatan maks.",
+          "sources": "Peti Nelayan — 40 Mutiara (25%)",
+          "bestFor": "Daya tahan awal yang murah."
+        },
+        {
+          "tier": "B",
+          "name": "Crab",
+          "role": "Kerusakan Senjata Api",
+          "perk": "+5% kerusakan senjata api.",
+          "sources": "Peti Nelayan — 40 Mutiara (25%)",
+          "bestFor": "Kerusakan jarak jauh pemula sebelum mendapatkan hasil Peti Bajak Laut yang lebih baik."
+        },
+        {
+          "tier": "B",
+          "name": "Snorf",
+          "role": "Kesehatan",
+          "perk": "+5% kesehatan.",
+          "sources": "Peti Prajurit — 80 Mutiara (32%)",
+          "bestFor": "Kemampuan bertahan hidup dasar."
+        },
+        {
+          "tier": "B",
+          "name": "Cat",
+          "role": "Kecepatan Lari",
+          "perk": "+5% kecepatan lari.",
+          "sources": "Peti Prajurit — 80 Mutiara (32%)",
+          "bestFor": "Peningkatan pergerakan kecil saat menjelajah."
+        },
+        {
+          "tier": "C",
+          "name": "Frog",
+          "role": "Pengurangan Rasa Lapar",
+          "perk": "5% lebih jarang lapar.",
+          "sources": "Peti Nelayan — 40 Mutiara (25%)",
+          "bestFor": "Bantuan rasa lapar awal sampai digantikan oleh hasil yang lebih kuat."
+        }
+      ]
+    },
+    "badgesAndAchievements": {
+      "title": "Lencana dan Target Pencapaian 100 Days At Sea",
+      "eyebrow": "Pencapaian",
+      "subtitle": "Lacak jalur lencana utama untuk hari bertahan hidup, peningkatan api unggun, kemenangan pertempuran, penjelajahan, target penyelamatan, dan tantangan jarahan.",
+      "intro": "Lencana 100 Days At Sea dibuat berdasarkan siklus bertahan hidup yang lengkap: memulai permainan, menggunakan harpun, meningkatkan pangkalan rakit, bertahan melewati pencapaian hari yang lebih lama, menjelajahi pulau, mengalahkan bos, menyelamatkan target bioma, dan menyelesaikan tantangan permainan yang langka.",
+      "items": [
+        {
+          "badge": "Di Laut Lepas",
+          "category": "Pemula",
+          "unlock": "Mainkan game untuk pertama kalinya.",
+          "stage": "Pemula",
+          "winRate": "100.0%",
+          "awarded": "34.636.574"
+        },
+        {
+          "badge": "Tersangkut!",
+          "category": "Alat Utama",
+          "unlock": "Ambil objek dengan harpun Anda.",
+          "stage": "Pemula",
+          "winRate": "100.0%",
+          "awarded": "24.909.604"
+        },
+        {
+          "badge": "Bertahan 5 Hari",
+          "category": "Pencapaian Bertahan Hidup",
+          "unlock": "Capai hari ke-5 dalam permainan.",
+          "stage": "Pemula",
+          "winRate": "59.8%",
+          "awarded": "15.547.872"
+        },
+        {
+          "badge": "Bertahan 10 Hari",
+          "category": "Pencapaian Bertahan Hidup",
+          "unlock": "Capai hari ke-10 dalam permainan.",
+          "stage": "Pemula",
+          "winRate": "35.2%",
+          "awarded": "8.821.824"
+        },
+        {
+          "badge": "Bertahan 50 Hari",
+          "category": "Pencapaian Bertahan Hidup",
+          "unlock": "Capai hari ke-50 dalam permainan.",
+          "stage": "Fase Menengah",
+          "winRate": "4.2%",
+          "awarded": "1.091.606"
+        },
+        {
+          "badge": "Bertahan 90 Hari",
+          "category": "Pencapaian Bertahan Hidup",
+          "unlock": "Capai hari ke-90 dalam permainan.",
+          "stage": "Fase Akhir",
+          "winRate": "2.0%",
+          "awarded": "478.581"
+        },
+        {
+          "badge": "Diselamatkan!",
+          "category": "Penyelesaian",
+          "unlock": "Capai hari ke-100.",
+          "stage": "Penyelesaian",
+          "winRate": "1.8%",
+          "awarded": "439.772"
+        },
+        {
+          "badge": "Api Unggun 1",
+          "category": "Pangkalan Rakit",
+          "unlock": "Capai api unggun level 1.",
+          "stage": "Pemula",
+          "winRate": "100.0%",
+          "awarded": "28.472.445"
+        },
+        {
+          "badge": "Api Unggun 5",
+          "category": "Pangkalan Rakit",
+          "unlock": "Capai api unggun level 5.",
+          "stage": "Fase Menengah",
+          "winRate": "14.2%",
+          "awarded": "4.092.222"
+        },
+        {
+          "badge": "Api Unggun 9",
+          "category": "Pangkalan Rakit",
+          "unlock": "Capai api unggun level 9.",
+          "stage": "Fase Akhir",
+          "winRate": "1.0%",
+          "awarded": "226.568"
+        },
+        {
+          "badge": "Master Api Unggun",
+          "category": "Tantangan Pangkalan Rakit",
+          "unlock": "Capai level api unggun maksimal sebelum hari ke-3.",
+          "stage": "Tantangan",
+          "winRate": "0.0%",
+          "awarded": "1.454"
+        },
+        {
+          "badge": "Kita Memasak",
+          "category": "Utilitas Sumber Daya",
+          "unlock": "Masak chowder pertama Anda dengan panci masak.",
+          "stage": "Pemula",
+          "winRate": "33.8%",
+          "awarded": "10.516.551"
+        },
+        {
+          "badge": "Kekuatan Tembak",
+          "category": "Senjata",
+          "unlock": "Dapatkan senjata dari peti.",
+          "stage": "Pemula hingga Fase Menengah",
+          "winRate": "28.7%",
+          "awarded": "5.454.882"
+        },
+        {
+          "badge": "Magellan",
+          "category": "Penjelajahan",
+          "unlock": "Kunjungi semua pulau dalam satu sesi.",
+          "stage": "Penyelesaian",
+          "winRate": "0.1%",
+          "awarded": "14.235"
+        },
+        {
+          "badge": "Lengan Kemenangan",
+          "category": "Pertempuran Bos",
+          "unlock": "Kalahkan Bos Cumi-cumi.",
+          "stage": "Fase Akhir",
+          "winRate": "0.3%",
+          "awarded": "34.483"
+        },
+        {
+          "badge": "Raja Salju",
+          "category": "Bos Bioma",
+          "unlock": "Kalahkan bos di Bioma Es.",
+          "stage": "Fase Akhir",
+          "winRate": "0.2%",
+          "awarded": "14.274"
+        },
+        {
+          "badge": "Penyelamatan Arktik",
+          "category": "Penyelamatan Bioma",
+          "unlock": "Selamatkan semua penguin di Bioma Es.",
+          "stage": "Fase Akhir",
+          "winRate": "0.2%",
+          "awarded": "15.613"
+        },
+        {
+          "badge": "Seorang Diri",
+          "category": "Pengubah Permainan",
+          "unlock": "Bertahan 100 hari sepenuhnya solo.",
+          "stage": "Tantangan",
+          "winRate": "0.2%",
+          "awarded": "59.622"
+        },
+        {
+          "badge": "Teman Ceroboh",
+          "category": "Pengubah Permainan",
+          "unlock": "Bertahan 100 hari dalam duo.",
+          "stage": "Tantangan",
+          "winRate": "1.0%",
+          "awarded": "254.535"
+        }
+      ]
+    },
+    "islandsBossesAndWeapons": {
+      "title": "Rute Pulau, Bos, dan Senjata 100 Days At Sea",
+      "eyebrow": "Eksplorasi",
+      "subtitle": "Gunakan eksplorasi pulau untuk beralih dari bertahan hidup di rakit dasar menuju pertarungan bos, target bioma, dan pembukaan kunci pertempuran yang lebih kuat.",
+      "intro": "Alur permainan resmi mengarahkan pemain dari mengumpulkan sumber daya dengan harpun ke pembangunan rakit, eksplorasi pulau, pencarian senjata, dan pertarungan bos. Jalur perkembangan paling aman adalah menstabilkan rakit terlebih dahulu, lalu merencanakan rute pulau dan bos bioma di sekitar target lencana dan senjata.",
+      "items": [
+        {
+          "title": "Rute Pulau Laut Lepas",
+          "tag": "Inti Eksplorasi",
+          "focus": "Berlayar dari rakit untuk mengunjungi pulau-pulau misterius, mengumpulkan jarahan yang lebih baik, dan bersiap untuk pencapaian bertahan hidup yang lebih lama.",
+          "bossOrThreat": "Musuh pulau dan ancaman laut",
+          "weaponFocus": "Senjata peti dan alat tempur dasar",
+          "badgeSignals": [
+            "Magellan",
+            "Firepower",
+            "Bertahan 50 Hari"
+          ]
+        },
+        {
+          "title": "Rute Senjata Peti",
+          "tag": "Pembukaan Senjata",
+          "focus": "Gunakan penjelajahan pulau dan peti untuk meningkatkan kesiapan tempur sebelum mencoba melawan bos.",
+          "bossOrThreat": "Musuh standar, serbuan, dan pertarungan pulau berisiko lebih tinggi",
+          "weaponFocus": "Pistol dari peti",
+          "badgeSignals": [
+            "Firepower",
+            "Plunderer",
+            "Money Marauder"
+          ]
+        },
+        {
+          "title": "Rute Bos Cumi-Cumi",
+          "tag": "Pertarungan Bos",
+          "focus": "Siapkan makanan, penyembuhan, senjata, dan keamanan rakit sebelum mencoba melawan Bos Cumi-Cumi.",
+          "bossOrThreat": "Bos Cumi-Cumi",
+          "weaponFocus": "Kerusakan jarak jauh yang siap untuk bos dan persediaan bertahan hidup yang berkelanjutan",
+          "badgeSignals": [
+            "Lengan Kemenangan"
+          ]
+        },
+        {
+          "title": "Rute Galleon Hantu",
+          "tag": "Tantangan Tempur",
+          "focus": "Melampaui batas bertahan hidup dari serbuan normal dengan mengalahkan Galleon Hantu beberapa kali dalam satu sesi permainan.",
+          "bossOrThreat": "Galleon Hantu",
+          "weaponFocus": "Kerusakan bos yang konsisten dan persediaan yang cukup untuk pertarungan berulang",
+          "badgeSignals": [
+            "Third Bell Rung",
+            "Mereka akan kembali!"
+          ]
+        },
+        {
+          "title": "Rute Rig Rival",
+          "tag": "Pertempuran Eksplorasi",
+          "focus": "Temukan dan kalahkan ketiga rig rival dalam satu sesi untuk penyelesaian eksplorasi-tempur yang langka.",
+          "bossOrThreat": "3 rig rival",
+          "weaponFocus": "Senjata berkelanjutan, amunisi, dan penyembuhan di antara pertarungan rig",
+          "badgeSignals": [
+            "Hanya boleh ada satu"
+          ]
+        },
+        {
+          "title": "Rute Wilayah Gunung Berapi",
+          "tag": "Bos Wilayah",
+          "focus": "Kunjungi wilayah Gunung Berapi, kalahkan Golem Api, dan ambil rute Lord of Lava.",
+          "bossOrThreat": "Golem Api dan Lord of Lava",
+          "weaponFocus": "Rute Magma Staff dan persiapan tempur wilayah api",
+          "badgeSignals": [
+            "Perkembangan bos akhir permainan",
+            "Fokus pembaruan Gunung Berapi"
+          ]
+        },
+        {
+          "title": "Rute Bioma Es",
+          "tag": "Pembaruan Es",
+          "focus": "Masuki Bioma Es, selamatkan penguin, dan kalahkan bos Bioma Es.",
+          "bossOrThreat": "Bos Bioma Es",
+          "weaponFocus": "Kelangsungan hidup di wilayah es dan persiapan kerusakan bos",
+          "badgeSignals": [
+            "Arctic Rescue",
+            "King Of The Snow"
+          ]
+        },
+        {
+          "title": "Rute Penyelesaian Hari ke-100",
+          "tag": "Target Sesi Akhir",
+          "focus": "Gabungkan jarahan pulau, peningkatan rakit, makanan, senjata, serta penghindaran bos atau pembersihan bos ke dalam sesi bertahan hidup penuh hingga hari ke-100.",
+          "bossOrThreat": "Tekanan sesi panjang, serbuan, kelaparan, dan kesalahan rute",
+          "weaponFocus": "Senjata peti, kerusakan yang mampu melawan bos, dan persediaan yang cukup untuk hari-hari terakhir",
+          "badgeSignals": [
+            "Rescued!",
+            "All Alone",
+            "Blunder Buddies",
+            "Tiga adalah pesta",
+            "Empat sudah cukup"
+          ]
+        }
+      ]
+    },
+    "raftBaseBuildingGuide": {
+      "title": "Panduan Membangun Basis Rakit 100 Days At Sea",
+      "eyebrow": "Pembangunan Basis",
+      "subtitle": "Bangun untuk bertahan hidup terlebih dahulu: sumber daya, ruang, pertahanan, makanan, senjata, dan kemajuan api unggun lebih penting daripada dekorasi di awal.",
+      "intro": "Membangun rakit adalah salah satu sistem bertahan hidup inti di 100 Days At Sea. Basis awal yang kuat menjaga stabilitas permainan saat Anda mengumpulkan sumber daya dengan harpun, memasak makanan, menemukan senjata, bertahan dari serangan, dan mengejar target hari yang lebih lama.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Kaitkan Sumber Daya Sebelum Mengambil Risiko",
+          "objective": "Gunakan harpun untuk menarik sumber daya awal dan hindari membuang nyawa pada pergerakan yang tidak aman.",
+          "actions": [
+            "Ambil objek terapung dengan harpun.",
+            "Teruslah mengumpulkan sebelum meninggalkan rakit untuk rute yang lebih jauh.",
+            "Gunakan sumber daya awal untuk alat bertahan hidup dan kemajuan rakit terlebih dahulu."
+          ],
+          "badgeSignal": "Hooked!"
+        },
+        {
+          "step": 2,
+          "title": "Perluas Rakit Berdasarkan Fungsi",
+          "objective": "Ciptakan ruang yang cukup untuk pergerakan, kebiasaan penyimpanan, memasak, dan penempatan pertahanan.",
+          "actions": [
+            "Bangun area kerja yang stabil sebelum mengejar rakit dekoratif yang besar.",
+            "Pastikan struktur bertahan hidup utama mudah dijangkau.",
+            "Sediakan ruang untuk bergerak selama serangan dan tekanan di malam hari."
+          ],
+          "badgeSignal": "Just Getting Started"
+        },
+        {
+          "step": 3,
+          "title": "Tingkatkan Level Api Unggun Sejak Dini",
+          "objective": "Gunakan kemajuan api unggun sebagai jalur pencapaian basis rakit yang paling jelas.",
+          "actions": [
+            "Tingkatkan level api unggun seiring perkembangan permainan.",
+            "Gunakan Bonfire 1 hingga Bonfire 9 sebagai pemeriksaan kemajuan yang terlihat.",
+            "Anggap Bonfire Master sebagai tantangan peningkatan cepat bagi pemain berpengalaman."
+          ],
+          "badgeSignal": "Api Unggun 1 hingga Api Unggun 9, Master Api Unggun"
+        },
+        {
+          "step": 4,
+          "title": "Tambahkan Pendukung Makanan Sebelum Perjalanan Jauh",
+          "objective": "Pastikan rakit mendukung pemulihan dan rasa lapar sebelum berkomitmen pada rute pulau yang lebih besar.",
+          "actions": [
+            "Masak chowder dengan panci masak.",
+            "Stok makanan sebelum putaran eksplorasi yang lebih lama.",
+            "Kembali ke rakit untuk mengisi ulang persediaan alih-alih memaksakan diri."
+          ],
+          "badgeSignal": "We Cookin"
+        },
+        {
+          "step": 5,
+          "title": "Bangun dengan Mempertimbangkan Pertahanan Malam",
+          "objective": "Tempatkan struktur dan pertahanan agar rakit dapat bertahan dari serangan sambil tetap memberi Anda ruang untuk bertarung.",
+          "actions": [
+            "Pastikan jalur pertempuran tetap bersih.",
+            "Hindari menghalangi pergerakan di sekitar struktur rakit utama.",
+            "Gunakan senjata yang ditemukan dari peti untuk memperkuat pertahanan sebelum rute bos."
+          ],
+          "badgeSignal": "Daya Tembak, Mereka akan kembali!"
+        },
+        {
+          "step": 6,
+          "title": "Siapkan Rakit Sebelum Rute Bos",
+          "objective": "Anggap rakit sebagai titik awal untuk Bos Cumi-cumi, Bioma Es, Gunung Berapi, dan upaya hari ke-100.",
+          "actions": [
+            "Bawa makanan, penyembuhan, dan senjata yang lebih kuat sebelum berangkat ke wilayah yang berfokus pada bos.",
+            "Jangan memulai objektif bos langka atau bioma dari rakit yang lemah.",
+            "Gunakan lencana hari bertahan hidup untuk menilai apakah basis sudah siap untuk rute yang lebih sulit."
+          ],
+          "badgeSignal": "Lengan Kemenangan, Raja Salju, Diselamatkan!"
+        }
+      ]
+    },
+    "updatesAndPatchTracker": {
+      "title": "Pelacak Pembaruan dan Patch 100 Days At Sea",
+      "eyebrow": "Pembaruan",
+      "subtitle": "Ikuti halaman Roblox langsung, grup pengembang, statistik pemain, aktivitas lencana, dan pembaruan wilayah utama.",
+      "intro": "100 Days At Sea dipantau secara aktif melalui halaman game Roblox, komunitas Stranded Devs, statistik game Rolimon's, aktivitas lencana publik, dan video gameplay yang berfokus pada pembaruan. Pelacak ini berfokus pada perubahan yang dihadapi pemain yang memengaruhi rute, bos, lencana, dan minat saat ini.",
+      "items": [
+        {
+          "label": "Ringkasan Game Langsung",
+          "period": "27 Juni 2026",
+          "type": "Statistik Roblox",
+          "details": "Game ini terdaftar oleh Stranded Devs dengan maksimal 27 pemain, 40.762 pemain saat ini, 97.318.586 kunjungan, 246.810 suara setuju, 6.805 suara tidak setuju, peringkat 97,317%, 2.666.457 favorit, dan rata-rata waktu bermain 17,22 menit.",
+          "playerFocus": "Gunakan ini sebagai ringkasan popularitas dan kebaruan saat ini."
+        },
+        {
+          "label": "Pembaruan Langsung Terbaru",
+          "period": "27 Juni 2026",
+          "type": "Pembaruan Game",
+          "details": "Rolimon's menunjukkan game ini diperbarui 7 jam yang lalu, dengan puncak 24 jam terakhir tercatat sebanyak 48.101 pemain dan puncak sepanjang masa tercatat sebanyak 52.341 pemain 5 hari yang lalu.",
+          "playerFocus": "Aktivitas pembaruan baru mendukung pencarian pembaruan baru, statistik langsung, dan minat pemain saat ini."
+        },
+        {
+          "label": "Gelombang Lencana Bioma Es",
+          "period": "1 minggu yang lalu",
+          "type": "Pembaruan Wilayah",
+          "details": "Pelacakan pencapaian wilayah es mencakup King Of The Snow karena mengalahkan bos Bioma Es dan Arctic Rescue karena menyelamatkan semua penguin di Bioma Es.",
+          "playerFocus": "Terbaik untuk pencarian Bioma Es, Wilayah Es, penyelamatan penguin, dan bos es."
+        },
+        {
+          "label": "Pembaruan Progres Api Unggun",
+          "period": "1 bulan yang lalu",
+          "type": "Progres Pangkalan",
+          "details": "Bonfire 1 hingga Bonfire 9 and Bonfire Master adalah target lencana aktif, mengubah pengembangan pangkalan rakit menjadi jalur progres yang terlihat.",
+          "playerFocus": "Terbaik untuk pencarian pangkalan rakit, level api unggun, peningkatan awal, dan persiapan jangka panjang."
+        },
+        {
+          "label": "Sorotan Wilayah Gunung Berapi",
+          "period": "3 bulan yang lalu",
+          "type": "Rute Wilayah dan Bos",
+          "details": "Liputan gameplay wilayah gunung berapi menyoroti rute menuju Fire Golems dan Lord of Lava, dengan Magma Staff yang muncul dalam diskusi rute senjata wilayah tersebut.",
+          "playerFocus": "Terbaik untuk pencarian pembaruan Gunung Berapi, Lord of Lava, Fire Golems, dan Magma Staff."
+        },
+        {
+          "label": "Pelacakan Bos Cumi-cumi",
+          "period": "3 minggu yang lalu",
+          "type": "Lencana Bos",
+          "details": "Arms of Victory adalah lencana pertempuran yang dilacak karena mengalahkan Bos Cumi-cumi, dengan 34.483 penghargaan dan tingkat kemenangan baru-baru ini sebesar 0,3%.",
+          "playerFocus": "Terbaik untuk pencarian Bos Cumi-cumi, pertarungan bos, dan pencapaian pertempuran langka."
+        },
+        {
+          "label": "Siklus Kelangsungan Hidup Utama",
+          "period": "Deskripsi Roblox Langsung",
+          "type": "Fondasi Gameplay",
+          "details": "Halaman resmi menggambarkan siklus tersebut sebagai mengambil sumber daya atau mengaitkannya dengan harpun, membangun pangkalan rakit dengan struktur dan pertahanan, menjelajahi pulau-pulau misterius, menemukan senjata, dan menghadapi musuh yang menakutkan.",
+          "playerFocus": "Terbaik untuk pencarian panduan pemula, cara bermain, harpun, rakit, pulau, senjata, dan bos."
+        },
+        {
+          "label": "Jendela Pembuatan Game",
+          "period": "7 bulan yang lalu",
+          "type": "Daftar Game",
+          "details": "Rolimon's mencantumkan 100 Days At Sea sebagai game Roblox yang dibuat oleh Stranded Devs, dengan halaman game yang menyajikannya sebagai pengalaman bertahan hidup dunia terbuka tentang Segitiga Bermuda dan bertahan hidup selama 100 hari.",
+          "playerFocus": "Terbaik untuk bagian waktu rilis, pembuat, daftar Roblox, dan ikhtisar game resmi."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Pertanyaan Anda tentang",
+    "titleHighlight": "100 days at sea",
+    "subtitle": "Semua yang perlu Anda ketahui tentang kode, kelas, bertahan hidup di rakit, dan upaya 100 hari di 100 Days At Sea.",
+    "questions": [
+      {
+        "question": "Apa itu 100 Days At Sea?",
+        "answer": "100 Days At Sea adalah game bertahan hidup open-world di Roblox oleh Stranded Devs. Anda mengumpulkan sumber daya dengan harpun, membangun markas rakit, menjelajahi pulau-pulau misterius, menemukan senjata, dan berusaha bertahan hidup selama 100 hari di Segitiga Bermuda."
+      },
+      {
+        "question": "Di mana saya bisa memainkan 100 Days At Sea?",
+        "answer": "100 Days At Sea gratis untuk dimainkan di Roblox melalui platform PC, seluler, dan konsol yang mendukung aplikasi Roblox. Jalankan langsung dari halaman game resmi Roblox."
+      },
+      {
+        "question": "Bagaimana cara menukarkan kode 100 Days At Sea?",
+        "answer": "Buka 100 Days At Sea, ketuk tombol CODES di pojok kiri atas layar, masukkan kode aktif seperti 20Pearls, dan tekan Submit untuk mengeklaim hadiah seperti Pearl gratis."
+      },
+      {
+        "question": "Untuk apa Pearl digunakan di 100 Days At Sea?",
+        "answer": "Di 100 Days At Sea, Pearl membuka kunci kelas dan membuka peti pendamping. Menyimpannya untuk kelas awal atau roll pendamping yang kuat akan mempercepat upaya bertahan hidup Anda menuju 100 days at sea."
+      },
+      {
+        "question": "Apakah 100 Days At Sea bersifat multipemain?",
+        "answer": "100 Days At Sea mendukung hingga 27 pemain per server, jadi Anda bisa bertahan hidup di lautan, membangun rakit, menyerbu pulau, dan melawan bos bersama teman-teman."
+      },
+      {
+        "question": "Apa tujuan dari 100 Days At Sea?",
+        "answer": "Tujuan utama 100 Days At Sea adalah bertahan hidup selama 100 days at sea sambil meningkatkan rakit, menjelajahi pulau, mengalahkan bos, dan mengungkap misteri Segitiga Bermuda."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap Bertahan Hidup di 100 Days At Sea?",
+    "description": "Terjunlah ke 100 Days At Sea di Roblox, kumpulkan sumber daya dengan harpun Anda, bangun rakit Anda, dan tukarkan kode untuk mendapatkan pearl gratis.",
+    "joinCommunity": "Bergabung dengan Stranded Devs",
+    "joinGame": "Mainkan di Roblox"
+  },
+  "footer": {
+    "title": "Wiki 100 Days At Sea",
+    "description": "Pusat sumber daya lengkap Anda untuk kode, kelas, bertahan hidup di rakit, lencana, senjata, pulau, dan panduan 100 Days At Sea.",
+    "resources": "Sumber Daya",
+    "community": "Komunitas",
+    "legal": "Hukum",
+    "robloxGame": "Mainkan di Roblox",
+    "robloxGroup": "Stranded Devs",
+    "youtube": "Tonton Trailer",
+    "website": "Situs Resmi",
+    "about": "Tentang",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "copyrightNotice": "Hak Cipta",
+    "copyright": "© 2026 Wiki 100 Days At Sea. Tidak berafiliasi dengan Roblox Corporation atau Stranded Devs.",
+    "disclaimer": "Situs web sumber daya tidak resmi buatan penggemar."
   }
 }

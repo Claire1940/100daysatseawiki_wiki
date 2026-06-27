@@ -91,10 +91,10 @@ export default function TermsOfService() {
             </p>
             <ul>
               <li>Game guides and survival strategies</li>
-              <li>Crafting and Apotheosis fusion guides</li>
-              <li>Biome and world region information</li>
-              <li>Creature and enemy guides</li>
-              <li>Achievement walkthroughs</li>
+              <li>Crafting and base building guides</li>
+              <li>Island and location guides</li>
+              <li>Sea creature and boss guides</li>
+              <li>Code redemption and revive guides</li>
               <li>Community discussion and content</li>
             </ul>
             <p>

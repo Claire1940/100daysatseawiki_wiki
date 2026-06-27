@@ -1,11 +1,1141 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de 100 Days At Sea - Códigos, Classes e Guia de Sobrevivência",
+      "description": "A Wiki de 100 Days At Sea cobre códigos de Roblox, classes, sobrevivência em jangada, emblemas, armas, ilhas, atualizações e dicas para iniciantes para jornadas mais seguras no oceano.",
+      "keywords": "100 Days At Sea, Roblox, códigos, classes, sobrevivência, emblemas, jangada, ilhas",
+      "ogTitle": "Wiki de 100 Days At Sea - Códigos, Classes e Guia de Sobrevivência",
+      "ogDescription": "A Wiki de 100 Days At Sea cobre códigos de Roblox, classes, sobrevivência em jangada, emblemas, armas, ilhas, atualizações e dicas para iniciantes para jornadas mais seguras no oceano.",
+      "twitterTitle": "Wiki de 100 Days At Sea - Códigos, Classes e Guia de Sobrevivência",
+      "twitterDescription": "A Wiki de 100 Days At Sea cobre códigos de Roblox, classes, sobrevivência em jangada, emblemas, armas, ilhas e dicas para iniciantes para jornadas mais seguras no oceano."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guia",
     "classes": "Classes",
-    "crafting": "Criação",
-    "revive": "Reanimar",
+    "crafting": "Fabricação",
+    "revive": "Reviver",
     "locations": "Locais",
     "seeds": "Sementes"
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de 100 Days At Sea",
+      "description": "Todos os códigos ativos de 100 Days At Sea para Pérolas grátis, com etapas claras de resgate, notas de expiração e onde novos códigos são lançados durante eventos e atualizações do Roblox.",
+      "metaTitle": "Códigos de 100 Days At Sea - Pérolas Grátis e Recompensas Ativas",
+      "metaDescription": "Resgate os códigos ativos mais recentes de 100 Days At Sea para obter Pérolas grátis. Resgate passo a passo, notas de expiração e onde encontrar novos códigos, sempre atualizados.",
+      "categoryLabel": "RESGATAR CÓDIGOS",
+      "whatIs": "O que são os Códigos de 100 Days At Sea?",
+      "whatIsDescription": "Os códigos de 100 Days At Sea são sequências de recompensas gratuitas lançadas pela Stranded Devs por meio de eventos do Roblox e atualizações do jogo. Inserir um código ativo no menu de Códigos do jogo concede Pérolas, a moeda premium usada para desbloquear classes e abrir baús de companheiros para a sua jornada de sobrevivência.",
+      "why": "Por que resgatar códigos cedo?",
+      "whySteps": {
+        "step1Title": "Pérolas grátis para desbloquear classes",
+        "step1Description": "Códigos ativos concedem Pérolas que desbloqueiam classes iniciais como Sobrevivente ou Médico, dando mais margem para erros nos seus primeiros dias.",
+        "step2Title": "Baús de companheiros mais rápidos",
+        "step2Description": "Pérolas economizadas abrem baús de companheiros mais cedo, adicionando vantagens passivas como coleta de saques, dano corpo a corpo ou coleta de comida à sua jornada.",
+        "step3Title": "Resgate seguro dentro do jogo",
+        "step3Description": "Os códigos são resgatados apenas pelo menu de Códigos do jogo, nunca por formulários de login externos, scripts ou extensões de navegador."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Códigos"
+    },
+    "guide": {
+      "title": "Guia de 100 Days At Sea",
+      "description": "Guias completos de 100 Days At Sea cobrindo dicas para iniciantes, detonados completos, o ciclo de sobrevivência, objetivos, finais e estratégias solo para alcançar o Dia 100.",
+      "metaTitle": "Guia de 100 Days At Sea - Detonado, Dicas e Dia 100",
+      "metaDescription": "Domine o 100 Days At Sea com dicas para iniciantes, detonados completos, objetivos de sobrevivência, finais, estratégias solo e quanto tempo leva para zerar o jogo.",
+      "categoryLabel": "GUIAS DE SOBREVIVÊNCIA",
+      "whatIs": "O que é o Guia de 100 Days At Sea?",
+      "whatIsDescription": "O guia de 100 Days At Sea detalha todo o ciclo de sobrevivência no Triângulo das Bermudas: colete recursos com seu arpão, construa uma base de jangada com estruturas e defesas, explore ilhas misteriosas, encontre armas e lute para sobreviver por 100 dias.",
+      "why": "Por que seguir o guia?",
+      "whySteps": {
+        "step1Title": "Rota limpa para iniciantes",
+        "step1Description": "Comece na ordem certa — colete primeiro, construa depois, explore por último — para que os primeiros dias permaneçam estáveis em vez de caóticos.",
+        "step2Title": "Configuração eficiente de jangada",
+        "step2Description": "Construa para a sobrevivência antes da decoração: níveis de fogueira, suporte de comida e defesas mantêm a jornada ativa durante as invasões.",
+        "step3Title": "Caminho claro para o Dia 100",
+        "step3Description": "Detonados e objetivos mapeiam marcos, finais e estratégias solo para que a longa jornada rumo ao Dia 100 continue no caminho certo."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "classes": {
+      "title": "Classes de 100 Days At Sea",
+      "description": "Todas as classes de 100 Days At Sea classificadas por custo de Pérolas, ferramenta inicial, buffs e melhor função de sobrevivência, com uma tier list completa para iniciantes, combate e jornadas do Dia 100.",
+      "metaTitle": "Classes de 100 Days At Sea - Tier List e Melhor Classe",
+      "metaDescription": "Compare todas as classes de 100 Days At Sea por custo de Pérolas, ferramenta inicial e buff. Encontre a melhor classe para segurança de iniciantes, combate contra chefes e sobrevivência no Dia 100.",
+      "categoryLabel": "CLASSES",
+      "whatIs": "O que são as Classes de 100 Days At Sea?",
+      "whatIsDescription": "As classes em 100 Days At Sea são conjuntos de equipamentos desbloqueados com Pérolas. Cada classe concede uma vantagem passiva — regeneração mais rápida, dano extra de arma, melhor manuseio do barco ou velocidade de movimento — então a escolha certa muda o quão segura, rápida ou pronta para o combate uma jornada parece.",
+      "why": "Por que escolher a classe certa?",
+      "whySteps": {
+        "step1Title": "Sobrevivência inicial mais segura",
+        "step1Description": "Classes iniciais como Sobrevivente adicionam regeneração, oxigênio e controle de fome, dando aos novos jogadores mais margem para erros.",
+        "step2Title": "Funções de combate mais fortes",
+        "step2Description": "Classes de dano como Atirador de Elite, Pirata e Saqueador aumentam o rendimento das armas e o fluxo de munição para lutas contra chefes e invasões de ilhas.",
+        "step3Title": "Melhor sinergia de jornada",
+        "step3Description": "Combinar sua classe com seu companheiro e build de armas transforma o gasto de Pérolas em uma vantagem clara a longo prazo."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Classes"
+    },
+    "crafting": {
+      "title": "Crafting em 100 Days At Sea",
+      "description": "Guias de crafting e construção de base em 100 Days At Sea cobrindo a jangada, abrigo de contêiner, posto avançado, kit médico, receitas de peixe e progressão da fogueira para jornadas mais seguras.",
+      "metaTitle": "Crafting em 100 Days At Sea - Jangada, Construções e Receitas",
+      "metaDescription": "Fabrique e construa em 100 Days At Sea: expansão da jangada, abrigo de contêiner, posto avançado, kit médico, receitas de peixe e melhorias na fogueira para jornadas de sobrevivência mais seguras.",
+      "categoryLabel": "CRAFTING E CONSTRUÇÃO",
+      "whatIs": "O que é o Crafting em 100 Days At Sea?",
+      "whatIsDescription": "O crafting em 100 Days At Sea transforma recursos coletados em estruturas, defesas, comida e ferramentas que mantêm sua base na jangada funcionando. Da jangada inicial ao posto avançado, kit médico e refeições cozidas, cada decisão de construção afeta quanto tempo você sobrevive.",
+      "why": "Por que fabricar de forma inteligente?",
+      "whySteps": {
+        "step1Title": "Fundação estável da jangada",
+        "step1Description": "Construa estruturas e defesas na jangada cedo para que a base sobreviva a invasões e à pressão noturna enquanto você coleta e explora.",
+        "step2Title": "Suporte de comida e cura",
+        "step2Description": "Receitas como filé de peixe, sanduíche de peixe e ensopado mantêm a fome e a saúde sob controle em rotas de ilhas mais longas.",
+        "step3Title": "Progressão clara da fogueira",
+        "step3Description": "Melhorar a fogueira e o abrigo transforma a construção da base em marcos visíveis que levam ao Dia 100."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Crafting"
+    },
+    "revive": {
+      "title": "Reviver em 100 Days At Sea",
+      "description": "Como reviver companheiros de equipe e salvar marinheiros em 100 Days At Sea, cobrindo o desfibrilador, regras de reviver no multijogador e estratégias de resgate de sobreviventes para jornadas cooperativas.",
+      "metaTitle": "Reviver em 100 Days At Sea - Salve Companheiros e Marinheiros",
+      "metaDescription": "Aprenda como reviver em 100 Days At Sea: uso do desfibrilador, mecânicas de reviver no multijogador e como salvar o marinheiro e sobreviventes em jornadas cooperativas do Dia 100.",
+      "categoryLabel": "REVIVER E RESGATAR",
+      "whatIs": "O que é o Reviver em 100 Days At Sea?",
+      "whatIsDescription": "Reviver em 100 Days At Sea cobre as mecânicas que trazem tripulantes caídos de volta à jornada e os objetivos de resgate que salvam marinheiros e sobreviventes. O desfibrilador é a ferramenta principal, enquanto as regras de reviver no multijogador decidem como uma equipe cooperativa se recupera de uma derrota total.",
+      "why": "Por que aprender as mecânicas de reviver?",
+      "whySteps": {
+        "step1Title": "Mantenha as jornadas cooperativas vivas",
+        "step1Description": "Conhecer o desfibrilador e as regras de reviver no multijogador impede que uma única queda se torne uma bola de neve para uma jornada fracassada.",
+        "step2Title": "Complete objetivos de resgate",
+        "step2Description": "Salvar o marinheiro e os sobreviventes resgatados desbloqueia marcos importantes de conclusão vinculados ao Dia 100 e emblemas de desafio.",
+        "step3Title": "Riscos mais seguros",
+        "step3Description": "Uma equipe que consegue reviver encara rotas de ilhas e lutas contra chefes mais difíceis sem encerrar a jornada por causa de um erro."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Reviver"
+    },
+    "locations": {
+      "title": "Locais de 100 Days At Sea",
+      "description": "Guia de todos os locais e pontos de referência de 100 Days At Sea: plataforma de petróleo, navio cargueiro, navio de cruzeiro, iate da tripulação, navio fantasma, vulcão, chave vermelha e rotas de combustível do bote.",
+      "metaTitle": "Locais de 100 Days At Sea - Navios, Ilhas e Vulcão",
+      "metaDescription": "Explore os locais de 100 Days At Sea: plataforma de petróleo, navio cargueiro, navio de cruzeiro, navio fantasma, vulcão, chave vermelha e rotas de combustível do bote com notas de saques e perigos.",
+      "categoryLabel": "LOCAIS",
+      "whatIs": "O que são os locais de 100 Days At Sea?",
+      "whatIsDescription": "Os locais em 100 Days At Sea são os navios, ilhas e pontos de referência para onde você navega em busca de melhores saques e progressão. Da plataforma de petróleo e navio cargueiro ao navio de cruzeiro, navio fantasma e vulcão, cada rota traz suas próprias recompensas, ameaças e itens essenciais, como a chave vermelha e o combustível do bote.",
+      "why": "Por que explorar os locais?",
+      "whySteps": {
+        "step1Title": "Melhores saques e armas",
+        "step1Description": "Navios e pontos de referência como a plataforma de petróleo e o navio cargueiro dropam equipamentos mais fortes do que a coleta em mar aberto.",
+        "step2Title": "Itens essenciais para progressão",
+        "step2Description": "Rotas vinculadas à chave vermelha e ao combustível do bote desbloqueiam novas áreas e mantêm a exploração das ilhas em andamento.",
+        "step3Title": "Rotas de chefes e emblemas",
+        "step3Description": "As rotas do vulcão, navio fantasma e navio de cruzeiro conectam você aos chefes da região e a emblemas de exploração raros."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os guias de locais"
+    },
+    "seeds": {
+      "title": "Sementes de 100 Days At Sea",
+      "description": "As melhores sementes e sementes de mapa de 100 Days At Sea para spawns personalizados, biomas de gelo, partidas difíceis e inícios ricos em recursos. Encontre a semente certa para a sua partida de sobrevivência.",
+      "metaTitle": "Sementes de 100 Days At Sea - Melhores Sementes de Mapa e Personalizadas",
+      "metaDescription": "Descubra as melhores sementes de 100 Days At Sea: sementes de mapa, sementes de gelo, sementes difíceis e sementes personalizadas para inícios ricos em recursos e partidas de desafio.",
+      "categoryLabel": "SEMENTES DE MAPA",
+      "whatIs": "O que são as sementes de 100 Days At Sea?",
+      "whatIsDescription": "As sementes em 100 Days At Sea controlam como o mapa, as ilhas, os biomas e os spawns de recursos são gerados para uma partida. Uma semente personalizada pode colocar você em um bioma de gelo, em um início rico em recursos ou em um desafio difícil de sobrevivência, permitindo que você molde a partida antes do Dia 1.",
+      "why": "Por que usar a semente certa?",
+      "whySteps": {
+        "step1Title": "Controle o seu início",
+        "step1Description": "A semente de mapa escolhida define as ilhas, recursos e biomas próximos para que você possa planejar seus dias iniciais em vez de depender da sorte.",
+        "step2Title": "Foque em biomas específicos",
+        "step2Description": "Sementes de gelo e sementes específicas de biomas direcionam você diretamente para as regiões e chefes que deseja praticar.",
+        "step3Title": "Partidas de desafio",
+        "step3Description": "Sementes difíceis criam condições de sobrevivência mais duras para jogadores experientes que buscam partidas de desafio e emblemas."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os guias de sementes"
+    }
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Alterar idioma",
+    "switchTheme": "Alterar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo escuro",
+    "notFound": "Página não encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o início",
+    "relatedArticles": "Artigos relacionados",
+    "readMore": "Ler mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Aventura de Sobrevivência no Oceano no Roblox",
+    "title": "100 Days At Sea Wiki",
+    "description": "Sobreviva ao Triângulo das Bermudas em um jogo de sobrevivência no oceano no Roblox. Colete recursos com seu arpão, construa uma base na jangada, explore ilhas, encontre armas, resgate códigos e lute para sobreviver 100 days at sea.",
+    "getFreeCodesCTA": "Obter Códigos Gratuitos",
+    "playOnSteamCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "97M+",
+        "label": "Total de Visitas"
+      },
+      "stat2": {
+        "value": "97%",
+        "label": "Avaliação dos Usuários"
+      },
+      "stat3": {
+        "value": "1",
+        "label": "Códigos Ativos"
+      },
+      "stat4": {
+        "value": "14 de nov. de 2025",
+        "label": "Data de Lançamento"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade de 100 Days At Sea",
+    "description": "Sobreviva ao Triângulo das Bermudas em um jogo de sobrevivência no oceano no Roblox. Colete recursos com seu arpão, construa uma base na jangada com estruturas e defesas, explore ilhas misteriosas, encontre armas e lute para sobreviver 100 days at sea."
+  },
+  "tools": {
+    "title": "100 Days At Sea",
+    "titleHighlight": "Central de Sobrevivência",
+    "subtitle": "Códigos, classes, companheiros, emblemas, rotas de chefes, construção de jangada e atualizações para sobreviver 100 days at sea no Roblox.",
+    "cards": [
+      {
+        "icon": "Sparkles",
+        "title": "Códigos de 100 Days At Sea",
+        "description": "Códigos de recompensa ativos, passos para resgatar e onde conferir novos códigos"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes de 100 Days At Sea",
+        "description": "Ciclo inicial de sobrevivência, desde a coleta com arpão até a base na jangada e exploração de ilhas"
+      },
+      {
+        "icon": "Users",
+        "title": "100 Days At Sea Classes Tier List",
+        "description": "Todas as classes classificadas por custo de Pérolas, ferramenta inicial, bônus e melhor função de sobrevivência"
+      },
+      {
+        "icon": "Star",
+        "title": "100 Days At Sea Companions Tier List",
+        "description": "Sorteios de baús de companheiros classificados por vantagem, custo, chance de drop e valor para a partida"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Emblemas e Conquistas de 100 Days At Sea",
+        "description": "Marcos de sobrevivência, níveis de fogueira, combate contra chefes, metas de resgate e desafios raros de partida"
+      },
+      {
+        "icon": "Compass",
+        "title": "Ilhas, Chefes e Armas de 100 Days At Sea",
+        "description": "Rotas de exploração para lutas contra chefes, objetivos de bioma e desbloqueio de armas em baús"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Guia de Construção de Base na Jangada de 100 Days At Sea",
+        "description": "Ordem de construção para recursos, expansão da jangada, defesas, comida e progresso da fogueira"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Atualizações e Rastreador de Patches de 100 Days At Sea",
+        "description": "Estatísticas do Roblox em tempo real, atualizações dos desenvolvedores, mudanças de região e atividade de emblemas"
+      }
+    ]
+  },
+  "modules": {
+    "codes": {
+      "title": "Códigos de 100 Days At Sea",
+      "eyebrow": "Recompensas Grátis",
+      "intro": "100 Days At Sea usa códigos de recompensa do Roblox para conceder recursos extras antes de uma partida de sobrevivência. Resgatar um código ativo logo no início concede Pérolas grátis, e o menu de códigos é o único lugar seguro para resgatá-las enquanto você avança para sobreviver 100 days at sea.",
+      "activeCode": {
+        "code": "20Pearls",
+        "reward": "20 Pérolas",
+        "status": "Ativo",
+        "bestUse": "Guarde as Pérolas para desbloquear uma classe inicial ou para um baú de companheiro, em vez de gastá-las imediatamente."
+      },
+      "redeemSteps": [
+        "Inicie o 100 Days At Sea no Roblox.",
+        "Selecione o botão CODES na área superior esquerda da tela do jogo.",
+        "Insira 20Pearls exatamente como mostrado.",
+        "Pressione Enviar e confirme se as Pérolas foram adicionadas ao seu saldo."
+      ],
+      "sourceCheck": {
+        "title": "Onde Verificar Novos Códigos",
+        "points": [
+          "Página do jogo no Roblox: acompanhe o título da experiência, a descrição e os textos de eventos durante as atualizações.",
+          "Comunidade da Stranded Devs: use a página da comunidade de desenvolvedores para obter contexto sobre atualizações e notícias de eventos.",
+          "Menu de Códigos no jogo: resgate apenas pela interface do usuário do jogo, nunca por formulários de login externos ou scripts."
+        ]
+      },
+      "safety": {
+        "title": "Regras de Códigos Importantes",
+        "points": [
+          "Os códigos são de uso único por conta do Roblox.",
+          "Os códigos podem expirar após eventos ou atualizações, então resgate-os rapidamente.",
+          "Evite executores de scripts, extensões de navegador ou páginas que solicitem sua senha do Roblox."
+        ]
+      }
+    },
+    "beginnerGuide": {
+      "title": "Como Jogar 100 Days At Sea",
+      "eyebrow": "Guia Inicial",
+      "intro": "100 Days At Sea é um jogo de sobrevivência em mundo aberto no Roblox onde a exploração e a construção de bases guiam cada partida. O caminho inicial para iniciantes é simples: primeiro colete, depois construa, em seguida explore e lute apenas quando sua jangada e ferramentas estiverem prontas para sobreviver 100 days at sea.",
+      "steps": [
+        {
+          "title": "Comece a Missão no Oceano",
+          "goal": "Entre na experiência do Roblox e foque em sobreviver, sem pressa.",
+          "whatToDo": "Aprenda os controles, fique perto da sua jangada e encare o Dia 100 como o objetivo de longo prazo.",
+          "whyItMatters": "O jogo é focado em sobreviver 100 dias enquanto desvenda o mistério do Triângulo das Bermudas."
+        },
+        {
+          "title": "Use o Arpão para Recursos Iniciais",
+          "goal": "Puxe itens úteis do mar antes de sair da sua área segura.",
+          "whatToDo": "Pegue recursos flutuantes ou fisgue-os com seu arpão sempre que navegar ou esperar perto da jangada.",
+          "whyItMatters": "A coleta com arpão é uma das ações principais listadas na página oficial do Roblox."
+        },
+        {
+          "title": "Construa uma Base de Jangada Compacta",
+          "goal": "Transforme a plataforma inicial em uma base defensável.",
+          "whatToDo": "Construa as estruturas da jangada primeiro e depois adicione defesas antes de expandir demais.",
+          "whyItMatters": "A construção da base é a principal camada de sobrevivência, e expandir demais antes de ter defesas torna a jangada mais difícil de proteger."
+        },
+        {
+          "title": "Explore Ilhas Após a Preparação",
+          "goal": "Use as ilhas para obter recursos melhores, não como um lugar para ser pego de surpresa no início.",
+          "whatToDo": "Visite ilhas misteriosas depois de ter suprimentos básicos, hábitos de armazenamento e uma rota de retorno para a jangada.",
+          "whyItMatters": "A exploração de ilhas é central para o progresso, mas se torna mais segura quando a jangada consegue suportar viagens mais longas."
+        },
+        {
+          "title": "Prepare Armas e Defesas",
+          "goal": "Lide com encontros hostis antes que eles virem uma bola de neve e resultem em uma partida fracassada.",
+          "whatToDo": "Encontre armas, mantenha as defesas reparadas e evite iniciar lutas arriscadas quando estiver com pouca comida ou suprimentos.",
+          "whyItMatters": "A descrição oficial do jogo orienta os jogadores a encontrar armas e preparar defesas antes de enfrentar inimigos."
+        },
+        {
+          "title": "Repita o Ciclo de Sobrevivência",
+          "goal": "Ganhe ritmo em direção ao Dia 100.",
+          "whatToDo": "Colete recursos, melhore a jangada, explore ilhas mais distantes, retorne com saques e prepare-se para o próximo pico de perigo.",
+          "whyItMatters": "100 Days At Sea recompensa uma preparação constante mais do que uma exploração imprudente."
+        }
+      ]
+    },
+    "classesTierList": {
+      "title": "Tier List de Classes de 100 Days At Sea",
+      "eyebrow": "Melhores Classes",
+      "intro": "As classes em 100 Days At Sea são conjuntos de equipamentos desbloqueados com Pérolas. Cada classe concede uma vantagem passiva, então a escolha certa muda o quão segura, rápida ou preparada para o combate uma partida parece.",
+      "items": [
+        {
+          "tier": "S",
+          "name": "Sobrevivente",
+          "cost": "50 Pérolas",
+          "starterTool": "Chowder",
+          "mainBuff": "Regeneração 10% mais rápida, oxigênio extra e menos fome.",
+          "bestFor": "Sobrevivência para iniciantes e segurança solo nos Dias 1 a 30.",
+          "note": "O primeiro desbloqueio mais forte para jogadores que precisam de mais margem para erros."
+        },
+        {
+          "tier": "S",
+          "name": "Médico",
+          "cost": "60 Pérolas",
+          "starterTool": "Kit Médico",
+          "mainBuff": "Regeneração de vida mais rápida.",
+          "bestFor": "Suporte cooperativo, partidas focadas em recuperação e preparação mais segura para chefes.",
+          "note": "Uma escolha forte de suporte quando um jogador precisa manter a tripulação viva."
+        },
+        {
+          "tier": "S",
+          "name": "Atirador de Elite",
+          "cost": "400 Pérolas",
+          "starterTool": "Flintlock",
+          "mainBuff": "Recarga mais rápida e 50% a mais de dano de arma de fogo.",
+          "bestFor": "Dano contra chefes e combate à distância.",
+          "note": "Alto valor assim que munição e armas à distância se tornam parte da partida."
+        },
+        {
+          "tier": "S",
+          "name": "Pirata",
+          "cost": "500 Pérolas",
+          "starterTool": "Bacamarte",
+          "mainBuff": "Melhor controle do barco e 50% a mais de dano de arma de fogo.",
+          "bestFor": "Combate geral com navegação marítima aprimorada.",
+          "note": "Excelente quando você quer tanto dano quanto uma melhor navegação."
+        },
+        {
+          "tier": "S",
+          "name": "Invasor",
+          "cost": "750 Pérolas",
+          "starterTool": "Pistolas Duplas",
+          "mainBuff": "Mais munição a cada cinco eliminações, munição dropada por inimigos derrotados e corrida 15% mais rápida.",
+          "bestFor": "Invasões a ilhas e tiroteios prolongados.",
+          "note": "Caro, mas feito para ciclos de combate onde o fluxo de munição importa."
+        },
+        {
+          "tier": "S",
+          "name": "Mago do Fogo",
+          "cost": "750 Pérolas",
+          "starterTool": "Cajado de Magma",
+          "mainBuff": "50% a mais de Dano Mágico.",
+          "bestFor": "Dano mágico no final do jogo e confrontos de alta ameaça.",
+          "note": "Uma classe de dano premium para jogadores que já passaram do básico."
+        },
+        {
+          "tier": "A",
+          "name": "Marinheiro",
+          "cost": "40 Pérolas",
+          "starterTool": "Nenhum",
+          "mainBuff": "Velocidade máxima mais rápida e melhor controle do barco.",
+          "bestFor": "Viagem entre ilhas e primeiros desbloqueios baratos.",
+          "note": "Simples, barato e útil para jogadores que navegam bastante."
+        },
+        {
+          "tier": "A",
+          "name": "Tripulante",
+          "cost": "60 Pérolas",
+          "starterTool": "Flintlock",
+          "mainBuff": "10% a mais de dano de arma de fogo.",
+          "bestFor": "Combate à distância no início do jogo.",
+          "note": "Boa opção de dano de baixo custo antes das classes de armas caras."
+        },
+        {
+          "tier": "A",
+          "name": "Espadachim",
+          "cost": "250 Pérolas",
+          "starterTool": "Facão",
+          "mainBuff": "50% a mais de dano corpo a corpo e 20% de vida extra.",
+          "bestFor": "Limpeza corpo a corpo e combates em ilhas.",
+          "note": "Forte se você prefere combate corpo a corpo e sabe gerenciar riscos."
+        },
+        {
+          "tier": "A",
+          "name": "Cowboy",
+          "cost": "300 Pérolas",
+          "starterTool": "Revólver",
+          "mainBuff": "15% a mais de vida e 33% a mais de dano de arma de fogo.",
+          "bestFor": "Builds de armas de fogo no meio do jogo.",
+          "note": "Uma classe à distância equilibrada com durabilidade extra."
+        },
+        {
+          "tier": "A",
+          "name": "Soldado",
+          "cost": "300 Pérolas",
+          "starterTool": "Fuzil de Assalto",
+          "mainBuff": "Corrida 20% mais rápida.",
+          "bestFor": "Combate móvel e reposicionamento mais seguro.",
+          "note": "O Fuzil de Assalto inicial dá a ela um valor prático além do bônus de corrida."
+        },
+        {
+          "tier": "A",
+          "name": "Noite",
+          "cost": "380 Pérolas",
+          "starterTool": "Claymore",
+          "mainBuff": "Armadura de Cavaleiro, 30% de redução de dano e corrida 15% mais rápida.",
+          "bestFor": "Combate defensivo e pressão noturna.",
+          "note": "Ótimo para jogadores que querem redução de dano antes de lutas mais difíceis."
+        },
+        {
+          "tier": "A",
+          "name": "Herói",
+          "cost": "600 Pérolas",
+          "starterTool": "Espada Sagrada",
+          "mainBuff": "25% a mais de vida e 25% a menos de fome.",
+          "bestFor": "Partidas híbridas avançadas de sobrevivência e combate.",
+          "note": "Atributos fortes, mas o custo a torna um investimento para mais tarde."
+        },
+        {
+          "tier": "A",
+          "name": "Tratador de Animais",
+          "cost": "600 Pérolas",
+          "starterTool": "Facão",
+          "mainBuff": "Supercarrega Companheiros.",
+          "bestFor": "Builds focadas em companheiros.",
+          "note": "Melhora depois que você consegue bons companheiros."
+        },
+        {
+          "tier": "A",
+          "name": "Coelho de Batalha",
+          "cost": "700 Pérolas",
+          "starterTool": "Bomba de Ovo",
+          "mainBuff": "Granadas de Ovo de inimigos e baús, pulo duplo e corrida 20% mais rápida.",
+          "bestFor": "Mobilidade, evasão e utilidade explosiva.",
+          "note": "Uma escolha avançada flexível com valor de movimentação."
+        },
+        {
+          "tier": "B",
+          "name": "Campista",
+          "cost": "70 Pérolas",
+          "starterTool": "Saco Bom",
+          "mainBuff": "+10% de vida.",
+          "bestFor": "Segurança extra de baixo custo.",
+          "note": "Útil no início, mas menos impactante que Sobrevivente ou Médico."
+        },
+        {
+          "tier": "B",
+          "name": "Aventureiro",
+          "cost": "250 Pérolas",
+          "starterTool": "Saco Gigante",
+          "mainBuff": "15% a mais de vida e menos fome.",
+          "bestFor": "Exploração e viagens mais longas.",
+          "note": "Utilidade sólida, mas fica atrás de classes mais fortes de sobrevivência e dano."
+        },
+        {
+          "tier": "B",
+          "name": "Olímpico",
+          "cost": "250 Pérolas",
+          "starterTool": "Nenhum",
+          "mainBuff": "Corrida 25% mais rápida e 20% de vida extra.",
+          "bestFor": "Jogadores focados em movimentação.",
+          "note": "Boa escolha para conforto, mas mais fraca se você precisar de ferramentas iniciais."
+        },
+        {
+          "tier": "B",
+          "name": "Buku de Batalha",
+          "cost": "250 Pérolas",
+          "starterTool": "Poku Poku",
+          "mainBuff": "25% a mais de dano corpo a corpo e desconto no MukuMuku.",
+          "bestFor": "Dano corpo a corpo com foco em desconto de loja.",
+          "note": "Útil, mas o Espadachim tem um perfil de dano corpo a corpo mais limpo."
+        },
+        {
+          "tier": "B",
+          "name": "Comerciante",
+          "cost": "350 Pérolas",
+          "starterTool": "100 Dobrões",
+          "mainBuff": "25% a mais de Dobrões.",
+          "bestFor": "Rotas de economia.",
+          "note": "Melhor para jogadores que já sabem onde as rotas de gastos valem a pena."
+        },
+        {
+          "tier": "B",
+          "name": "Milionário",
+          "cost": "400 Pérolas",
+          "starterTool": "Iate de Luxo",
+          "mainBuff": "Nasce com um Iate de Luxo Jumbo e 100x Dobrões.",
+          "bestFor": "Inícios confortáveis e partidas focadas em economia.",
+          "note": "Forte conforto inicial, mas com menos valor direto de sobrevivência do que combate ou cura."
+        },
+        {
+          "tier": "B",
+          "name": "Caçador de Tesouros",
+          "cost": "500 Pérolas",
+          "starterTool": "100 Dobrões",
+          "mainBuff": "Mais cinco slots de pilha e 25% a mais de Dobrões.",
+          "bestFor": "Farm de saques e rotas com inventário cheio.",
+          "note": "Bom para jogadores eficientes, menos importante para as primeiras conclusões."
+        },
+        {
+          "tier": "B",
+          "name": "Lula Anciã",
+          "cost": "750 Pérolas",
+          "starterTool": "Laser de Lula",
+          "mainBuff": "15% a mais de velocidade de corrida.",
+          "bestFor": "Utilidade de ferramenta especial e mobilidade.",
+          "note": "Caro para um bônus focado em corrida, mas a ferramenta inicial pode definir partidas de nicho."
+        }
+      ]
+    },
+    "companionsTierList": {
+      "title": "Tier List de Companheiros de 100 Days At Sea",
+      "eyebrow": "Melhores Companheiros",
+      "intro": "Os companheiros em 100 Days At Sea vêm de baús de Pérolas e adicionam vantagens passivas, como bônus de dano, velocidade de corrida, coleta de comida, coleta de materiais ou redução de fome. Os melhores resultados automatizam tarefas de sobrevivência ou melhoram o combate.",
+      "items": [
+        {
+          "tier": "S",
+          "name": "Salamandra",
+          "role": "Coleta de Saque",
+          "perk": "Recolhe e entrega saques próximos.",
+          "sources": "Baú de Magma — 120 Pérolas (5%)",
+          "bestFor": "Eficiência de recursos e conveniência na sobrevivência."
+        },
+        {
+          "tier": "S",
+          "name": "Golem de Magma",
+          "role": "Dano Corpo a Corpo",
+          "perk": "+10% de dano corpo a corpo.",
+          "sources": "Baú de Magma — 120 Pérolas (5%)",
+          "bestFor": "Partidas focadas em combate e lutas de curto alcance."
+        },
+        {
+          "tier": "S",
+          "name": "Peixe-espada",
+          "role": "Dano Corpo a Corpo",
+          "perk": "+10% de dano corpo a corpo.",
+          "sources": "Baú do Guerreiro — 80 Pérolas (5%) · Baú Pirata — 120 Pérolas (5%)",
+          "bestFor": "Classes de corpo a corpo e combate em ilhas."
+        },
+        {
+          "tier": "S",
+          "name": "Atirador Pirata",
+          "role": "Dano de Arma de Fogo",
+          "perk": "+10% de dano de arma de fogo.",
+          "sources": "Baú Pirata — 120 Pérolas (5%)",
+          "bestFor": "Classes de armas, pressão em chefes e builds à distância."
+        },
+        {
+          "tier": "S",
+          "name": "Polvo",
+          "role": "Coleta de Materiais",
+          "perk": "Traz materiais dos arredores a cada 120 segundos.",
+          "sources": "Baú do Guerreiro — 80 Pérolas (16%)",
+          "bestFor": "Partidas longas onde a renda passiva de materiais economiza tempo."
+        },
+        {
+          "tier": "A",
+          "name": "Corvo",
+          "role": "Coleta de Comida",
+          "perk": "Procura nos arredores e traz comida a cada 120 segundos.",
+          "sources": "Baú de Magma — 120 Pérolas (30%)",
+          "bestFor": "Estabilidade de comida durante rotas mais longas."
+        },
+        {
+          "tier": "A",
+          "name": "Gaivota",
+          "role": "Coleta de Comida",
+          "perk": "Traz comida a cada 120 segundos.",
+          "sources": "Baú Pirata — 120 Pérolas (30%)",
+          "bestFor": "Suporte de comida e ritmo de exploração mais seguro."
+        },
+        {
+          "tier": "A",
+          "name": "Papagaio",
+          "role": "Dano de Arma de Fogo",
+          "perk": "+7.5% de dano de arma de fogo.",
+          "sources": "Baú Pirata — 120 Pérolas (30%)",
+          "bestFor": "Jogadores à distância que ainda não conseguiram o Atirador Pirata."
+        },
+        {
+          "tier": "A",
+          "name": "Tubarão",
+          "role": "Dano Corpo a Corpo",
+          "perk": "+7.5% de dano corpo a corpo.",
+          "sources": "Baú do Pescador — 40 Pérolas (13%) · Baú do Guerreiro — 80 Pérolas (16%)",
+          "bestFor": "Dano corpo a corpo inicial antes de companheiros raros."
+        },
+        {
+          "tier": "A",
+          "name": "Golfinho",
+          "role": "Velocidade de Corrida",
+          "perk": "+7.5% de velocidade de corrida.",
+          "sources": "Baú do Pescador — 40 Pérolas (13%) · Baú de Magma — 120 Pérolas (30%)",
+          "bestFor": "Exploração, reposicionamento e movimento mais rápido nas ilhas."
+        },
+        {
+          "tier": "A",
+          "name": "Baleia",
+          "role": "Vida",
+          "perk": "+7.5% de vida.",
+          "sources": "Baú Pirata — 120 Pérolas (30%)",
+          "bestFor": "Durabilidade extra durante rotas arriscadas."
+        },
+        {
+          "tier": "B",
+          "name": "Caracol de Lava",
+          "role": "Redução de Fome",
+          "perk": "7.5% menos fome.",
+          "sources": "Baú de Magma — 120 Pérolas (30%)",
+          "bestFor": "Janelas de sobrevivência mais longas quando a comida está escassa."
+        },
+        {
+          "tier": "B",
+          "name": "Tartaruga",
+          "role": "Vida",
+          "perk": "+5% de vida máxima.",
+          "sources": "Baú do Pescador — 40 Pérolas (25%)",
+          "bestFor": "Durabilidade inicial barata."
+        },
+        {
+          "tier": "B",
+          "name": "Caranguejo",
+          "role": "Dano de Arma de Fogo",
+          "perk": "+5% de dano de arma de fogo.",
+          "sources": "Baú do Pescador — 40 Pérolas (25%)",
+          "bestFor": "Dano à distância inicial antes de melhores resultados do Baú Pirata."
+        },
+        {
+          "tier": "B",
+          "name": "Snorf",
+          "role": "Vida",
+          "perk": "+5% de vida.",
+          "sources": "Baú do Guerreiro — 80 Pérolas (32%)",
+          "bestFor": "Sobrevivência básica."
+        },
+        {
+          "tier": "B",
+          "name": "Gato",
+          "role": "Velocidade de Corrida",
+          "perk": "+5% de velocidade de corrida.",
+          "sources": "Baú do Guerreiro — 80 Pérolas (32%)",
+          "bestFor": "Pequeno bônus de movimento ao explorar."
+        },
+        {
+          "tier": "C",
+          "name": "Sapo",
+          "role": "Redução de Fome",
+          "perk": "5% menos fome.",
+          "sources": "Baú do Pescador — 40 Pérolas (25%)",
+          "bestFor": "Ajuda inicial com a fome até que resultados mais fortes o substituam."
+        }
+      ]
+    },
+    "badgesAndAchievements": {
+      "title": "Emblemas e Objetivos de Conquistas de 100 Days At Sea",
+      "eyebrow": "Conquistas",
+      "subtitle": "Acompanhe as principais rotas de emblemas para dias de sobrevivência, melhorias de fogueira, vitórias em combate, exploração, objetivos de resgate e desafios de saques.",
+      "intro": "Os emblemas de 100 Days At Sea são baseados em todo o ciclo de sobrevivência: comece uma partida, use o arpão, melhore a base da balsa, sobreviva a marcos de dias mais longos, explore ilhas, derrote chefes, resgate alvos de biomas e conclua desafios raros de partida.",
+      "items": [
+        {
+          "badge": "No Mar",
+          "category": "Iniciante",
+          "unlock": "Jogue o jogo pela primeira vez.",
+          "stage": "Iniciante",
+          "winRate": "100,0%",
+          "awarded": "34.636.574"
+        },
+        {
+          "badge": "Fisgado!",
+          "category": "Ferramenta Principal",
+          "unlock": "Pegue um objeto com seu arpão.",
+          "stage": "Iniciante",
+          "winRate": "100,0%",
+          "awarded": "24.909.604"
+        },
+        {
+          "badge": "Sobreviva 5 Dias",
+          "category": "Marco de Sobrevivência",
+          "unlock": "Alcance o dia 5 em uma partida.",
+          "stage": "Iniciante",
+          "winRate": "59,8%",
+          "awarded": "15.547.872"
+        },
+        {
+          "badge": "Sobreviva 10 Dias",
+          "category": "Marco de Sobrevivência",
+          "unlock": "Alcance o dia 10 em uma partida.",
+          "stage": "Iniciante",
+          "winRate": "35,2%",
+          "awarded": "8.821.824"
+        },
+        {
+          "badge": "Sobreviva 50 Dias",
+          "category": "Marco de Sobrevivência",
+          "unlock": "Alcance o dia 50 em uma partida.",
+          "stage": "Meio de Jogo",
+          "winRate": "4,2%",
+          "awarded": "1.091.606"
+        },
+        {
+          "badge": "Sobreviva 90 Dias",
+          "category": "Marco de Sobrevivência",
+          "unlock": "Alcance o dia 90 em uma partida.",
+          "stage": "Fim de Jogo",
+          "winRate": "2,0%",
+          "awarded": "478.581"
+        },
+        {
+          "badge": "Resgatado!",
+          "category": "Conclusão",
+          "unlock": "Chegue ao dia 100.",
+          "stage": "Conclusão",
+          "winRate": "1,8%",
+          "awarded": "439.772"
+        },
+        {
+          "badge": "Fogueira 1",
+          "category": "Base da Balsa",
+          "unlock": "Alcance o nível de fogueira 1.",
+          "stage": "Iniciante",
+          "winRate": "100,0%",
+          "awarded": "28.472.445"
+        },
+        {
+          "badge": "Fogueira 5",
+          "category": "Base da Balsa",
+          "unlock": "Alcance o nível de fogueira 5.",
+          "stage": "Meio de Jogo",
+          "winRate": "14,2%",
+          "awarded": "4.092.222"
+        },
+        {
+          "badge": "Fogueira 9",
+          "category": "Base da Balsa",
+          "unlock": "Alcance o nível de fogueira 9.",
+          "stage": "Fim de Jogo",
+          "winRate": "1,0%",
+          "awarded": "226.568"
+        },
+        {
+          "badge": "Mestre da Fogueira",
+          "category": "Desafio da Base da Balsa",
+          "unlock": "Alcance o nível máximo da fogueira antes do dia 3.",
+          "stage": "Desafio",
+          "winRate": "0,0%",
+          "awarded": "1.454"
+        },
+        {
+          "badge": "Estamos Cozinhando",
+          "category": "Utilidade de Recursos",
+          "unlock": "Cozinhe sua primeira caldeirada com a panela de cozinha.",
+          "stage": "Iniciante",
+          "winRate": "33,8%",
+          "awarded": "10.516.551"
+        },
+        {
+          "badge": "Poder de Fogo",
+          "category": "Arma",
+          "unlock": "Consiga uma arma em um baú.",
+          "stage": "Iniciante ao Meio de Jogo",
+          "winRate": "28,7%",
+          "awarded": "5.454.882"
+        },
+        {
+          "badge": "Magalhães",
+          "category": "Exploração",
+          "unlock": "Visite todas as ilhas em uma única sessão.",
+          "stage": "Conclusão",
+          "winRate": "0,1%",
+          "awarded": "14.235"
+        },
+        {
+          "badge": "Braços da Vitória",
+          "category": "Combate contra Chefe",
+          "unlock": "Derrote o Chefe Lula.",
+          "stage": "Fim de Jogo",
+          "winRate": "0,3%",
+          "awarded": "34.483"
+        },
+        {
+          "badge": "Rei da Neve",
+          "category": "Chefe do Bioma",
+          "unlock": "Derrote o chefe no Bioma de Gelo.",
+          "stage": "Fim de Jogo",
+          "winRate": "0,2%",
+          "awarded": "14.274"
+        },
+        {
+          "badge": "Resgate Ártico",
+          "category": "Resgate de Bioma",
+          "unlock": "Resgate todos os pinguins no Bioma de Gelo.",
+          "stage": "Fim de Jogo",
+          "winRate": "0,2%",
+          "awarded": "15.613"
+        },
+        {
+          "badge": "Completamente Só",
+          "category": "Modificador de Partida",
+          "unlock": "Sobreviva 100 dias completamente solo.",
+          "stage": "Desafio",
+          "winRate": "0,2%",
+          "awarded": "59.622"
+        },
+        {
+          "badge": "Parceiros de Trapalhadas",
+          "category": "Modificador de Partida",
+          "unlock": "Sobreviva 100 dias em dupla.",
+          "stage": "Desafio",
+          "winRate": "1,0%",
+          "awarded": "254.535"
+        }
+      ]
+    },
+    "islandsBossesAndWeapons": {
+      "title": "Ilhas, Chefes e Rotas de Armas de 100 Days At Sea",
+      "eyebrow": "Exploração",
+      "subtitle": "Use a exploração de ilhas para avançar da sobrevivência básica na jangada para lutas contra chefes, objetivos de bioma e desbloqueios de combate mais fortes.",
+      "intro": "O ciclo de jogo oficial direciona os jogadores da coleta com arpão para a construção de jangadas, exploração de ilhas, busca por armas e combate contra chefes. O caminho de progressão mais seguro é estabilizar a jangada primeiro e, depois, traçar rotas pelas ilhas e chefes de bioma com foco em emblemas e objetivos de armas.",
+      "items": [
+        {
+          "title": "Rota de Ilhas em Mar Aberto",
+          "tag": "Núcleo de Exploração",
+          "focus": "Navegue a partir da jangada para visitar ilhas misteriosas, coletar saques melhores e se preparar para marcos de sobrevivência mais longos.",
+          "bossOrThreat": "Inimigos da ilha e ameaças marinhas",
+          "weaponFocus": "Armas de baús e ferramentas básicas de combate",
+          "badgeSignals": [
+            "Magalhães",
+            "Poder de Fogo",
+            "Sobreviva 50 Dias"
+          ]
+        },
+        {
+          "title": "Rota de Armas de Baú",
+          "tag": "Desbloqueio de Arma",
+          "focus": "Use explorações de ilhas e baús para melhorar a preparação para o combate antes de tentar enfrentar os chefes.",
+          "bossOrThreat": "Inimigos comuns, invasões e combates de maior risco nas ilhas",
+          "weaponFocus": "Arma de baú",
+          "badgeSignals": [
+            "Poder de Fogo",
+            "Saqueador",
+            "Saqueador de Dinheiro"
+          ]
+        },
+        {
+          "title": "Rota do Chefe Lula",
+          "tag": "Luta contra Chefe",
+          "focus": "Prepare comida, cura, armas e a segurança da jangada antes de tentar enfrentar o Chefe Lula.",
+          "bossOrThreat": "Chefe Lula",
+          "weaponFocus": "Dano à distância pronto para chefes e suprimentos de sobrevivência duradouros",
+          "badgeSignals": [
+            "Braços da Vitória"
+          ]
+        },
+        {
+          "title": "Rota do Galeão Fantasma",
+          "tag": "Desafio de Combate",
+          "focus": "Vá além da sobrevivência normal a invasões derrotando o Galeão Fantasma várias vezes em uma única partida.",
+          "bossOrThreat": "Galeão Fantasma",
+          "weaponFocus": "Dano consistente contra chefes e suprimentos suficientes para lutas repetidas",
+          "badgeSignals": [
+            "Terceiro Sino Tocado",
+            "Eles vão voltar!"
+          ]
+        },
+        {
+          "title": "Rota da Plataforma Rival",
+          "tag": "Combate de Exploração",
+          "focus": "Encontre e derrote todas as 3 plataformas rivais em uma única sessão para uma conclusão rara de exploração e combate.",
+          "bossOrThreat": "3 plataformas rivais",
+          "weaponFocus": "Armas sustentadas, munição e cura entre as lutas nas plataformas",
+          "badgeSignals": [
+            "Só pode haver um"
+          ]
+        },
+        {
+          "title": "Rota da Região do Vulcão",
+          "tag": "Chefe de Região",
+          "focus": "Visite a região do Vulcão, derrote Golems de Fogo e encare a rota do Senhor da Lava.",
+          "bossOrThreat": "Golems de Fogo e Senhor da Lava",
+          "weaponFocus": "Rota do Cajado de Magma e preparação de combate para a região de fogo",
+          "badgeSignals": [
+            "Progressão de chefe de fim de jogo",
+            "Foco na atualização do Vulcão"
+          ]
+        },
+        {
+          "title": "Rota do Bioma de Gelo",
+          "tag": "Atualização de Gelo",
+          "focus": "Entre no Bioma de Gelo, resgate pinguins e derrote o chefe do Bioma de Gelo.",
+          "bossOrThreat": "Chefe do Bioma de Gelo",
+          "weaponFocus": "Sobrevivência na região de gelo e preparação de dano contra o chefe",
+          "badgeSignals": [
+            "Resgate Ártico",
+            "Rei da Neve"
+          ]
+        },
+        {
+          "title": "Rota de Conclusão do Dia 100",
+          "tag": "Objetivo da Partida Final",
+          "focus": "Combine saques de ilhas, melhorias na jangada, comida, armas e a evasão ou eliminação de chefes em uma partida completa de sobrevivência até o dia 100.",
+          "bossOrThreat": "Pressão de partidas longas, invasões, fome e erros de rota",
+          "weaponFocus": "Armas de baús, dano capaz de derrotar chefes e suprimentos suficientes para os dias finais",
+          "badgeSignals": [
+            "Resgatado!",
+            "Completamente Só",
+            "Parceiros de Trapalhadas",
+            "Três é uma festa",
+            "Quatro é o bastante"
+          ]
+        }
+      ]
+    },
+    "raftBaseBuildingGuide": {
+      "title": "Guia de Construção de Base em Jangada de 100 Days At Sea",
+      "eyebrow": "Construção de Base",
+      "subtitle": "Construa para a sobrevivência primeiro: recursos, espaço, defesas, comida, armas e o progresso da fogueira importam mais do que a decoração no início.",
+      "intro": "A construção da jangada é um dos sistemas centrais de sobrevivência em 100 Days At Sea. Uma base inicial forte mantém a partida estável enquanto você coleta com o arpão, cozinha comida, encontra armas, sobrevive a invasões e avança em direção a marcos de dias mais longos.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Pesque Recursos Antes de Correr Riscos",
+          "objective": "Use o arpão para puxar recursos iniciais e evitar gastar vida em movimentos perigosos.",
+          "actions": [
+            "Pegue objetos flutuantes com o arpão.",
+            "Continue coletando antes de sair da jangada para rotas mais longas.",
+            "Use os recursos iniciais em ferramentas de sobrevivência e no progresso da jangada primeiro."
+          ],
+          "badgeSignal": "Fisgado!"
+        },
+        {
+          "step": 2,
+          "title": "Expanda a Jangada com Foco na Função",
+          "objective": "Crie espaço suficiente para movimentação, hábitos de armazenamento, culinária e posicionamento de defesa.",
+          "actions": [
+            "Construa uma área de trabalho estável antes de tentar fazer uma grande jangada decorativa.",
+            "Mantenha as estruturas essenciais de sobrevivência fáceis de alcançar.",
+            "Deixe espaço para se mover durante invasões e a pressão noturna."
+          ],
+          "badgeSignal": "Apenas Começando"
+        },
+        {
+          "step": 3,
+          "title": "Aumente os Níveis da Fogueira Cedo",
+          "objective": "Use o progresso da fogueira como o caminho mais claro de marcos da base na jangada.",
+          "actions": [
+            "Melhore os níveis da fogueira conforme a partida avança.",
+            "Use de Fogueira 1 a Fogueira 9 como verificações de progresso visíveis.",
+            "Trate o Mestre da Fogueira como um desafio de melhoria rápida para jogadores experientes."
+          ],
+          "badgeSignal": "Fogueira 1 a Fogueira 9, Mestre da Fogueira"
+        },
+        {
+          "step": 4,
+          "title": "Adicione Suporte de Comida Antes de Viagens Longas",
+          "objective": "Faça com que a jangada suporte cura e fome antes de se comprometer com rotas de ilhas maiores.",
+          "actions": [
+            "Cozinhe ensopado com a panela de cozinha.",
+            "Estoque comida antes de ciclos de exploração mais longos.",
+            "Retorne à jangada para repor suprimentos em vez de se arriscar demais."
+          ],
+          "badgeSignal": "Estamos Cozinhando"
+        },
+        {
+          "step": 5,
+          "title": "Construa Pensando na Defesa Noturna",
+          "objective": "Posicione estruturas e defesas para que a jangada possa sobreviver a ataques, mantendo espaço para você lutar.",
+          "actions": [
+            "Mantenha os corredores de combate livres.",
+            "Evite bloquear a movimentação ao redor das estruturas principais da jangada.",
+            "Use armas encontradas em baús para fortalecer a defesa antes das rotas de chefes."
+          ],
+          "badgeSignal": "Poder de Fogo, Eles voltarão!"
+        },
+        {
+          "step": 6,
+          "title": "Prepare a Jangada Antes das Rotas de Chefes",
+          "objective": "Trate a jangada como o ponto de partida para o Chefe Lula, Bioma de Gelo, Vulcão e tentativas do dia 100.",
+          "actions": [
+            "Leve comida, cura e armas mais fortes antes de partir para regiões focadas em chefes.",
+            "Não inicie objetivos de chefes raros ou biomas a partir de uma jangada fraca.",
+            "Use os emblemas de dias de sobrevivência para julgar se a base está pronta para rotas mais difíceis."
+          ],
+          "badgeSignal": "Braços da Vitória, Rei da Neve, Resgatado!"
+        }
+      ]
+    },
+    "updatesAndPatchTracker": {
+      "title": "Rastreador de Atualizações e Patches de 100 Days At Sea",
+      "eyebrow": "Atualizações",
+      "subtitle": "Acompanhe a página do Roblox ao vivo, o grupo de desenvolvedores, estatísticas de jogadores, atividade de emblemas e atualizações das principais regiões.",
+      "intro": "100 Days At Sea é monitorado ativamente através da página do jogo no Roblox, da comunidade Stranded Devs, das estatísticas de jogo do Rolimon's, da atividade pública de emblemas e de vídeos de gameplay focados em atualizações. Este rastreador foca em mudanças voltadas para os jogadores que afetam rotas, chefes, emblemas e o interesse atual.",
+      "items": [
+        {
+          "label": "Instantâneo do Jogo ao Vivo",
+          "period": "27 de junho de 2026",
+          "type": "Estatísticas do Roblox",
+          "details": "O jogo está listado pela Stranded Devs com 27 jogadores no máximo, 40.762 jogadores atuais, 97.318.586 visitas, 246.810 votos positivos, 6.805 votos negativos, avaliação de 97,317%, 2.666.457 favoritos e tempo médio de jogo de 17,22 minutos.",
+          "playerFocus": "Use isso como um instantâneo da popularidade e novidade atual."
+        },
+        {
+          "label": "Atualização Recente ao Vivo",
+          "period": "27 de junho de 2026",
+          "type": "Atualização do Jogo",
+          "details": "O Rolimon's mostra que o jogo foi atualizado há 7 horas, com o pico das últimas 24 horas listado em 48.101 jogadores e o pico de todos os tempos listado em 52.341 jogadores há 5 dias.",
+          "playerFocus": "A atividade de atualização recente suporta buscas por novas atualizações, estatísticas ao vivo e interesse atual dos jogadores."
+        },
+        {
+          "label": "Onda de Emblemas do Bioma de Gelo",
+          "period": "1 semana atrás",
+          "type": "Atualização de Região",
+          "details": "O rastreamento de conquistas da região de gelo inclui King Of The Snow por derrotar o chefe do Bioma de Gelo e Arctic Rescue por resgatar todos os pinguins no Bioma de Gelo.",
+          "playerFocus": "Ideal para buscas sobre Bioma de Gelo, Região de Gelo, resgate de pinguins e chefes de gelo."
+        },
+        {
+          "label": "Atualização de Progressão da Fogueira",
+          "period": "1 mês atrás",
+          "type": "Progressão de Base",
+          "details": "Bonfire 1 a Bonfire 9 e Bonfire Master são objetivos de emblemas ativos, transformando o desenvolvimento da base na jangada em um caminho de progressão visível.",
+          "playerFocus": "Ideal para buscas sobre base na jangada, nível da fogueira, melhorias iniciais e preparação para o longo prazo."
+        },
+        {
+          "label": "Destaque da Região do Vulcão",
+          "period": "3 meses atrás",
+          "type": "Rota de Região e Chefe",
+          "details": "A cobertura de gameplay da região do vulcão destaca a rota para os Fire Golems e o Lord of Lava, com o Magma Staff aparecendo na discussão da rota de armas da região.",
+          "playerFocus": "Ideal para buscas sobre atualização do vulcão, Lord of Lava, Fire Golems e Magma Staff."
+        },
+        {
+          "label": "Rastreamento do Chefe Lula",
+          "period": "3 semanas atrás",
+          "type": "Emblema de Chefe",
+          "details": "Arms of Victory é o emblema de combate rastreado por derrotar o Chefe Lula, com 34.483 concessões e uma taxa de vitória recente de 0,3%.",
+          "playerFocus": "Ideal para buscas sobre o Chefe Lula, lutas contra chefes e conquistas de combate raras."
+        },
+        {
+          "label": "Ciclo Principal de Sobrevivência",
+          "period": "Descrição ao Vivo no Roblox",
+          "type": "Gameplay Foundation",
+          "details": "A página oficial descreve o ciclo como coletar recursos ou fisgá-los com o arpão, construir uma base na jangada com estruturas e defesas, explorar ilhas misteriosas, encontrar armas e enfrentar inimigos temíveis.",
+          "playerFocus": "Ideal para buscas sobre guia de iniciantes, como jogar, arpão, jangada, ilhas, armas e chefes."
+        },
+        {
+          "label": "Janela de Criação do Jogo",
+          "period": "7 meses atrás",
+          "type": "Listagem do Jogo",
+          "details": "O Rolimon's lista 100 Days At Sea como um jogo do Roblox criado pela Stranded Devs, com a página do jogo apresentando-o como uma experiência de sobrevivência em mundo aberto sobre o Triângulo das Bermudas e sobreviver por 100 dias.",
+          "playerFocus": "Ideal para seções sobre data de lançamento, criador, listagem no Roblox e visão geral oficial do jogo."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Suas perguntas sobre",
+    "titleHighlight": "100 days at sea",
+    "subtitle": "Tudo o que você precisa saber sobre códigos, classes, sobrevivência em jangada e a jornada de 100 dias em 100 Days At Sea.",
+    "questions": [
+      {
+        "question": "O que é 100 Days At Sea?",
+        "answer": "100 Days At Sea é um jogo de sobrevivência em mundo aberto no Roblox desenvolvido pela Stranded Devs. Você coleta recursos com um arpão, constrói uma base em uma jangada, explora ilhas misteriosas, encontra armas e se esforça para sobreviver 100 dias no Triângulo das Bermudas."
+      },
+      {
+        "question": "Onde posso jogar 100 Days At Sea?",
+        "answer": "100 Days At Sea é gratuito para jogar no Roblox em plataformas de PC, celular e console que suportam o aplicativo Roblox. Inicie-o diretamente da página oficial do jogo no Roblox."
+      },
+      {
+        "question": "Como resgato códigos de 100 Days At Sea?",
+        "answer": "Abra o 100 Days At Sea, toque no botão CÓDIGOS no canto superior esquerdo da tela, insira um código ativo como 20Pearls e pressione Enviar para resgatar recompensas como Pérolas grátis."
+      },
+      {
+        "question": "Para que servem as Pérolas em 100 Days At Sea?",
+        "answer": "Em 100 Days At Sea, as Pérolas desbloqueiam classes e abrem baús de companheiros. Guardá-las para uma classe inicial ou uma boa rolagem de companheiro acelera suas jornadas de sobrevivência rumo a 100 days at sea."
+      },
+      {
+        "question": "O 100 Days At Sea é multijogador?",
+        "answer": "O 100 Days At Sea suporta até 27 jogadores por servidor, então você pode sobreviver ao oceano, construir jangadas, invadir ilhas e lutar contra chefes junto com amigos."
+      },
+      {
+        "question": "Qual é o objetivo de 100 Days At Sea?",
+        "answer": "O objetivo principal de 100 Days At Sea é sobreviver 100 days at sea enquanto melhora sua jangada, explora ilhas, derrota chefes e desvenda o mistério do Triângulo das Bermudas."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para sobreviver a 100 Days At Sea?",
+    "description": "Mergulhe em 100 Days At Sea no Roblox, colete recursos com seu arpão, construa sua jangada e resgate códigos para obter pérolas grátis.",
+    "joinCommunity": "Junte-se à Stranded Devs",
+    "joinGame": "Jogar no Roblox"
+  },
+  "footer": {
+    "title": "100 Days At Sea Wiki",
+    "description": "Seu hub de recursos completo para códigos, classes, sobrevivência em jangada, emblemas, armas, ilhas e guias de 100 Days At Sea.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Jurídico",
+    "robloxGame": "Jogar no Roblox",
+    "robloxGroup": "Stranded Devs",
+    "youtube": "Assistir ao Trailer",
+    "website": "Site Oficial",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 100 Days At Sea Wiki. Não afiliado à Roblox Corporation ou Stranded Devs.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
   }
 }
