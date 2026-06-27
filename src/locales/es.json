@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guía",
+    "classes": "Clases",
+    "crafting": "Fabricación",
+    "revive": "Reanimar",
+    "locations": "Ubicaciones",
+    "seeds": "Semillas"
+  }
+}

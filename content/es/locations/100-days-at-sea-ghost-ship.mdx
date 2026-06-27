@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Barco fantasma de 100 días en el mar: Guía de incursión y recorrido",
+  description: "Sobrevive al legendario Barco Fantasma en 100 días en el mar de Roblox. Aprende las mecánicas de aparición, estrategias de combate y recompensas en esta guía paso a paso.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Ghost+Ship+Guide",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de 100 días en el mar"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Aparición del barco fantasma**: Se activa durante incursiones nocturnas aleatorias o se puede buscar activamente en biomas de mar profundo con niebla.
+- **Encuentro con el jefe**: Toca la campana espectral en el Galeón Fantasma para invocar al jefe no muerto, Barbaverde.
+- **Fortificación de la balsa**: Mantén tu hoguera mejorada para debilitar a los esqueletos espectrales que aborden y para iluminar la cubierta.
+- **Logros clave**: Gana el emblema '¡Volverán!' por sobrevivir a una incursión, y 'Tercera campana tocada' por derrotar al galeón tres veces.
+- **Equipamiento óptimo**: Combina el poder a distancia de la clase Tirador con el compañero Artillero Pirata.
+</Callout>
+
+Sobrevivir a las traicioneras aguas del Triángulo de las Bermudas en Roblox requiere algo más que una balsa de madera resistente; exige preparación para lo sobrenatural. El **barco fantasma de 100 días en el mar** —también conocido como el Galeón Fantasma— es uno de los desafíos más despiadados de la fase media y avanzada del juego a los que se enfrentarán los jugadores. Custodiada por el jefe espectral Barbaverde y oleadas de tripulantes no muertos, esta fortaleza flotante puede hacer astillas una balsa desatendida en cuestión de minutos. Ya sea que busques conseguir logros raros o simplemente intentes sobrevivir más allá del día 50, esta guía te llevará a través de los activadores de aparición, las tácticas contra el jefe y las configuraciones de balsa necesarias para conquistar las mareas espectrales.
+
+---
+
+<Section icon={Shield} title="Mecánicas de aparición e incursión del barco fantasma de 100 días en el mar">
+
+El barco fantasma no aparece al azar durante tus primeros días en el mar. En su lugar, funciona con un sistema de progresión escalonado vinculado a tus días de supervivencia y factores ambientales. A medida que avanzas más allá del día 10, el nivel de peligro del océano aumenta, introduciendo patrones climáticos de niebla que señalan la actividad espectral.
+
+Hay dos formas principales de encontrarse con el barco fantasma: incursiones pasivas de fantasmas y exploración activa. Durante una incursión pasiva, una espesa niebla verde envolverá tu balsa, acompañada de música espeluznante y una repentina disminución de la visibilidad. Poco después, grupos de abordaje espectrales aparecerán directamente en tu balsa. Si estás explorando activamente, navegar con tu balsa hacia sectores de mar profundo con niebla aumenta la probabilidad de que aparezca un Galeón Fantasma físico cerca.
+
+| Fase de Incursión | Día de Activación | Señal Ambiental | Amenaza Principal |
+|---|---|---|---|
+| Fase 1: Incursión Fantasma | Día 10+ | Niebla verde, baja visibilidad | Esqueletos de abordaje espectrales |
+| Fase 2: Galeón Fantasma | Día 30+ | Toques de campana lejanos, brillo verde | Fuego de cañón, embestida de barco |
+| Fase 3: Jefe Barbaverde | Día 50+ | Tormenta espectral intensa, agua brillante | Batalla contra el jefe Barbaverde |
+
+<Callout type="warning" title="Peligros espectrales">
+No caigas al agua durante una incursión fantasma. El agua se vuelve extremadamente fría, agotando tu resistencia y salud rápidamente, mientras que los tiburones espectrales podrían atacarte.
+</Callout>
+
+</Section>
+
+---
+
+<Section icon={Swords} title="Cómo invocar y derrotar a Barbaverde">
+
+Una vez que aparece el Galeón Fantasma, debes pasar de la defensa al ataque. El barco en sí actúa como una mazmorra flotante. Para iniciar el verdadero encuentro con el jefe Barbaverde, debes abordar la embarcación y localizar la campana espectral situada en la cubierta principal. 
+
+<Steps>
+  <Step num="1" title="Abastécete de munición y curación">
+    Antes de abordar, fabrica o compra suficiente munición para tus armas de fuego. El combate cuerpo a cuerpo en el Galeón Fantasma es muy poco recomendable debido a los pasillos estrechos y al fuerte retroceso que provocan los enemigos. Abastécete de objetos de curación como Sopa de pescado (Chowder) o Botiquines (Medkits).
+  </Step>
+  <Step num="2" title="Despeja los esqueletos de la cubierta">
+    Al abordar, no corras hacia la campana de inmediato. Elimina la oleada inicial de esqueletos de abordaje usando armas a distancia para evitar quedar acorralado en los estrechos tablones de madera.
+  </Step>
+  <Step num="3" title="Toca la campana espectral">
+    Interactúa con la campana verde brillante en la cubierta. Esta acción invoca al jefe Barbaverde, quien emerge de los camarotes del capitán rodeado por una barrera protectora.
+  </Step>
+  <Step num="4" title="Atrae y concentra el fuego (Kite)">
+    Barbaverde utiliza ataques cuerpo a cuerpo de gran daño y lanza anclas espectrales que infligen daño de área (AoE). Mantén la distancia, dándole vueltas alrededor del mástil del barco mientras disparas con armas a distancia de alto DPS.
+  </Step>
+</Steps>
+
+| Nombre del Ataque | Señal Visual | Tipo de Daño | Mejor Contramedida |
+|---|---|---|---|
+| Lanzamiento de Ancla | Levanta el brazo, rastro verde | Área de Efecto (AoE) | Esprintar hacia los lados inmediatamente |
+| Tajo Espectral | La espada brilla de color verde intenso | Cuerpo a cuerpo (Alto retroceso) | Mantener la distancia, usar tácticas de evasión (kiting) |
+| Invocar Tripulación | Barbaverde se ríe | Aparición de enemigos | Despejar a los secuaces primero con el Trabuco (Blunderbuss) |
+
+<Callout type="success" title="Botín de victoria">
+Derrotar a Barbaverde recompensa a los jugadores con una cantidad sustancial de Doblones, Perlas y un cofre de alto nivel que puede contener armas avanzadas como el Mosquete de chispa (Flintlock) o el Trabuco (Blunderbuss).
+</Callout>
+
+</Section>
+
+---
+
+<Section icon={Sparkles} title="Mejores clases y compañeros para la incursión">
+
+Elegir la clase y la configuración de compañeros adecuadas antes de cazar al barco fantasma puede marcar la diferencia entre una incursión exitosa y una balsa hundida. Debido a que la batalla requiere una gran movilidad y daño a distancia, ciertas configuraciones superan con creces a otras.
+
+<CardGrid cols={2}>
+  <Card title="Clase Tirador (Sharpshooter)">
+    - **Costo**: 400 Perlas
+    - **Arma inicial**: Mosquete de chispa (Flintlock)
+    - **Mejora**: +50% de daño de armas de fuego y velocidades de recarga más rápidas, lo que la convierte en la opción principal para derretir la barra de vida de Barbaverde desde una distancia segura.
+  </Card>
+  <Card title="Clase Médico (Medic)">
+    - **Costo**: 60 Perlas
+    - **Arma inicial**: Botiquín (Medkit)
+    - **Mejora**: Regeneración pasiva rápida de salud. Excelente para partidas cooperativas, lo que permite que un jugador actúe como sanador dedicado mientras los demás infligen daño.
+  </Card>
+  <Card title="Compañero Artillero Pirata (Pirate Gunner)">
+    - **Origen**: Cofre pirata (120 Perlas)
+    - **Probabilidad de obtención**: 5%
+    - **Mejora**: Otorga un aumento plano de +10% al daño de armas de fuego, que se acumula directamente con las mejoras pasivas de daño del Tirador.
+  </Card>
+  <Card title="Compañero Salamandra (Salamander)">
+    - **Origen**: Cofre de magma (120 Perlas)
+    - **Probabilidad de obtención**: 5%
+    - **Mejora**: Recoge y entrega automáticamente el botín cercano, asegurando que no pierdas valiosas recompensas del jefe en el océano durante combates caóticos.
+  </Card>
+</CardGrid>
+
+| Tipo de Configuración | Clase | Compañero | Beneficio Principal |
+|---|---|---|---|
+| DPS a distancia máximo | Tirador | Artillero Pirata | Destruye al jefe rápidamente desde la distancia |
+| Alta supervivencia | Médico | Ballena | Curación constante y +7.5% de reserva de salud |
+| Equilibrio en solitario | Superviviente | Delfín | Estadísticas equilibradas con +7.5% de velocidad de esprint |
+
+<Callout type="tip" title="Ventaja de Perlas gratis">
+Si te faltan Perlas para desbloquear estas clases premium, canjea el código activo **20Pearls** a través de la pestaña de Códigos en la parte superior izquierda del juego para asegurar un impulso rápido.
+</Callout>
+
+</Section>
+
+---
+
+<Section icon={Map} title="Preparación de construcción de balsa para incursiones fantasma">
+
+Cuando se activa una incursión fantasma, tu balsa se convierte en el campo de batalla principal. Si tu base está mal estructurada, los esqueletos espectrales destruirán tus objetos funcionales, como ollas de cocina y cofres de almacenamiento. 
+
+El núcleo de la defensa de tu balsa es la **Hoguera**. Mejorar tu hoguera no solo marca tu progreso de supervivencia, sino que también emite una luz que debilita a los enemigos espectrales, reduciendo su defensa y velocidad. Asegúrate de que tu hoguera esté centralizada y protegida por barreras estructurales.
+
+<Checklist
+  id="raft-fortifications"
+  title="Lista de verificación para una balsa a prueba de fantasmas:"
+  items={[
+    "Mejora la hoguera al menos al nivel 5 para proporcionar un amplio radio de luz protectora.",
+    "Construye barreras defensivas externas para canalizar a los esqueletos de abordaje hacia un único punto de estrangulamiento.",
+    "Coloca los cofres de almacenamiento y las ollas de cocina lejos de los bordes para evitar daños colaterales.",
+    "Crea carriles despejados de evasión (kiting) para que puedas correr en círculos sin quedarte atascado en las estructuras."
+  ]}
+/>
+
+<Callout type="info" title="Integridad estructural">
+Mantén siempre un Martillo equipado en tu barra de acceso rápido durante una incursión. El fuego de cañón fantasmal puede dañar las baldosas de la balsa, y las reparaciones rápidas son vitales para evitar que tus estructuras se hundan.
+</Callout>
+
+</Section>
+
+---
+
+<Section icon={Trophy} title="Guía de logros y emblemas del barco fantasma">
+
+Para los completistas, el barco fantasma está vinculado a algunos de los emblemas más codiciados del juego. Estos emblemas sirven como testimonio de tus habilidades de supervivencia y destreza en combate.
+
+El emblema **"¡Volverán!"** ("They'll be back!") se otorga por sobrevivir a tu primera incursión fantasma. Dado que este evento se activa de forma natural a medida que avanzas más allá de los primeros días, tiene una alta tasa de obtención entre los jugadores activos. 
+
+Sin embargo, el emblema **"Tercera campana tocada"** ("Third Bell Rung") es un prestigioso desafío de la fase avanzada del juego. Para desbloquearlo, debes invocar y derrotar al Galeón Fantasma tres veces distintas dentro de una misma partida de supervivencia. Esto requiere una balsa altamente optimizada, abundante munición y una excelente gestión de recursos para sobrevivir a las batallas consecutivas.
+
+| Nombre del Emblema | Categoría | Requisito de Desbloqueo | Tasa de Obtención Global |
+|---|---|---|---|
+| ¡Volverán! | Incursión de supervivencia | Sobrevivir a una incursión fantasma aleatoria | 95.8% (Muy común) |
+| Tercera campana tocada | Combate contra jefes | Derrotar al Galeón Fantasma 3 veces en una sola partida | 1.0% (Raro) |
+| Brazos de victoria | Combate contra jefes | Derrotar al jefe Calamar gigante | 0.3% (Muy raro) |
+| Completamente solo | Desafío | Sobrevivir 100 días completamente solo | 0.2% (Extremo) |
+
+<Callout type="tip" title="Ventaja cooperativa">
+Intenta conseguir el emblema 'Tercera campana tocada' en una sala de dúo ('Compañeros de trabuco' / 'Blunder Buddies'). Hacer que un jugador use la clase Médico mientras el otro se enfoca en el DPS del Tirador hace que sobrevivir a tres combates consecutivos de galeones sea significativamente más seguro.
+</Callout>
+
+</Section>
+
+---
+
+<Section icon={Target} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo activo el barco fantasma en 100 días en el mar?",
+    answer: "El barco fantasma puede activarse de forma pasiva como una incursión de niebla verde después del día 10, o puede encontrarse activamente navegando en biomas de mar profundo con niebla después del día 30."
+  },
+  {
+    question: "¿Cuál es la mejor arma para luchar contra Barbaverde?",
+    answer: "Las armas a distancia como el Mosquete de chispa (Flintlock) o el Trabuco (Blunderbuss) son las mejores. Las armas cuerpo a cuerpo son demasiado arriesgadas debido al alto retroceso de Barbaverde y sus ataques de corta distancia de gran daño."
+  },
+  {
+    question: "¿Cómo obtengo el emblema 'Tercera campana tocada'?",
+    answer: "Debes invocar y derrotar al jefe del Galeón Fantasma tres veces en una sola partida de supervivencia abordando el barco y tocando su campana espectral cada vez."
+  },
+  {
+    question: "¿Afecta la luz de la hoguera a los enemigos fantasmas?",
+    answer: "Sí, mejorar tu hoguera crea un radio de luz que debilita a los esqueletos espectrales, haciéndolos más fáciles de derrotar cuando abordan tu balsa."
+  }
+]} />
+
+<Callout type="info" title="Consejo final de supervivencia">
+Nunca abordes el Galeón Fantasma sin una ruta de escape clara de regreso a tu balsa. Si tu balsa se aleja a la deriva mientras luchas contra Barbaverde, te quedarás varado en aguas hostiles.
+</Callout>
+
+</Section>

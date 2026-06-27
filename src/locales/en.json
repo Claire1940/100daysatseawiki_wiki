@@ -10,7 +10,157 @@
       "twitterDescription": "100 Days At Sea Wiki covers Roblox codes, classes, raft survival, badges, weapons, islands, and beginner tips for safer ocean runs."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "classes": "Classes",
+    "crafting": "Crafting",
+    "revive": "Revive",
+    "locations": "Locations",
+    "seeds": "Seeds"
+  },
+  "pages": {
+    "codes": {
+      "title": "100 Days At Sea Codes",
+      "description": "All active 100 Days At Sea codes for free Pearls, with clear redemption steps, expiry notes, and where new codes drop during Roblox events and updates.",
+      "metaTitle": "100 Days At Sea Codes - Free Pearls & Active Rewards",
+      "metaDescription": "Redeem the latest active 100 Days At Sea codes for free Pearls. Step-by-step redemption, expiry notes, and where to find new codes, kept up to date.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What Are 100 Days At Sea Codes?",
+      "whatIsDescription": "100 Days At Sea codes are free reward strings released by Stranded Devs through Roblox events and game updates. Entering an active code in the in-game Codes menu grants Pearls, the premium currency used to unlock classes and open companion chests for your survival run.",
+      "why": "Why Redeem Codes Early?",
+      "whySteps": {
+        "step1Title": "Free Pearls for Class Unlocks",
+        "step1Description": "Active codes drop Pearls that unlock starter classes like Survivor or Medic, giving your early days more room for mistakes.",
+        "step2Title": "Faster Companion Chests",
+        "step2Description": "Saved Pearls open companion chests sooner, adding passive perks like loot pickup, melee damage, or food gathering to your run.",
+        "step3Title": "Safe In-Game Redemption",
+        "step3Description": "Codes are claimed only through the in-game Codes menu, never through external login forms, scripts, or browser extensions."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "100 Days At Sea Guide",
+      "description": "Complete 100 Days At Sea guides covering beginner tips, full walkthroughs, the survival loop, objectives, endings, and solo strategies for reaching Day 100.",
+      "metaTitle": "100 Days At Sea Guide - Walkthrough, Tips & Day 100",
+      "metaDescription": "Master 100 Days At Sea with beginner tips, full walkthroughs, survival objectives, endings, solo strategies, and how long it takes to beat the game.",
+      "categoryLabel": "SURVIVAL GUIDES",
+      "whatIs": "What Is the 100 Days At Sea Guide?",
+      "whatIsDescription": "The 100 Days At Sea guide breaks down the full survival loop in the Bermuda Triangle: gather resources with your harpoon, build a raft base with structures and defenses, explore mysterious islands, find weapons, and push toward surviving 100 days.",
+      "why": "Why Follow the Guide?",
+      "whySteps": {
+        "step1Title": "Clean Beginner Route",
+        "step1Description": "Start with the right order—gather first, build second, explore third—so early days stay stable instead of chaotic.",
+        "step2Title": "Efficient Raft Setup",
+        "step2Description": "Build for survival before decoration: bonfire levels, food support, and defenses keep the run alive through raids.",
+        "step3Title": "Clear Path to Day 100",
+        "step3Description": "Walkthroughs and objectives map out milestones, endings, and solo strategies so the long run toward Day 100 stays on track."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
+    "classes": {
+      "title": "100 Days At Sea Classes",
+      "description": "Every 100 Days At Sea class ranked by Pearl cost, starter tool, buffs, and best survival role, with a full tier list for beginner, combat, and Day 100 runs.",
+      "metaTitle": "100 Days At Sea Classes - Tier List & Best Class",
+      "metaDescription": "Compare every 100 Days At Sea class by Pearl cost, starter tool, and buff. Find the best class for beginner safety, boss combat, and Day 100 survival.",
+      "categoryLabel": "CLASSES",
+      "whatIs": "What Are 100 Days At Sea Classes?",
+      "whatIsDescription": "Classes in 100 Days At Sea are loadouts unlocked with Pearls. Each class grants a passive advantage—faster regeneration, extra gun damage, better boat handling, or movement speed—so the right pick changes how safe, fast, or combat-ready a run feels.",
+      "why": "Why Pick the Right Class?",
+      "whySteps": {
+        "step1Title": "Safer Early Survival",
+        "step1Description": "Starter classes like Survivor add regeneration, oxygen, and hunger control, giving new players more room for mistakes.",
+        "step2Title": "Stronger Combat Roles",
+        "step2Description": "Damage classes like Sharpshooter, Pirate, and Raider scale gun output and ammo flow for boss fights and island raids.",
+        "step3Title": "Better Run Synergy",
+        "step3Description": "Matching your class to your companion and weapon build turns Pearl spending into a clear long-term advantage."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Classes"
+    },
+    "crafting": {
+      "title": "100 Days At Sea Crafting",
+      "description": "100 Days At Sea crafting and base building guides covering the raft, container shelter, outpost, medkit, fish recipes, and bonfire progression for safer runs.",
+      "metaTitle": "100 Days At Sea Crafting - Raft, Buildings & Recipes",
+      "metaDescription": "Craft and build in 100 Days At Sea: raft expansion, container shelter, outpost, medkit, fish recipes, and bonfire upgrades for safer survival runs.",
+      "categoryLabel": "CRAFTING & BUILDING",
+      "whatIs": "What Is Crafting in 100 Days At Sea?",
+      "whatIsDescription": "Crafting in 100 Days At Sea turns gathered resources into the structures, defenses, food, and tools that keep your raft base running. From the starter raft to the outpost, medkit, and cooked meals, every build decision affects how long you survive.",
+      "why": "Why Craft Smarter?",
+      "whySteps": {
+        "step1Title": "Stable Raft Foundation",
+        "step1Description": "Build raft structures and defenses early so the base survives raids and night pressure while you gather and explore.",
+        "step2Title": "Food and Healing Support",
+        "step2Description": "Recipes like fish filet, fish sandwich, and chowder keep hunger and health under control on longer island routes.",
+        "step3Title": "Clear Bonfire Progression",
+        "step3Description": "Upgrading the bonfire and shelter turns base building into visible milestones that lead toward Day 100."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Crafting Guides"
+    },
+    "revive": {
+      "title": "100 Days At Sea Revive",
+      "description": "How to revive teammates and save sailors in 100 Days At Sea, covering the defibrillator, multiplayer revive rules, and survivor rescue strategies for co-op runs.",
+      "metaTitle": "100 Days At Sea Revive - Save Teammates & Sailors",
+      "metaDescription": "Learn how to revive in 100 Days At Sea: defibrillator use, multiplayer revive mechanics, and how to save the sailor and survivors in co-op Day 100 runs.",
+      "categoryLabel": "REVIVE & RESCUE",
+      "whatIs": "What Is Revive in 100 Days At Sea?",
+      "whatIsDescription": "Revive in 100 Days At Sea covers the mechanics that bring downed crewmates back into the run and the rescue goals that save sailors and survivors. The defibrillator is the core tool, while multiplayer revive rules decide how a co-op crew recovers from a wipe.",
+      "why": "Why Learn Revive Mechanics?",
+      "whySteps": {
+        "step1Title": "Keep Co-op Runs Alive",
+        "step1Description": "Knowing the defibrillator and multiplayer revive rules stops a single down from snowballing into a failed run.",
+        "step2Title": "Complete Rescue Goals",
+        "step2Description": "Saving the sailor and rescued survivors unlocks key completion milestones tied to Day 100 and challenge badges.",
+        "step3Title": "Safer Risk-Taking",
+        "step3Description": "A crew that can revive pushes harder island routes and boss fights without ending the run on one mistake."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Revive Guides"
+    },
+    "locations": {
+      "title": "100 Days At Sea Locations",
+      "description": "Every 100 Days At Sea location and landmark guide: oil rig, cargo ship, cruise ship, crewmate yacht, ghost ship, volcano, red key, and dinghy fuel routes.",
+      "metaTitle": "100 Days At Sea Locations - Ships, Islands & Volcano",
+      "metaDescription": "Explore 100 Days At Sea locations: oil rig, cargo ship, cruise ship, ghost ship, volcano, red key, and dinghy fuel routes with loot and danger notes.",
+      "categoryLabel": "LOCATIONS",
+      "whatIs": "What Are 100 Days At Sea Locations?",
+      "whatIsDescription": "Locations in 100 Days At Sea are the ships, islands, and landmarks you sail to for better loot and progression. From the oil rig and cargo ship to the cruise ship, ghost ship, and volcano, each route carries its own rewards, threats, and key items like the red key and dinghy fuel.",
+      "why": "Why Explore Locations?",
+      "whySteps": {
+        "step1Title": "Better Loot and Weapons",
+        "step1Description": "Ships and landmarks like the oil rig and cargo ship drop stronger gear than open-water gathering.",
+        "step2Title": "Key Items for Progression",
+        "step2Description": "Routes tied to the red key and dinghy fuel unlock new areas and keep island exploration moving forward.",
+        "step3Title": "Boss and Badge Routes",
+        "step3Description": "Volcano, ghost ship, and cruise ship routes connect to region bosses and rare exploration badges."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Location Guides"
+    },
+    "seeds": {
+      "title": "100 Days At Sea Seeds",
+      "description": "The best 100 Days At Sea seeds and map seeds for custom spawns, ice biomes, hard runs, and resource-rich starts. Find the right seed for your survival run.",
+      "metaTitle": "100 Days At Sea Seeds - Best Map & Custom Seeds",
+      "metaDescription": "Discover the best 100 Days At Sea seeds: map seeds, ice seeds, hard seeds, and custom seeds for resource-rich starts and challenge runs.",
+      "categoryLabel": "MAP SEEDS",
+      "whatIs": "What Are 100 Days At Sea Seeds?",
+      "whatIsDescription": "Seeds in 100 Days At Sea control how the map, islands, biomes, and resource spawns generate for a run. A custom seed can drop you into an ice biome, a resource-rich start, or a hard survival challenge, letting you shape the run before Day 1.",
+      "why": "Why Use the Right Seed?",
+      "whySteps": {
+        "step1Title": "Control Your Start",
+        "step1Description": "A chosen map seed sets nearby islands, resources, and biomes so you can plan your opening days instead of relying on luck.",
+        "step2Title": "Target Specific Biomes",
+        "step2Description": "Ice seeds and biome-specific seeds route you straight into the regions and bosses you want to practice.",
+        "step3Title": "Run Challenges",
+        "step3Description": "Hard seeds create tougher survival conditions for experienced players chasing challenge runs and badges."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Seed Guides"
+    }
+  },
   "common": {
     "home": "Home",
     "more": "More",

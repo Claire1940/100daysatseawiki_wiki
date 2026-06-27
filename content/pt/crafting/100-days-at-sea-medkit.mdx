@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Kit Médico em 100 Dias no Mar: Guia de Criação e Configuração de Cura",
+  description: "Aprenda a criar e usar o Kit Médico em 100 Dias no Mar no Roblox. Descubra sinergias da classe Médico, passos de reanimação e dicas de preparação para invasões de chefes.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Medkit+Survival+Guide",
+  date: "2026-06-27",
+  author: "Equipe da Wiki de 100 Dias no Mar",
+  keywords: "kit médico, cura, criação, classe médico, reanimação, 100 dias no mar"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **kit médico de 100 Dias no Mar** é o principal item de cura que restaura cinquenta por cento da sua vida máxima instantaneamente.
+- Os **requisitos de criação** exigem cinco tecidos, três ervas e um álcool coletados de caixotes em ilhas e naufrágios.
+- A **classe Médico** é desbloqueada por sessenta Pérolas, concedendo aos jogadores uma regeneração de vida mais rápida e iniciando as partidas com um kit médico gratuito.
+- As **mecânicas de reanimação** permitem que você resgate companheiros de equipe caídos no modo cooperativo, evitando reinicializações instantâneas de partida.
+</Callout>
+
+<Section icon={Map} title="Kit Médico em 100 Dias no Mar: Criação e Obtenção">
+
+Para sobreviver ao ambiente hostil do Triângulo das Bermudas, garantir um **kit médico de 100 Dias no Mar** é a sua prioridade mais crítica tanto durante a exploração inicial quanto nas lutas contra chefes no final do jogo. Neste jogo de sobrevivência em mundo aberto no Roblox, desenvolvido pela Stranded Devs, a vida não se regenera automaticamente de forma rápida, a menos que você esteja descansando em sua estrutura de jangada aprimorada ou jogando com uma classe específica. Embora arranhões menores possam ser remendados com bandagens básicas, situações de alta ameaça, como invasões de ilhas e ataques de piratas fantasmas, exigem uma solução médica mais robusta. O kit médico padrão é um item confiável que restaura instantaneamente cinquenta por cento da sua vida máxima, tornando-se uma ferramenta indispensável para manter sua partida ativa.
+
+Entender como obter e criar esses suprimentos médicos de maneira eficiente evita a penalidade devastadora de reiniciar seu progresso de volta ao Dia 1. Você pode obter kits médicos por meio de três métodos principais: criação manual na bancada de trabalho da sua jangada, saqueando baús de suprimentos de alto nível espalhados por ilhas misteriosas, ou comprando-os diretamente do Mercador Marítimo itinerante quando o barco dele atracar perto de sua base.
+
+<CardGrid cols={3}>
+  <Card title="Criação na Bancada">
+    - **Custo de Recursos**: Requer 5 Tecidos, 3 Ervas e 1 Álcool.
+    - **Melhor Prática**: Configure um caixote de armazenamento dedicado em sua jangada exclusivamente para ingredientes médicos.
+    - **Eficiência**: Crie-os em massa antes de embarcar em longas viagens para biomas de alta ameaça.
+  </Card>
+  <Card title="Saque de Baús de Ilha">
+    - **Locais Principais**: Verifique postos avançados militares, naufrágios e ruínas.
+    - **Melhor Prática**: Use seu arpão para se puxar com segurança até baús em locais elevados.
+    - **Eficiência**: Derrote os defensores da ilha primeiro antes de abrir os baús para evitar sofrer dano enquanto saqueia.
+  </Card>
+  <Card title="Negociação com o Mercador">
+    - **Custo de Moeda**: Requer Moedas ou Dobrões.
+    - **Melhor Prática**: Priorize a compra de kits médicos em vez de itens cosméticos ou armas desnecessárias.
+    - **Eficiência**: O mercador permanece por exatamente um dia, então conclua suas transações rapidamente.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Mestre: Gerenciamento de Inventário">
+Sempre mantenha pelo menos um kit médico em sua barra de acesso rápido (hotbar) em vez de guardado no fundo do seu saco de suprimentos (Good Sack). Quando uma invasão noturna inesperada começar ou um tubarão morder você no meio do nado, um atraso de frações de segundo para abrir seu inventário pode acabar com uma partida que de outra forma seria perfeita.
+</Callout>
+
+### Comparação de Itens de Cura
+
+Para ajudar você a planejar a alocação de recursos, a tabela abaixo compara as principais opções de cura disponíveis no jogo. Embora o ensopado (Chowder) e as bandagens tenham seu valor, eles não conseguem se igualar à capacidade de cura instantânea de um kit médico.
+
+| Item de Cura | Ingredientes Requeridos | PV Restaurado | Caso de Uso Principal | Raridade |
+| :--- | :--- | :--- | :--- | :--- |
+| **Kit Médico** | 5 Tecidos, 3 Ervas, 1 Álcool | **50% de PV** | Recuperação instantânea em combate / Reanimação de companheiros | Raro |
+| **Bandagem** | 2 Tecidos | **15% de PV** | Remendar pequenos danos entre combates | Comum |
+| **Chowder (Ensopado)** | Peixe, Água, Panela | **Regen. Lenta** | Gerenciamento de fome e recuperação passiva | Incomum |
+| **Sushi** | Peixe Cru, Alga | **10% de PV** | Fonte de comida rápida com pequeno bônus de vida | Comum |
+
+</Section>
+
+<Section icon={Shield} title="A Classe Médico e a Sinergia com o Kit Médico Inicial">
+
+Selecionar a classe certa antes de iniciar sua jornada em 100 Dias no Mar pode alterar drasticamente sua estratégia de sobrevivência. Desbloqueadas por meio de Pérolas — a moeda premium do jogo obtida em missões diárias, baús de ilhas e recompensas de chefes —, as classes fornecem bônus passivos permanentes e ferramentas iniciais exclusivas. Para jogadores que têm dificuldades com o combate ou preferem jogar em equipes cooperativas, a **classe Médico** representa um dos investimentos iniciais mais eficientes que você pode fazer.
+
+Por um custo modesto de sessenta Pérolas, a classe Médico concede a você um bônus passivo permanente que acelera sua taxa de regeneração de vida. Mais importante ainda, você surge em cada partida com um kit médico inicial já equipado em seu inventário. Esse acesso imediato a uma cura de alto nível elimina a necessidade de vasculhar a área em busca de ervas e álcool no Dia 1, permitindo que você concentre a coleta com arpão no início do jogo na expansão da jangada e em melhorias na fogueira.
+
+<Callout type="success" title="Por que a Classe Médico Domina o Modo Cooperativo">
+Em servidores multijogador, ter pelo menos um jogador equipado com a classe Médico é altamente recomendado. A regeneração de vida mais rápida permite que o Médico atue como um tanque de linha de frente ou um curador dedicado que pode realizar reanimações de companheiros de equipe com segurança sob pressão, sem consumir imediatamente suprimentos criados preciosos.
+</Callout>
+
+### Comparação de Classes no Início do Jogo
+
+A tabela abaixo mostra como a classe Médico se compara a outras classes de baixo custo no início do jogo. Embora a classe Sobrevivente seja excelente para o gerenciamento solo da fome, a utilidade de cura do Médico é incomparável para partidas focadas em combate.
+
+| Nome da Classe | Custo em Pérolas | Ferramenta Inicial | Bônus Passivos | Função Ideal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Médico** | **60 Pérolas** | Kit Médico | Regeneração de vida mais rápida | Suporte co-op / Recuperação em combate |
+| **Sobrevivente** | **50 Pérolas** | Chowder | Regen. 10% mais rápida, oxigênio extra, menos fome | Sobrevivência solo para iniciantes |
+| **Tripulante** | **60 Pérolas** | Flintlock | 10% a mais de dano de arma de fogo | Combate à distância no início do jogo |
+| **Marinheiro** | **40 Pérolas** | Nenhum | Velocidade máxima do barco mais rápida e melhor manuseio | Exploração de ilhas |
+| **Campista** | **70 Pérolas** | Good Sack | +10% de vida máxima | Expansão de inventário |
+
+Ao utilizar a classe Médico, você estabelece uma base de cura confiável que torna a exploração de ilhas distantes muito mais segura. Em vez de acumular seus kits médicos criados para pequenas emergências, você pode guardá-los para confrontos intensos contra chefes, onde a recuperação instantânea de vida é obrigatória.
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas de Reanimação e Estratégias de Sobrevivência Cooperativa">
+
+Embora jogar 100 Dias no Mar sozinho seja um desafio emocionante, enfrentar o Triângulo das Bermudas com um amigo ou uma tripulação completa abre espaço para estratégias cooperativas profundas. No entanto, partidas multijogador introduzem um risco crítico: quando a vida de um jogador cai para zero, ele não ressurge instantaneamente. Em vez disso, ele entra em um estado caído, sangrando lentamente enquanto espera que um companheiro de equipe o resgate. Para reanimar um companheiro caído, você deve possuir um kit médico ou um desfibrilador especializado. Sem essas ferramentas médicas, seu companheiro de equipe acabará morrendo, reiniciando o progresso individual dele e deixando sua base na jangada vulnerável a forças invasoras.
+
+Realizar uma reanimação bem-sucedida durante uma invasão noturna caótica ou uma luta contra um chefe de alto nível exige coordenação e coordenação de tempo. Correr simplesmente até o seu aliado caído e segurar a tecla de interação é uma receita para o desastre, pois atiradores piratas fantasmas e caranguejos da ilha interromperão facilmente sua animação ou eliminarão você junto com seu companheiro.
+
+<Steps>
+  <Step num="1" title="Elimine ou Distraia as Ameaças Próximas">
+    Antes de tentar um resgate, proteja a área imediata. Use um bacamarte (Blunderbuss) ou uma arma corpo a corpo como o facão para repelir os piratas fantasmas invasores. Se a ameaça for muito grande, faça com que outro companheiro de equipe chame a atenção do inimigo para longe do jogador caído.
+  </Step>
+  <Step num="2" title="Equipe o Kit Médico na sua Barra de Acesso Rápido">
+    Selecione o kit médico do seu inventário e coloque-o em um espaço ativo da barra de acesso rápido (hotbar). Certifique-se de que seu personagem está segurando o item para que o prompt de interação seja registrado corretamente quando você se aproximar do seu aliado caído.
+  </Step>
+  <Step num="3" title="Inicie a Interação de Reanimação">
+    Aproxime-se do seu companheiro de equipe caído e segure o botão de interação para começar a administrar a ajuda médica. Se você estiver jogando com a classe Médico, o tempo de canalização dessa reanimação é significativamente reduzido, minimizando sua janela de vulnerabilidade.
+  </Step>
+  <Step num="4" title="Forneça Cobertura e Comida Imediatas">
+    Uma vez reanimado, seu companheiro de equipe se levantará com pouca vida e barras de fome vazias. Solte imediatamente uma porção de Chowder cozido ou sushi para ajudá-lo a restaurar seus atributos passivos enquanto ele recua para uma área segura na jangada.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Perigos de Falhas de Reanimação no Modo Solo">
+Em partidas solo, a mecânica de reanimação fica completamente indisponível. Se a sua vida chegar a zero, sua partida termina imediatamente, a menos que você possua itens raros de autorreanimação. Portanto, jogadores solo devem priorizar estruturas defensivas na jangada e manter um grande estoque de kits médicos para evitar atingir limites críticos de vida.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Invasões Avançadas de Ilhas e Preparação para Chefes">
+
+À medida que sua base na jangada se estabiliza e você passa dos primeiros trinta dias, o ciclo básico de sobrevivência de pescar detritos com o arpão e capturar peixes não será mais suficiente. Para descobrir os mistérios do Triângulo das Bermudas e concluir o jogo, você deve explorar biomas de alta ameaça e derrotar chefes regionais poderosos. Essas áreas de final de jogo, como a Região do Vulcão e o congelante Bioma de Gelo, apresentam perigos ambientais extremos e criaturas inimigas agressivas que podem esvaziar sua barra de vida em segundos. Entrar nessas zonas sem um plano robusto de preparação médica é uma maneira garantida de perder seu progresso suado.
+
+Ao se preparar para uma grande expedição, seu inventário deve ser cuidadosamente planejado. Você deve equilibrar poder de fogo ofensivo, armadura defensiva, proteção ambiental e um suprimento generoso de itens de cura. Uma regra prática para invasões no final do jogo é carregar pelo menos três a cinco kits médicos criados por jogador, garantindo que você possa se curar de danos contínuos durante os confrontos contra chefes.
+
+<Checklist
+  id="boss-raid-prep"
+  title="Lista de Verificação Essencial para Invasão de Chefes:"
+  items={[
+    "Equipar um conjunto de Armadura de Ferro para reduzir o dano físico recebido [2.3.1].",
+    "Estocar pelo menos 5 Kits Médicos criados em seu inventário principal.",
+    "Preparar armas à distância de alto dano, como o Flintlock ou Blunderbuss.",
+    "Cozinhar e levar pelo menos 3 tigelas de Chowder quente para regeneração passiva de vida.",
+    "Trazer uma chave de reparo para consertar qualquer dano na jangada sofrido durante o trânsito."
+  ]}
+/>
+
+<Callout type="info" title="Perigos Ambientais vs Kits Médicos">
+Perigos ambientais como lava na Região do Vulcão ou frio extremo no Bioma de Gelo aplicam efeitos contínuos de dano ao longo do tempo. Embora comida quente e armadura defensiva mitiguem essas ameaças, mantenha um kit médico pronto para neutralizar instantaneamente picos repentinos de dano ambiental ao navegar por terrenos difíceis.
+</Callout>
+
+### Preparação para Biomas de Alta Ameaça
+
+A tabela abaixo fornece uma visão estratégica dos biomas de alta ameaça em 100 Dias no Mar, destacando os suprimentos médicos recomendados e os principais perigos que você enfrentará em cada região.
+
+| Nome do Bioma | Kits Médicos Recomendados | Perigo Principal | Chefe Local / Recompensa do Chefe | Estratégia Principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Região do Vulcão** | **5+ Kits Médicos** | Poças de lava / Golems de Fogo | Senhor da Lava / Cajado de Magma | Fique em locais altos; use armas à distância |
+| **Bioma de Gelo** | **4+ Kits Médicos** | Temperaturas congelantes | Rei da Neve / Resgate do Pinguim | Consuma Chowder quente; mantenha fogueiras ativas |
+| **Zona do Kraken** | **3+ Kits Médicos** | Golpes de tentáculo de alto dano | O Kraken / Baús Dourados | Priorize reparos na jangada; esquive-se de indicadores vermelhos |
+| **Ilha do Naufrágio** | **2+ Kits Médicos** | Atiradores piratas fantasmas | Galeão Fantasma / Sino do Galeão | Use paredes estruturais como cobertura durante as lutas |
+
+Ao alinhar sua preparação médica com os desafios específicos de cada bioma, você pode enfrentar inimigos temíveis com confiança e garantir conquistas raras como as Armas da Vitória (Arms of Victory) ou o Resgate Ártico (Arctic Rescue).
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+Navegar pelas águas profundas de 100 Dias no Mar pode ser desafiador tanto para jogadores novos quanto para os experientes. Para ajudar você a dominar sua configuração de cura e otimizar suas partidas de sobrevivência, reunimos respostas para as perguntas mais comuns sobre suprimentos médicos, receitas de criação e escolhas de classe.
+
+<Callout type="success" title="Mantenha-se Atualizado com a Stranded Devs">
+Como o jogo recebe atualizações frequentes da Stranded Devs, as receitas de criação, os custos de classe e as taxas de queda de itens podem mudar. Fique sempre de olho na página oficial do jogo no Roblox e no grupo de desenvolvedores para obter as notas de atualização e mudanças de equilíbrio mais recentes.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Como faço para criar um kit médico em 100 Dias no Mar?",
+    answer: "Você pode criar um kit médico na bancada de trabalho da sua jangada combinando 5 Tecidos, 3 Ervas e 1 Álcool. Esses materiais básicos podem ser coletados em caixotes nas ilhas, barris flutuantes ou comprados do Mercador Marítimo itinerante."
+  },
+  {
+    question: "A classe Médico começa com um kit médico gratuito?",
+    answer: "Sim, a classe Médico (que custa 60 Pérolas para desbloquear) começa cada partida com um kit médico gratuito em seu inventário, além de um bônus passivo que aumenta a velocidade de regeneração de vida."
+  },
+  {
+    question: "Posso usar um kit médico para me reanimar no modo solo?",
+    answer: "Não, os kits médicos são usados para reanimar companheiros de equipe caídos em servidores multijogador. No modo solo, ficar com zero de vida resulta em uma reinicialização imediata da partida, a menos que você possua um item raro de autorreanimação."
+  },
+  {
+    question: "Qual é a diferença entre uma bandagem e um kit médico?",
+    answer: "Uma bandagem é um item de cura barato para o início do jogo que requer apenas 2 Tecidos e restaura 15% da sua vida. Já o kit médico é um item médico de alto nível que restaura 50% da sua vida instantaneamente e é necessário para reanimar aliados caídos."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Semillas difíciles en 100 días en el mar: Guía de construcción de balsa y supervivencia",
+  description: "Domina los diseños de generación de mundo más desafiantes en 100 Days At Sea de Roblox. Aprende sobre construcción optimizada de balsas, elección de clases y configuración de compañeros.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hard+Seeds+Survival+Guide",
+  date: "2026-06-27",
+  author: "Equipo de la Wiki de 100 días en el mar"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Estrategia de supervivencia**: Domina los brutales diseños de las **semillas difíciles de 100 días en el mar** priorizando primero las defensas tempranas de tu balsa.
+- **Ciclo de recursos**: Engancha materiales con tu **arpón** y procésalos en la **trituradora** antes de navegar hacia islas lejanas.
+- **Prioridad de clases**: Desbloquea la clase **Superviviente** (Survivor) o **Médico** (Medic) para compensar las altas tasas de hambre y daño en las semillas difíciles.
+- **Automatización de compañeros**: Equipa un compañero **Pez espada** (Swordfish) o **Pulpo** (Octopus) para automatizar la recolección de recursos y mejorar el combate a corta distancia.
+</Callout>
+
+<Section icon={Map} title="¿Qué son las semillas difíciles de 100 días en el mar?">
+
+En *100 días en el mar* (100 Days At Sea) de Roblox, el juego genera un diseño de mundo único cuando comienzas una partida de supervivencia. Estos diseños, conocidos como semillas (seeds), dictan las coordenadas de las islas, las ubicaciones de los naufragios, la densidad de recursos y las condiciones generales del océano. Mientras que las semillas estándar ofrecen una curva de aprendizaje más accesible, las **semillas difíciles de 100 días en el mar** presentan un entorno brutal diseñado para poner a prueba a los jugadores experimentados.
+
+En estos diseños difíciles, la Isla del Naufragio (Shipwreck Island) y otros biomas críticos aparecen a miles de studs de distancia de tu balsa inicial. Esta enorme distancia te obliga a sobrevivir con recursos básicos a la deriva durante semanas antes de poder navegar de forma segura hacia el botín de alto nivel. Además, la densidad de recursos se reduce significativamente, lo que significa que la madera a la deriva, los barriles de plástico y la chatarra son escasos. Junto con incursiones nocturnas altamente agresivas y una mayor aparición de tiburones, estas semillas requieren una ejecución perfecta para alcanzar el hito de los 100 días.
+
+<CardGrid cols={3}>
+  <Card title="Semillas fáciles">
+    - **Alta densidad de recursos**
+    - Naufragios cercanos
+    - Noches iniciales accesibles
+  </Card>
+  <Card title="Semillas equilibradas">
+    - **Flujo de recursos estándar**
+    - Distancia moderada entre islas
+    - Escala de enemigos estándar
+  </Card>
+  <Card title="Semillas difíciles">
+    - **Naufragios lejanos**
+    - Chatarra escasa
+    - Incursiones altamente agresivas
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Diseños brutales">
+Las semillas difíciles colocan los cofres de naufragios muy lejos, lo que hace que desbloquear armas al principio sea mucho más difícil.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Configuración de la balsa y prioridades de construcción">
+
+Sobrevivir en una semilla difícil requiere un orden de construcción estricto y optimizado. A diferencia de los mapas fáciles donde puedes concentrarte en la estética de tu base, las semillas difíciles exigen utilidad, defensa y un procesamiento eficiente de recursos. Tus primeros 10 días son una carrera contra el hambre, la sed y las incursiones de piratas fantasma. Debes establecer un flujo constante de agua limpia y comida cocinada mientras aseguras el perímetro de tu balsa.
+
+Para maximizar tus posibilidades, concéntrate en fabricar maquinaria de procesamiento esencial antes de expandir la superficie de tu balsa. Expandirse demasiado pronto hace que la balsa sea increíblemente difícil de defender durante las incursiones nocturnas, ya que los piratas fantasma pueden abordar desde de ángulos desprotegidos. Mantén tu diseño compacto y coloca paredes defensivas alrededor de tus mesas de trabajo.
+
+<Steps>
+  <Step num="1" title="Enganchar recursos">
+    Usa tu arpón para atrapar madera a la deriva, barriles de plástico y chatarra. Evita nadar a toda costa debido a los tiburones agresivos.
+  </Step>
+  <Step num="2" title="Mesa de trabajo y trituradora">
+    Procesa chatarra y madera en bruto para desbloquear planos de fabricación avanzados y mejoras estructurales.
+  </Step>
+  <Step num="3" title="Instalar la olla de cocina">
+    Cocina sopa (chowder) para mantener tus barras de hambre y salud, que se agotan más rápido en las semillas difíciles.
+  </Step>
+  <Step num="4" title="Paredes perimetrales">
+    Construye paredes robustas de madera o hierro alrededor del núcleo de tu balsa para canalizar a los piratas fantasma hacia puntos de estrangulamiento.
+  </Step>
+</Steps>
+
+| Objeto | Coste | Prioridad | Justificación |
+| :--- | :--- | :--- | :--- |
+| **Suelo de balsa** | 2 de madera, 2 de plástico | Alta | Expande el área de trabajo y proporciona espacio para la maquinaria. |
+| **Trituradora** | 5 de chatarra, 3 de madera | Alta | Procesa la chatarra en bruto en materiales de fabricación útiles. |
+| **Olla de cocina** | 4 de chatarra, 2 de madera | Media-Alta | Te permite cocinar sopa, lo cual es crucial para la regeneración de salud. |
+| **Pared de madera** | 3 de madera | Media | Evita que los piratas fantasma aborden y destruyan las estructuras. |
+
+<Callout type="tip" title="Consejo pro">
+Nunca nades para conseguir chatarra en semillas difíciles; los tiburones son extremadamente agresivos y vaciarán tu salud al instante.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Las mejores clases para sobrevivir en semillas difíciles">
+
+Desbloquear la clase adecuada puede cambiar por completo tus probabilidades de supervivencia en semillas desafiantes. Las clases se compran con perlas (Pearls), que puedes ganar completando misiones diarias, saqueando cofres de islas o canjeando códigos promocionales. En semillas fáciles, puedes experimentar con clases centradas en la economía como el Millonario (Millionaire) o el Mercader (Merchant). Sin embargo, en semillas difíciles, debes priorizar clases que ofrezcan sostenibilidad pasiva, regeneración de salud o una alta reducción de daño al principio del juego.
+
+Para los jugadores en solitario, las clases Superviviente (Survivor) y Médico (Medic) tienen un valor inigualable. Proporcionan una red de seguridad que compensa la falta de objetos de curación al principio de la partida. Si juegas en una sala cooperativa, la estrategia más confiable es tener al menos un Espadachín (Swordsman) o Caballero (Knight) para atraer la atención de los enemigos mientras un Médico brinda apoyo desde atrás.
+
+| Clase | Coste en perlas | Herramienta inicial | Mejora principal | Calificación |
+| :--- | :--- | :--- | :--- | :--- |
+| **Superviviente** | 50 perlas | Sopa | Regeneración 10% más rápida y menos hambre | Excelente (5/5) |
+| **Médico** | 60 perlas | Botiquín | Regeneración de salud más rápida | Excelente (4.5/5) |
+| **Espadachín** | 250 perlas | Machete | 50% más de daño cuerpo a cuerpo y +20% de salud | Bueno (4/5) |
+| **Caballero** | 380 perlas | Mandoble | 30% de reducción de daño y +15% de velocidad al correr | Bueno (4/5) |
+| **Incursor** | 750 perlas | Pistolas duales | Munición soltada por enemigos y +15% de velocidad al correr | Moderado (3.5/5) |
+
+<Callout type="success" title="Perlas gratis">
+Canjea el código activo **20Pearls** en la pestaña de Códigos en la esquina superior izquierda para obtener una ventaja al desbloquear tu primera clase.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Los mejores compañeros para semillas difíciles">
+
+Los compañeros son mascotas pasivas que se obtienen comprando cofres con perlas. Proporcionan mejoras de estadísticas cruciales, como mayor velocidad de movimiento, daño cuerpo a cuerpo o recolección automatizada de recursos. En las semillas difíciles, donde la recolección manual consume la mayor parte de tus horas de luz, los compañeros que automatizan tareas son invaluables.
+
+El Pulpo (Octopus) y la Salamandra (Salamander) son las mejores opciones absolutas para las partidas difíciles. El Pulpo trae periódicamente materiales en bruto a tu balsa, lo que te permite concentrarte en la fabricación y la defensa. La Salamandra recoge automáticamente el botín cercano, evitando que los objetos valiosos se alejen flotando mientras estás ocupado luchando contra las incursiones nocturnas.
+
+| Compañero | Cofre de origen | Probabilidad | Habilidad pasiva | Valor de supervivencia |
+| :--- | :--- | :--- | :--- | :--- |
+| **Salamandra** | Cofre de magma | 5% | Recoge y entrega el botín cercano | Excelente |
+| **Pulpo** | Cofre del guerrero | 16% | Trae materiales cada 120 segundos | Excelente |
+| **Pez espada** | Cofre del guerrero | 5% | Aumenta el daño cuerpo a cuerpo en un 10% | Bueno |
+| **Gaviota** | Cofre de pirata | 30% | Busca y trae comida cada 120 segundos | Bueno |
+| **Tortuga** | Cofre de pescador | 25% | Aumenta la salud máxima en un 5% | Aceptable |
+
+<Callout type="info" title="Estrategia de compañeros">
+Equipar al compañero adecuado puede automatizar la recolección de recursos, ahorrándote valiosas horas de luz.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión de islas y rutas de jefes">
+
+Una vez que tu balsa esté estabilizada, debes aventurarte a las islas para recolectar botín de alto nivel, desbloquear armas y derrotar jefes. Las semillas difíciles requieren una planificación cuidadosa de las rutas. Navegar sin rumbo resultará rápidamente en deshidratación o la muerte durante una incursión nocturna. Debes identificar puntos de referencia clave, como la Isla del Naufragio (Shipwreck Island) para obtener armas de cofres tempranas, y preparar tus suministros antes de zarpar.
+
+Asegúrate siempre de tener un camino de regreso despejado hacia tu balsa. Si cae la noche mientras estás lejos, los piratas fantasma aparecerán y desmantelarán tu base. Mantén tus viajes cortos durante los primeros 30 días y solo intenta luchar contra jefes importantes una vez que hayas adquirido un arma a distancia confiable.
+
+<Checklist
+  id="pre-voyage"
+  title="Lista de verificación previa al viaje:"
+  items={[
+    "Cocina al menos 3 tazones de sopa.",
+    "Fabrica un juego completo de paredes de repuesto.",
+    "Equipa un arma cuerpo a cuerpo y un arma de cofre.",
+    "Asegúrate de que tu purificador de agua esté completamente abastecido.",
+    "Verifica que tu hoguera esté al menos en el nivel 3."
+  ]}
+/>
+
+| Región | Nivel de amenaza | Jefe clave | Botín notable | Recompensa de emblema |
+| :--- | :--- | :--- | :--- | :--- |
+| **Mar abierto** | Bajo | Ninguno | Armas de cofre, madera a la deriva | Out At Sea |
+| **Ruta del jefe Calamar** | Alto | Jefe Calamar | Armas de jefe, perlas | Arms of Victory |
+| **Bioma de hielo** | Muy alto | Jefe de hielo | Armas de hielo, pingüinos | King Of The Snow |
+| **Región del volcán** | Extremo | Señor de la lava | Bastón de magma, golems de fuego | Volcano Badges |
+
+<Callout type="warning" title="Advertencia de jefe">
+No intentes enfrentarte al Jefe Calamar ni al Bioma de hielo hasta que la base de tu balsa esté completamente estabilizada con paredes y defensas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<Callout type="tip" title="Verificación de semilla">
+Verifica siempre el diseño de tu semilla dentro de los primeros 10 días; si un naufragio está demasiado lejos, es mejor reiniciar.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Se guarda tu progreso en las semillas difíciles de 100 días en el mar?",
+    answer: "Sí, el progreso en el modo de un solo jugador se guarda automáticamente. Sin embargo, en las partidas multijugador debes mantener tu balsa, ya que el progreso se restablece si tu equipo es eliminado o abandona el servidor."
+  },
+  {
+    question: "¿Cuál es la mejor manera de conseguir perlas en semillas difíciles?",
+    answer: "Completa misiones diarias, abre cofres de naufragios y canjea códigos activos como 20Pearls para acumular perlas rápidamente."
+  },
+  {
+    question: "¿Puedo sobrevivir a las incursiones nocturnas sin paredes en la balsa?",
+    answer: "Es muy poco recomendable. Sin paredes perimetrales, los piratas fantasma y los tiburones abordarán tu balsa y destruirán tus mesas de trabajo."
+  },
+  {
+    question: "¿Qué clase debería desbloquear primero en una partida con semilla difícil?",
+    answer: "La clase Superviviente (Survivor) es la mejor opción para desbloquear primero porque solo cuesta 50 perlas y proporciona reducción pasiva del hambre y regeneración de salud."
+  }
+]} />
+
+</Section>

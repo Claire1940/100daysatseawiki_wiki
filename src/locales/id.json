@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Kode",
+    "guide": "Panduan",
+    "classes": "Kelas",
+    "crafting": "Pembuatan",
+    "revive": "Bangkitkan",
+    "locations": "Lokasi",
+    "seeds": "Benih"
+  }
+}

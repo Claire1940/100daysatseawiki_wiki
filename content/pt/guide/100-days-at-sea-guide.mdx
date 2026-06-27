@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de 100 Dias no Mar: Melhores Classes e Configuração de Sobrevivência",
+  description: "Domine o Roblox 100 Dias no Mar com nosso guia de sobrevivência. Aprenda as melhores classes, lista de companheiros, passos de construção de jangada e estratégias contra chefes.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=100+Days+At+Sea+Guide",
+  date: "2026-06-27",
+  author: "Equipe da Wiki de 100 Dias no Mar"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Sobreviver no Triângulo das Bermudas por 100 dias coletando recursos, construindo uma jangada segura e derrotando chefes.
+- **Códigos Ativos**: Resgate o código **20Pearls** no menu superior esquerdo para obter uma vantagem rápida na progressão da sua classe.
+- **Melhor Classe**: Desbloqueie a classe **Survivor** cedo para se beneficiar da regeneração passiva de vida e da redução na perda de fome.
+- **Companheiro Chave**: Busque a **Salamander** nos Baús de Magma para automatizar a coleta de recursos e acelerar sua construção.
+- **Progressão Segura**: Fortifique sua jangada e melhore o nível da sua fogueira antes de explorar biomas de alta ameaça, como as regiões do Vulcão ou de Gelo.
+</Callout>
+
+<Section icon={Map} title="Guia de 100 Dias no Mar: Ciclo Inicial e Códigos Ativos">
+
+Sobreviver nas águas traiçoeiras do Triângulo das Bermudas em *100 Dias no Mar* do Roblox exige um equilíbrio perfeito entre gerenciamento de recursos, construção estratégica e preparação para o combate. Este **guia de 100 dias no mar** foi projetado para levar você de uma simples tábua de madeira a uma fortaleza flutuante massiva e totalmente fortificada, capaz de derrotar monstros marinhos lendários.
+
+O ciclo básico de jogabilidade gira em torno do uso de seu arpão para fisgar recursos à deriva, expandir sua jangada, cozinhar comida para gerenciar sua fome e se equipar para enfrentar ilhas misteriosas. Para obter uma vantagem imediata, você deve aproveitar os códigos ativos dos desenvolvedores. Esses códigos concedem Pérolas, a moeda premium usada para desbloquear classes poderosas e baús de companheiros.
+
+| Código | Recompensa | Local de Resgate | Status |
+| :--- | :--- | :--- | :--- |
+| **20Pearls** | 20 Pérolas | Menu de Códigos no Jogo (Superior Esquerdo) | **Ativo** |
+
+<Callout type="warning" title="Aviso de Segurança de Resgate">
+Resgate códigos apenas através da interface oficial do usuário dentro do jogo. Nunca use extensões de navegador de terceiros, scripts externos ou sites que peçam sua senha do Roblox para resgatar recompensas.
+</Callout>
+
+Para resgatar suas recompensas, inicie o jogo no Roblox, clique na aba "Codes" localizada no canto superior esquerdo da tela, insira o código ativo exatamente como mostrado e clique em enviar. Economizar essas Pérolas iniciais é fundamental para desbloquear sua primeira classe de sobrevivência.
+
+</Section>
+
+<Section icon={Swords} title="Classificação de Classes: Melhores Equipamentos para Sobrevivência">
+
+As classes em *100 Dias no Mar* funcionam como conjuntos de equipamentos permanentes que você compra usando Pérolas. Cada classe equipa seu personagem com uma ferramenta inicial exclusiva e fornece um bônus passivo permanente. Escolher a classe certa pode redefinir completamente o quão segura, rápida ou pronta para o combate sua jornada de sobrevivência será.
+
+| Classe | Custo em Pérolas | Ferramenta Inicial | Bônus Passivos | Melhor Função |
+| :--- | :--- | :--- | :--- | :--- |
+| **Survivor** | 50 | Chowder | Regeneração 10% mais rápida, oxigênio extra, menos fome | Sobrevivência solo |
+| **Medic** | 60 | Medkit | Regeneração de vida mais rápida | Suporte cooperativo |
+| **Sharpshooter** | 400 | Flintlock | Recarga mais rápida, 50% mais dano de arma | DPS contra Chefes |
+| **Pirate** | 500 | Blunderbuss | Melhor controle do barco, 50% mais dano de arma | Combate à distância |
+| **Raider** | 750 | Dual Pistols | Munição ao eliminar, corrida 15% mais rápida | Invasões a ilhas |
+| **Fire Mage** | 750 | Magma Staff | 50% a mais de Dano Mágico | DPS de fim de jogo |
+
+<CardGrid cols={3}>
+  <Card title="Classe Survivor">
+    - **Custo**: 50 Pérolas
+    - **Ferramenta Inicial**: Chowder
+    - **Principais Bônus**: Regeneração mais rápida, oxigênio extra e redução da fome.
+    - **Veredito**: O melhor custo-benefício para iniciantes e jogadores solo.
+  </Card>
+  <Card title="Classe Medic">
+    - **Custo**: 60 Pérolas
+    - **Ferramenta Inicial**: Medkit
+    - **Principais Bônus**: Regeneração rápida de vida.
+    - **Veredito**: Essencial para jogos em equipe para manter a tripulação curada durante as invasões.
+  </Card>
+  <Card title="Classe Raider">
+    - **Custo**: 750 Pérolas
+    - **Ferramenta Inicial**: Dual Pistols
+    - **Principais Bônus**: Drops de munição a cada 5 eliminações, corrida 15% mais rápida.
+    - **Veredito**: A escolha premium para limpar ilhas de alta ameaça.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Progressão">
+Não se apresse para comprar classes de nível médio. Economize suas Pérolas iniciais de códigos e marcos iniciais para comprar a classe **Survivor** imediatamente. Ela oferece os bônus passivos mais generosos para ajudar você a sobreviver além do Dia 30.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Baús de Companheiros: Melhores Vantagens Passivas">
+
+Os companheiros são aliados valiosos que flutuam ao seu lado, fornecendo utilidades automatizadas ou modificadores de combate. Você pode obter companheiros gastando Pérolas em vários baús. Embora as taxas de drop para os melhores companheiros sejam baixas, garantir um deles reduzirá drasticamente a dificuldade da sua jornada de 100 dias.
+
+| Companheiro | Tipo de Baú | Custo em Pérolas | Chance de Drop | Vantagem Principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Salamander** | Magma Chest | 120 | 5% | Coleta e entrega automaticamente saques próximos |
+| **Magma Golem** | Magma Chest | 120 | 5% | Concede +10% de dano corpo a corpo |
+| **Swordfish** | Warrior / Pirate | 80 / 120 | 5% | Concede +10% de dano corpo a corpo |
+| **Pirate Gunner** | Pirate Chest | 120 | 5% | Concede +10% de dano de arma de fogo |
+| **Octopus** | Warrior Chest | 80 | 16% | Traz materiais aleatórios a cada 120 segundos |
+
+<Callout type="success" title="Destaque de Utilidade S-Tier">
+A **Salamander** é amplamente considerada a melhor companheira de utilidade do jogo. Ao aspirar automaticamente os materiais à deriva, ela permite que você se concentre inteiramente em construir, cozinhar e se defender, sem precisar lançar seu arpão constantemente.
+</Callout>
+
+Se estiver com dificuldades para gerenciar a fome, tentar obter o **Crow** ou a **Seagull** (30% de chance de drop nos baús de Magma e Pirata, respectivamente) é um plano de reserva sólido, pois eles trazem itens de comida periodicamente para você.
+
+</Section>
+
+<Section icon={Shield} title="Construção de Jangada: Construindo a Base Suprema">
+
+Sua jangada é seu único refúgio seguro em mar aberto. Uma jangada mal planejada desmoronará rapidamente durante as invasões noturnas, enquanto uma base bem estruturada fornece a utilidade e a defesa necessárias para sustentar a sobrevivência a longo prazo.
+
+<Steps>
+  <Step num="1" title="Fisgue Recursos à Deriva Primeiro">
+    Antes de mover sua jangada ou explorar, fique na borda e use seu arpão para fisgar madeira, plástico e metal à deriva. Armazene esses materiais essenciais em baús.
+  </Step>
+  <Step num="2" title="Expanda a Fundação Estrategicamente">
+    Expanda sua jangada para uma grade de pelo menos 6x6. Mantenha estruturas vitais como baús, o caldeirão de cozinha e sua cama no centro, longe das bordas externas onde os inimigos atacam.
+  </Step>
+  <Step num="3" title="Melhore Sua Fogueira">
+    A fogueira é o coração da sua jangada. Melhore-a consistentemente do Nível 1 ao Nível 9. Níveis mais altos desbloqueiam estruturas avançadas e mantêm você aquecido em biomas frios.
+  </Step>
+  <Step num="4" title="Configure Estações de Comida e Cura">
+    Crie um caldeirão de cozinha para preparar Chowder. Ter uma área de cozinha dedicada garante que você possa restaurar rapidamente sua fome e vida antes de embarcar em longas viagens.
+  </Step>
+  <Step num="5" title="Fortifique o Perímetro">
+    Instale paredes defensivas ao redor de suas estruturas principais. Crie rotas de combate desobstruídas para que você possa atirar ou golpear os inimigos que atacam sem bloquear seu próprio movimento.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nota de Defesa">
+As invasões noturnas aumentam de dificuldade à medida que os dias avançam. Nunca deixe sua jangada completamente indefesa. Se estiver jogando em um grupo cooperativo, garanta que pelo menos um jogador fique para trás para proteger a base durante as expedições às ilhas.
+</Callout>
+
+<Checklist
+  id="raft-milestones"
+  title="Lista de Verificação de Progressão da Jangada:"
+  items={[
+    "Alcançar o Nível 5 da Fogueira para desbloquear a fabricação de nível médio",
+    "Construir uma sala de armazenamento segura com pelo menos 4 baús",
+    "Criar um caldeirão de cozinha e preparar um estoque de Chowder",
+    "Instalar paredes defensivas no perímetro ao redor da fogueira"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Rotas de Exploração: Biomas e Encontros com Chefes">
+
+Assim que a base da sua jangada estiver estável e você tiver garantido uma classe confiável, poderá começar a traçar rotas para as várias ilhas e biomas espalhados pelo mapa. Derrotar chefes é a única maneira de obter armas de alto nível e concluir conquistas de fim de jogo.
+
+| Nome da Rota | Ameaça Principal | Equipamento Recomendado | Principais Recompensas | Emblema Principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rota do Mar Aberto** | Monstros básicos da ilha | Machete, Classe Survivor | Armas de baú, Saque básico | Magellan |
+| **Rota do Chefe Lula** | Chefe Lula | Flintlock, Classe Medic | Armas de chefe de alto nível | Arms of Victory |
+| **Rota do Vulcão** | Golems de Fogo, Senhor da Lava | Magma Staff, Proteção contra fogo | Armas de magma, Recursos raros | Progressão de Fim de Jogo |
+| **Rota do Bioma de Gelo** | Chefe de Gelo, Perigos de congelamento | Armadura resistente ao frio | Equipamento ártico, Resgate de pinguins | King Of The Snow |
+
+<Callout type="warning" title="Aviso de Perigo de Alta Ameaça">
+Os biomas de Vulcão e Gelo apresentam perigos ambientais (calor extremo e frio congelante) que drenarão rapidamente sua vida. Não tente essas rotas a menos que sua fogueira esteja muito melhorada e você tenha equipamentos de proteção adequados.
+</Callout>
+
+Ao focar no **Chefe Lula**, construa uma plataforma elevada em sua jangada. Isso permite que seus atacantes à distância (como Sharpshooters ou Pirates) atirem com segurança de cima, enquanto os jogadores de combate corpo a corpo lidam com os lacaios menores que surgem durante o confronto.
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+Para encerrar este **guia de 100 dias no mar**, compilamos respostas para as perguntas mais comuns que os jogadores fazem ao tentar sobreviver em mar aberto.
+
+<FAQ items={[
+  {
+    question: "Como resgatar códigos promocionais em 100 Dias no Mar?",
+    answer: "Inicie a experiência no Roblox, localize a aba de Códigos (Codes) no canto superior esquerdo da interface, insira um código ativo como '20Pearls' e clique em enviar para resgatar sua moeda gratuita."
+  },
+  {
+    question: "Qual é a melhor classe absoluta para jogadores solo?",
+    answer: "A classe Survivor é a melhor escolha para jogar solo. Ela é barata (50 Pérolas), dá a você Chowder inicial e apresenta bônus passivos que reduzem a perda de fome e aumentam a regeneração de vida."
+  },
+  {
+    question: "Como protejo minha jangada de ser destruída durante as invasões noturnas?",
+    answer: "Mantenha suas estações de fabricação vitais no centro de sua jangada, construa paredes defensivas ao redor do perímetro e certifique-se de que sua fogueira esteja melhorada para manter os inimigos visíveis durante a noite."
+  },
+  {
+    question: "O que devo fazer se ficar sem munição durante uma luta contra um chefe?",
+    answer: "Mude para uma arma corpo a corpo de alto dano, como a Machete ou Claymore, ou use uma classe como Raider, que dropa munição automaticamente ao derrotar lacaios inimigos."
+  }
+]} />
+
+<Callout type="tip" title="Dica Final de Sobrevivência">
+A paciência é o seu maior trunfo. Não se apresse para lutar contra chefes no Dia 10. Foque na fundação da sua jangada, garanta uma fonte confiável de alimento e só navegue para biomas de alta ameaça quando estiver totalmente equipado e preparado.
+</Callout>
+
+</Section>

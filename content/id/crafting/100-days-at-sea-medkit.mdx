@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Medkit 100 Hari di Laut: Panduan Crafting & Pengaturan Pemulihan",
+  description: "Pelajari cara membuat dan menggunakan Medkit di 100 Hari di Laut Roblox. Temukan sinergi kelas Medic, langkah-langkah menghidupkan kembali, dan tips persiapan raid bos.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Medkit+Survival+Guide",
+  date: "2026-06-27",
+  author: "Tim Wiki 100 Hari di Laut"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Medkit 100 Hari di Laut** adalah item penyembuhan utama yang memulihkan lima puluh persen dari kesehatan maksimum Anda secara instan.
+- **Persyaratan crafting** membutuhkan lima kain (cloth), tiga herbal (herb), dan satu alkohol (alcohol) yang dikumpulkan dari peti pulau dan bangkai kapal.
+- **Kelas Medic** terbuka dengan enam puluh Mutiara (Pearls), memberikan regenerasi kesehatan yang lebih cepat bagi pemain dan memulai permainan dengan medkit gratis.
+- **Mekanisme menghidupkan kembali (revive)** memungkinkan Anda menyelamatkan rekan tim yang tumbang dalam permainan kooperatif, mencegah reset permainan secara instan.
+</Callout>
+
+<Section icon={Map} title="Medkit 100 Hari di Laut: Crafting dan Sumber Daya">
+
+Untuk bertahan hidup di lingkungan Segitiga Bermuda yang keras, mendapatkan **medkit 100 Hari di Laut** adalah prioritas paling penting bagi Anda selama eksplorasi awal maupun pertarungan bos di akhir permainan. Dalam game bertahan hidup Roblox open-world yang dikembangkan oleh Stranded Devs ini, kesehatan tidak beregenerasi secara otomatis dengan cepat kecuali jika Anda sedang beristirahat di rakit yang telah ditingkatkan atau memainkan kelas tertentu. Meskipun luka kecil dapat diobati dengan perban (bandage) biasa, situasi ancaman tinggi seperti raid pulau dan serangan bajak laut hantu membutuhkan solusi medis yang lebih kuat. Medkit standar adalah item andal yang langsung memulihkan lima puluh persen dari kesehatan maksimum Anda, menjadikannya alat yang sangat penting untuk menjaga kelangsungan permainan Anda.
+
+Memahami cara mencari dan membuat pasokan medis ini secara efisien dapat mencegah konsekuensi fatal berupa reset kemajuan Anda kembali ke Hari ke-1. Anda bisa mendapatkan medkit melalui tiga metode utama: crafting manual di meja kerja (workbench) rakit Anda, menjarah peti pasokan tingkat tinggi yang tersebar di pulau-pulau misterius, atau membelinya langsung dari Pedagang Laut (Sea Merchant) yang berkeliling saat kapalnya bersandar di dekat pangkalan Anda.
+
+<CardGrid cols={3}>
+  <Card title="Crafting di Meja Kerja">
+    - **Biaya Sumber Daya**: Membutuhkan 5 Cloth, 3 Herbs, dan 1 Alcohol.
+    - **Praktik Terbaik**: Siapkan peti penyimpanan khusus di rakit Anda hanya untuk bahan-bahan medis.
+    - **Efisiensi**: Buat item ini dalam jumlah banyak sebelum memulai pelayaran panjang ke bioma dengan ancaman tinggi.
+  </Card>
+  <Card title="Menjarah Peti Pulau">
+    - **Lokasi Kunci**: Periksa pos militer, bangkai kapal, dan reruntuhan.
+    - **Praktik Terbaik**: Gunakan harpun Anda untuk menarik diri dengan aman ke peti di tempat tinggi.
+    - **Efisiensi**: Kalahkan penjaga pulau terlebih dahulu sebelum membuka peti untuk menghindari terkena damage saat menjarah.
+  </Card>
+  <Card title="Berdagang dengan Sea Merchant">
+    - **Biaya Mata Uang**: Membutuhkan Koin atau Doubloon.
+    - **Praktik Terbaik**: Prioritaskan membeli medkit daripada item kosmetik atau senjata yang tidak perlu.
+    - **Efisiensi**: Pedagang hanya tinggal selama tepat satu hari, jadi selesaikan transaksi Anda dengan cepat.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Tips Pro: Manajemen Inventaris">
+Selalu simpan setidaknya satu medkit di hotbar Anda, bukan terkubur jauh di dalam tas (good sack) Anda. Saat raid malam yang tak terduga dimulai atau hiu menggigit Anda di tengah aktivitas berenang, penundaan sepersekian detik untuk membuka inventaris dapat mengakhiri permainan Anda yang sebenarnya berjalan sempurna.
+</Callout>
+
+### Perbandingan Item Penyembuhan
+
+Untuk membantu Anda merencanakan alokasi sumber daya, tabel di bawah ini membandingkan opsi penyembuhan utama yang tersedia dalam game. Meskipun chowder dan perban memiliki kegunaannya sendiri, mereka tidak dapat menandingi kapasitas pemulihan instan dari sebuah medkit.
+
+| Item Penyembuhan | Bahan yang Dibutuhkan | HP yang Dipulihkan | Kegunaan Utama | Kelangkaan |
+| :--- | :--- | :--- | :--- | :--- |
+| **Medkit** | 5 Cloth, 3 Herbs, 1 Alcohol | **50% HP** | Pemulihan pertempuran instan / Menghidupkan kembali rekan tim | Langka |
+| **Bandage** | 2 Cloth | **15% HP** | Mengobati kerusakan kecil di antara pertempuran | Umum |
+| **Chowder** | Ikan, Air, Panci Masak | **Regen Lambat** | Manajemen rasa lapar dan pemulihan pasif | Tidak Umum |
+| **Sushi** | Ikan Mentah, Rumput Laut | **10% HP** | Sumber makanan cepat dengan sedikit peningkatan kesehatan | Umum |
+
+</Section>
+
+<Section icon={Shield} title="Kelas Medic dan Sinergi Starter Medkit">
+
+Memilih kelas yang tepat sebelum memulai permainan di 100 Hari di Laut dapat mengubah strategi bertahan hidup Anda secara drastis. Terbuka melalui Mutiara (Pearls)—mata uang premium game yang diperoleh dari misi harian, peti pulau, dan drop bos—kelas memberikan buff pasif permanen dan alat awal yang unik. Bagi pemain yang kesulitan dalam pertempuran atau lebih suka bermain dalam tim kooperatif, **kelas Medic** merupakan salah satu investasi awal paling efisien yang bisa Anda lakukan. 
+
+Dengan biaya yang terjangkau sebesar enam puluh Mutiara, kelas Medic memberi Anda buff pasif permanen yang mempercepat laju regenerasi kesehatan Anda. Yang lebih penting lagi, Anda akan spawn di setiap permainan dengan starter medkit yang sudah dilengkapi di inventaris Anda. Akses langsung ke penyembuhan tingkat tinggi ini meniadakan kebutuhan untuk mencari herbal dan alkohol di Hari ke-1, memungkinkan Anda untuk fokus pada pengumpulan harpun di awal permainan untuk perluasan rakit dan peningkatan api unggun.
+
+<Callout type="success" title="Mengapa Kelas Medic Mendominasi Co-Op">
+Di server multipemain, sangat disarankan untuk memiliki setidaknya satu pemain yang menggunakan kelas Medic. Regenerasi kesehatan yang lebih cepat memungkinkan Medic bertindak sebagai tank lini depan atau penyembuh khusus yang dapat menghidupkan kembali rekan tim dengan aman di bawah tekanan tanpa langsung menghabiskan pasokan hasil crafting yang berharga.
+</Callout>
+
+### Perbandingan Kelas di Awal Permainan
+
+Tabel di bawah ini menguraikan bagaimana perbandingan kelas Medic dengan kelas awal berbiaya rendah lainnya. Meskipun kelas Survivor sangat bagus untuk manajemen rasa lapar solo, utilitas penyembuhan Medic tidak tertandingi untuk permainan yang padat pertempuran.
+
+| Nama Kelas | Biaya Mutiara | Alat Awal | Buff Pasif | Peran Optimal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Medic** | **60 Mutiara** | Medkit | Regenerasi kesehatan lebih cepat | Dukungan Co-op / Pemulihan pertempuran |
+| **Survivor** | **50 Mutiara** | Chowder | Regen 10% lebih cepat, oksigen ekstra, rasa lapar berkurang | Kelangsungan hidup pemula solo |
+| **Crewmate** | **60 Mutiara** | Flintlock | Damage senjata 10% lebih besar | Pertempuran jarak jauh awal |
+| **Sailor** | **40 Mutiara** | Tidak Ada | Kecepatan kapal maksimum lebih cepat dan penanganan lebih baik | Eksplorasi pulau |
+| **Camper** | **70 Mutiara** | Good Sack | +10% kesehatan maksimum | Perluasan inventaris |
+
+Dengan menggunakan kelas Medic, Anda membangun dasar penyembuhan yang andal yang membuat eksplorasi pulau-pulau jauh menjadi jauh lebih aman. Alih-alih menyimpan medkit hasil crafting Anda untuk keadaan darurat kecil, Anda dapat menyimpannya untuk pertemuan bos yang sengit di mana pemulihan kesehatan instan sangat wajib dilakukan.
+
+</Section>
+
+<Section icon={Swords} title="Mekanisme Menghidupkan Kembali dan Strategi Bertahan Hidup Co-op">
+
+Meskipun bermain 100 Hari di Laut secara solo adalah tantangan yang mendebarkan, menghadapi Segitiga Bermuda bersama teman atau kru penuh membuka strategi kooperatif yang mendalam. Namun, permainan multipemain memperkenalkan risiko kritis: ketika kesehatan seorang pemain turun ke nol, mereka tidak langsung respawn. Sebaliknya, mereka memasuki kondisi tumbang (downed), kehabisan darah perlahan sambil menunggu rekan tim untuk menyelamatkan mereka. Untuk menghidupkan kembali rekan tim yang tumbang, Anda harus memiliki medkit atau defibrilator khusus. Tanpa alat medis ini, rekan tim Anda pada akhirnya akan tewas, mereset kemajuan individu mereka dan membuat pangkalan rakit Anda rentan terhadap pasukan penyerang.
+
+Melakukan tindakan menghidupkan kembali yang sukses selama raid malam yang kacau atau pertarungan bos yang berisiko tinggi membutuhkan koordinasi dan waktu yang tepat. Langsung berlari ke arah rekan Anda yang jatuh dan menahan tombol interaksi adalah resep untuk bencana, karena penembak bajak laut hantu dan kepiting pulau akan dengan mudah mengganggu animasi Anda atau mengeliminasi Anda bersama rekan tim Anda.
+
+<Steps>
+  <Step num="1" title="Bersihkan atau Alihkan Perhatian Ancaman Terdekat">
+    Sebelum mencoba menyelamatkan, amankan area sekitar terlebih dahulu. Gunakan blunderbuss atau senjata jarak dekat seperti machete untuk memukul mundur bajak laut hantu yang menyerang. Jika ancaman terlalu besar, minta rekan tim lain untuk mengalihkan perhatian musuh dari pemain yang tumbang.
+  </Step>
+  <Step num="2" title="Lengkapi Medkit di Hotbar">
+    Pilih medkit dari inventaris Anda dan tempatkan ke dalam slot hotbar yang aktif. Pastikan karakter Anda sedang memegang item tersebut agar perintah interaksi muncul dengan benar saat Anda mendekati rekan yang jatuh.
+  </Step>
+  <Step num="3" title="Mulai Interaksi Menghidupkan Kembali">
+    Dekati rekan tim Anda yang tumbang dan tahan tombol interaksi untuk mulai memberikan bantuan medis. Jika Anda memainkan kelas Medic, waktu jeda menghidupkan kembali ini berkurang secara signifikan, meminimalkan celah kerentanan Anda.
+  </Step>
+  <Step num="4" title="Berikan Perlindungan dan Makanan Segera">
+    Setelah hidup kembali, rekan tim Anda akan berdiri dengan kesehatan yang rendah dan bar kelaparan yang kosong. Segera jatuhkan seporsi chowder matang atau sushi untuk membantu mereka memulihkan statistik pasif mereka saat mereka mundur ke area aman di atas rakit.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Bahaya Kegagalan Menghidupkan Kembali di Mode Solo">
+Dalam permainan solo, mekanisme menghidupkan kembali sama sekali tidak tersedia. Jika kesehatan Anda turun ke nol, permainan Anda akan segera berakhir kecuali jika Anda memiliki item hidup kembali mandiri (self-revive) yang langka. Oleh karena itu, pemain solo harus memprioritaskan struktur rakit pertahanan dan mempertahankan persediaan medkit yang besar untuk mencegah agar tidak pernah mencapai ambang batas kesehatan kritis.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Raid Pulau Tingkat Lanjut dan Persiapan Bos">
+
+Seiring pangkalan rakit Anda stabil dan Anda melewati tiga puluh hari pertama, siklus bertahan hidup dasar seperti menombak kayu hanyut dan menangkap ikan tidak lagi cukup. Untuk mengungkap misteri Segitiga Bermuda dan menyelesaikan game ini, Anda harus menjelajahi bioma dengan ancaman tinggi dan mengalahkan bos regional yang kuat. Area akhir permainan ini, seperti Wilayah Gunung Berapi (Volcano Region) dan Bioma Es (Ice Biome) yang membeku, menampilkan bahaya lingkungan yang ekstrem dan mob musuh agresif yang dapat menguras bar kesehatan Anda dalam hitungan detik. Memasuki zona-zona ini tanpa rencana persiapan medis yang kuat adalah cara yang dijamin akan menghilangkan kemajuan yang telah Anda perjuangkan dengan susah payah.
+
+Saat bersiap untuk ekspedisi besar, inventaris Anda harus diatur dengan cermat. Anda harus menyeimbangkan kekuatan serangan, armor pertahanan, perlindungan lingkungan, dan pasokan item penyembuhan yang melimpah. Aturan umum standar untuk raid akhir permainan adalah membawa setidaknya tiga hingga lima medkit hasil crafting per pemain, memastikan Anda dapat menyembuhkan diri dari damage berkelanjutan selama pertempuran bos.
+
+<Checklist
+  id="boss-raid-prep"
+  title="Daftar Periksa Penting Raid Bos:"
+  items={[
+    "Gunakan satu set Iron Armor untuk mengurangi damage fisik yang masuk [2.3.1].",
+    "Sediakan setidaknya 5 Medkit hasil crafting di inventaris utama Anda.",
+    "Siapkan senjata jarak jauh dengan damage tinggi seperti Flintlock atau Blunderbuss.",
+    "Masak dan bawa setidaknya 3 mangkuk Chowder hangat untuk regenerasi kesehatan pasif.",
+    "Bawa kunci pas perbaikan (repair wrench) untuk memperbaiki kerusakan rakit yang dialami selama perjalanan."
+  ]}
+/>
+
+<Callout type="info" title="Bahaya Lingkungan vs Medkit">
+Bahaya lingkungan seperti lava di Wilayah Gunung Berapi atau dingin ekstrem di Bioma Es memberikan efek damage-over-time (kerusakan seiring waktu) yang terus-menerus. Meskipun makanan hangat dan armor pertahanan memitigasi ancaman ini, pastikan medkit selalu siap untuk langsung menangkal lonjakan kerusakan lingkungan yang tiba-tiba saat menavigasi medan yang sulit.
+</Callout>
+
+### Persiapan Bioma Ancaman Tinggi
+
+Tabel di bawah ini memberikan tinjauan strategis tentang bioma dengan ancaman tinggi di 100 Hari di Laut, menyoroti pasokan medis yang direkomendasikan dan bahaya utama yang akan Anda hadapi di setiap wilayah.
+
+| Nama Bioma | Medkit yang Direkomendasikan | Bahaya Utama | Bos Lokal / Hadiah Bos | Strategi Kunci |
+| :--- | :--- | :--- | :--- | :--- |
+| **Volcano Region** | **5+ Medkit** | Kolam lava / Golem Api | Lord of Lava / Magma Staff | Tetap di tempat tinggi; gunakan senjata jarak jauh |
+| **Ice Biome** | **4+ Medkit** | Suhu membeku | King of the Snow / Penguin Rescue | Konsumsi chowder hangat; jaga api unggun tetap aktif |
+| **Kraken Zone** | **3+ Medkit** | Serangan tentakel ber-damage tinggi | The Kraken / Gilded Chests | Prioritaskan perbaikan rakit; hindari indikator merah |
+| **Shipwreck Island** | **2+ Medkit** | Penembak bajak laut hantu | Ghost Galleon / Galleon Bell | Gunakan dinding struktural untuk berlindung selama pertempuran |
+
+Dengan menyelaraskan persiapan medis Anda dengan tantangan spesifik dari setiap bioma, Anda dapat dengan percaya diri menghadapi musuh yang menakutkan dan mengamankan pencapaian langka seperti Arms of Victory atau Arctic Rescue.
+
+</Section>
+
+<Section icon={Sparkles} title="Pertanyaan yang Sering Diajukan">
+
+Menavigasi perairan dalam di 100 Hari di Laut bisa jadi menakutkan bagi pemain baru maupun berpengalaman. Untuk membantu Anda menguasai pengaturan penyembuhan dan mengoptimalkan permainan bertahan hidup Anda, kami telah menyusun jawaban untuk pertanyaan paling umum mengenai pasokan medis, resep crafting, dan pilihan kelas.
+
+<Callout type="success" title="Tetap Terperbarui dengan Stranded Devs">
+Karena game ini sering menerima pembaruan dari Stranded Devs, resep crafting, biaya kelas, dan tingkat drop item dapat berubah. Selalu pantau halaman game Roblox resmi dan grup pengembang untuk catatan rilis dan perubahan keseimbangan terbaru.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Bagaimana cara membuat medkit 100 Hari di Laut?",
+    answer: "Anda dapat membuat medkit di meja kerja rakit Anda dengan menggabungkan 5 Cloth, 3 Herbs, dan 1 Alcohol. Bahan mentah ini dapat dikumpulkan dari peti pulau, tong terapung, atau dibeli dari Sea Merchant yang berkeliling."
+  },
+  {
+    question: "Apakah kelas Medic memulai permainan dengan medkit gratis?",
+    answer: "Ya, kelas Medic (yang membutuhkan 60 Mutiara untuk dibuka) memulai setiap permainan dengan medkit gratis di inventaris mereka, bersama dengan buff pasif yang meningkatkan kecepatan regenerasi kesehatan Anda."
+  },
+  {
+    question: "Bisakah saya menggunakan medkit untuk menghidupkan diri sendiri dalam mode solo?",
+    answer: "Tidak, medkit digunakan untuk menghidupkan kembali rekan tim yang tumbang di server multipemain. Dalam mode solo, jika kesehatan Anda turun ke nol, permainan akan segera direset kecuali jika Anda memiliki item hidup kembali mandiri (self-revive) yang langka."
+  },
+  {
+    question: "Apa perbedaan antara bandage (perban) dan medkit?",
+    answer: "Bandage adalah item penyembuhan awal permainan yang murah yang hanya membutuhkan 2 Cloth dan memulihkan 15% kesehatan Anda. Medkit adalah item medis tingkat tinggi yang memulihkan 50% kesehatan Anda secara instan dan diperlukan untuk menghidupkan kembali sekutu yang jatuh."
+  }
+]} />
+
+</Section>

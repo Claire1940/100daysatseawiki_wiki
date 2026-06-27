@@ -1,1 +1,706 @@
-{}
+{
+  "en": {
+    "classes": [
+      {
+        "slug": "100-days-at-sea-best-class",
+        "file": "100-days-at-sea-best-class"
+      },
+      {
+        "slug": "100-days-at-sea-chef-class",
+        "file": "100-days-at-sea-chef-class"
+      },
+      {
+        "slug": "100-days-at-sea-class-tier-list",
+        "file": "100-days-at-sea-class-tier-list"
+      },
+      {
+        "slug": "100-days-at-sea-classes",
+        "file": "100-days-at-sea-classes"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "100-days-at-sea-codes",
+        "file": "100-days-at-sea-codes"
+      }
+    ],
+    "crafting": [
+      {
+        "slug": "100-days-at-sea-container-shelter",
+        "file": "100-days-at-sea-container-shelter"
+      },
+      {
+        "slug": "100-days-at-sea-crab-trap",
+        "file": "100-days-at-sea-crab-trap"
+      },
+      {
+        "slug": "100-days-at-sea-fish-filet",
+        "file": "100-days-at-sea-fish-filet"
+      },
+      {
+        "slug": "100-days-at-sea-fish-sandwich",
+        "file": "100-days-at-sea-fish-sandwich"
+      },
+      {
+        "slug": "100-days-at-sea-makeshift-building",
+        "file": "100-days-at-sea-makeshift-building"
+      },
+      {
+        "slug": "100-days-at-sea-medkit",
+        "file": "100-days-at-sea-medkit"
+      },
+      {
+        "slug": "100-days-at-sea-outpost",
+        "file": "100-days-at-sea-outpost"
+      },
+      {
+        "slug": "100-days-at-sea-raft",
+        "file": "100-days-at-sea-raft"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "100-days-at-sea-beginner-tips",
+        "file": "100-days-at-sea-beginner-tips"
+      },
+      {
+        "slug": "100-days-at-sea-ending",
+        "file": "100-days-at-sea-ending"
+      },
+      {
+        "slug": "100-days-at-sea-full-gameplay",
+        "file": "100-days-at-sea-full-gameplay"
+      },
+      {
+        "slug": "100-days-at-sea-guide",
+        "file": "100-days-at-sea-guide"
+      },
+      {
+        "slug": "100-days-at-sea-how-long-does-it-take",
+        "file": "100-days-at-sea-how-long-does-it-take"
+      },
+      {
+        "slug": "100-days-at-sea-objective",
+        "file": "100-days-at-sea-objective"
+      },
+      {
+        "slug": "100-days-at-sea-solo",
+        "file": "100-days-at-sea-solo"
+      },
+      {
+        "slug": "100-days-at-sea-walkthrough",
+        "file": "100-days-at-sea-walkthrough"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "100-days-at-sea-cargo-ship",
+        "file": "100-days-at-sea-cargo-ship"
+      },
+      {
+        "slug": "100-days-at-sea-crewmate-yacht",
+        "file": "100-days-at-sea-crewmate-yacht"
+      },
+      {
+        "slug": "100-days-at-sea-cruise-ship",
+        "file": "100-days-at-sea-cruise-ship"
+      },
+      {
+        "slug": "100-days-at-sea-dinghy-fuel",
+        "file": "100-days-at-sea-dinghy-fuel"
+      },
+      {
+        "slug": "100-days-at-sea-ghost-ship",
+        "file": "100-days-at-sea-ghost-ship"
+      },
+      {
+        "slug": "100-days-at-sea-oil-rig",
+        "file": "100-days-at-sea-oil-rig"
+      },
+      {
+        "slug": "100-days-at-sea-red-key",
+        "file": "100-days-at-sea-red-key"
+      },
+      {
+        "slug": "100-days-at-sea-volcano",
+        "file": "100-days-at-sea-volcano"
+      }
+    ],
+    "revive": [
+      {
+        "slug": "100-days-at-sea-defibrillator",
+        "file": "100-days-at-sea-defibrillator"
+      },
+      {
+        "slug": "100-days-at-sea-how-to-save-the-sailor",
+        "file": "100-days-at-sea-how-to-save-the-sailor"
+      },
+      {
+        "slug": "100-days-at-sea-multiplayer-revive",
+        "file": "100-days-at-sea-multiplayer-revive"
+      },
+      {
+        "slug": "100-days-at-sea-revive",
+        "file": "100-days-at-sea-revive"
+      },
+      {
+        "slug": "100-days-at-sea-survivors",
+        "file": "100-days-at-sea-survivors"
+      }
+    ],
+    "seeds": [
+      {
+        "slug": "100-days-at-sea-best-seed",
+        "file": "100-days-at-sea-best-seed"
+      },
+      {
+        "slug": "100-days-at-sea-custom-seed",
+        "file": "100-days-at-sea-custom-seed"
+      },
+      {
+        "slug": "100-days-at-sea-hard-seeds",
+        "file": "100-days-at-sea-hard-seeds"
+      },
+      {
+        "slug": "100-days-at-sea-ice-seed",
+        "file": "100-days-at-sea-ice-seed"
+      },
+      {
+        "slug": "100-days-at-sea-map-seed",
+        "file": "100-days-at-sea-map-seed"
+      },
+      {
+        "slug": "100-days-at-sea-seeds",
+        "file": "100-days-at-sea-seeds"
+      }
+    ]
+  },
+  "es": {
+    "classes": [
+      {
+        "slug": "100-days-at-sea-best-class",
+        "file": "100-days-at-sea-best-class"
+      },
+      {
+        "slug": "100-days-at-sea-chef-class",
+        "file": "100-days-at-sea-chef-class"
+      },
+      {
+        "slug": "100-days-at-sea-class-tier-list",
+        "file": "100-days-at-sea-class-tier-list"
+      },
+      {
+        "slug": "100-days-at-sea-classes",
+        "file": "100-days-at-sea-classes"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "100-days-at-sea-codes",
+        "file": "100-days-at-sea-codes"
+      }
+    ],
+    "crafting": [
+      {
+        "slug": "100-days-at-sea-container-shelter",
+        "file": "100-days-at-sea-container-shelter"
+      },
+      {
+        "slug": "100-days-at-sea-crab-trap",
+        "file": "100-days-at-sea-crab-trap"
+      },
+      {
+        "slug": "100-days-at-sea-fish-filet",
+        "file": "100-days-at-sea-fish-filet"
+      },
+      {
+        "slug": "100-days-at-sea-fish-sandwich",
+        "file": "100-days-at-sea-fish-sandwich"
+      },
+      {
+        "slug": "100-days-at-sea-makeshift-building",
+        "file": "100-days-at-sea-makeshift-building"
+      },
+      {
+        "slug": "100-days-at-sea-medkit",
+        "file": "100-days-at-sea-medkit"
+      },
+      {
+        "slug": "100-days-at-sea-outpost",
+        "file": "100-days-at-sea-outpost"
+      },
+      {
+        "slug": "100-days-at-sea-raft",
+        "file": "100-days-at-sea-raft"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "100-days-at-sea-beginner-tips",
+        "file": "100-days-at-sea-beginner-tips"
+      },
+      {
+        "slug": "100-days-at-sea-ending",
+        "file": "100-days-at-sea-ending"
+      },
+      {
+        "slug": "100-days-at-sea-full-gameplay",
+        "file": "100-days-at-sea-full-gameplay"
+      },
+      {
+        "slug": "100-days-at-sea-guide",
+        "file": "100-days-at-sea-guide"
+      },
+      {
+        "slug": "100-days-at-sea-how-long-does-it-take",
+        "file": "100-days-at-sea-how-long-does-it-take"
+      },
+      {
+        "slug": "100-days-at-sea-objective",
+        "file": "100-days-at-sea-objective"
+      },
+      {
+        "slug": "100-days-at-sea-solo",
+        "file": "100-days-at-sea-solo"
+      },
+      {
+        "slug": "100-days-at-sea-walkthrough",
+        "file": "100-days-at-sea-walkthrough"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "100-days-at-sea-cargo-ship",
+        "file": "100-days-at-sea-cargo-ship"
+      },
+      {
+        "slug": "100-days-at-sea-crewmate-yacht",
+        "file": "100-days-at-sea-crewmate-yacht"
+      },
+      {
+        "slug": "100-days-at-sea-cruise-ship",
+        "file": "100-days-at-sea-cruise-ship"
+      },
+      {
+        "slug": "100-days-at-sea-dinghy-fuel",
+        "file": "100-days-at-sea-dinghy-fuel"
+      },
+      {
+        "slug": "100-days-at-sea-ghost-ship",
+        "file": "100-days-at-sea-ghost-ship"
+      },
+      {
+        "slug": "100-days-at-sea-oil-rig",
+        "file": "100-days-at-sea-oil-rig"
+      },
+      {
+        "slug": "100-days-at-sea-red-key",
+        "file": "100-days-at-sea-red-key"
+      },
+      {
+        "slug": "100-days-at-sea-volcano",
+        "file": "100-days-at-sea-volcano"
+      }
+    ],
+    "revive": [
+      {
+        "slug": "100-days-at-sea-defibrillator",
+        "file": "100-days-at-sea-defibrillator"
+      },
+      {
+        "slug": "100-days-at-sea-how-to-save-the-sailor",
+        "file": "100-days-at-sea-how-to-save-the-sailor"
+      },
+      {
+        "slug": "100-days-at-sea-multiplayer-revive",
+        "file": "100-days-at-sea-multiplayer-revive"
+      },
+      {
+        "slug": "100-days-at-sea-revive",
+        "file": "100-days-at-sea-revive"
+      },
+      {
+        "slug": "100-days-at-sea-survivors",
+        "file": "100-days-at-sea-survivors"
+      }
+    ],
+    "seeds": [
+      {
+        "slug": "100-days-at-sea-best-seed",
+        "file": "100-days-at-sea-best-seed"
+      },
+      {
+        "slug": "100-days-at-sea-custom-seed",
+        "file": "100-days-at-sea-custom-seed"
+      },
+      {
+        "slug": "100-days-at-sea-hard-seeds",
+        "file": "100-days-at-sea-hard-seeds"
+      },
+      {
+        "slug": "100-days-at-sea-ice-seed",
+        "file": "100-days-at-sea-ice-seed"
+      },
+      {
+        "slug": "100-days-at-sea-map-seed",
+        "file": "100-days-at-sea-map-seed"
+      },
+      {
+        "slug": "100-days-at-sea-seeds",
+        "file": "100-days-at-sea-seeds"
+      }
+    ]
+  },
+  "id": {
+    "classes": [
+      {
+        "slug": "100-days-at-sea-best-class",
+        "file": "100-days-at-sea-best-class"
+      },
+      {
+        "slug": "100-days-at-sea-chef-class",
+        "file": "100-days-at-sea-chef-class"
+      },
+      {
+        "slug": "100-days-at-sea-class-tier-list",
+        "file": "100-days-at-sea-class-tier-list"
+      },
+      {
+        "slug": "100-days-at-sea-classes",
+        "file": "100-days-at-sea-classes"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "100-days-at-sea-codes",
+        "file": "100-days-at-sea-codes"
+      }
+    ],
+    "crafting": [
+      {
+        "slug": "100-days-at-sea-container-shelter",
+        "file": "100-days-at-sea-container-shelter"
+      },
+      {
+        "slug": "100-days-at-sea-crab-trap",
+        "file": "100-days-at-sea-crab-trap"
+      },
+      {
+        "slug": "100-days-at-sea-fish-filet",
+        "file": "100-days-at-sea-fish-filet"
+      },
+      {
+        "slug": "100-days-at-sea-fish-sandwich",
+        "file": "100-days-at-sea-fish-sandwich"
+      },
+      {
+        "slug": "100-days-at-sea-makeshift-building",
+        "file": "100-days-at-sea-makeshift-building"
+      },
+      {
+        "slug": "100-days-at-sea-medkit",
+        "file": "100-days-at-sea-medkit"
+      },
+      {
+        "slug": "100-days-at-sea-outpost",
+        "file": "100-days-at-sea-outpost"
+      },
+      {
+        "slug": "100-days-at-sea-raft",
+        "file": "100-days-at-sea-raft"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "100-days-at-sea-beginner-tips",
+        "file": "100-days-at-sea-beginner-tips"
+      },
+      {
+        "slug": "100-days-at-sea-ending",
+        "file": "100-days-at-sea-ending"
+      },
+      {
+        "slug": "100-days-at-sea-full-gameplay",
+        "file": "100-days-at-sea-full-gameplay"
+      },
+      {
+        "slug": "100-days-at-sea-guide",
+        "file": "100-days-at-sea-guide"
+      },
+      {
+        "slug": "100-days-at-sea-how-long-does-it-take",
+        "file": "100-days-at-sea-how-long-does-it-take"
+      },
+      {
+        "slug": "100-days-at-sea-objective",
+        "file": "100-days-at-sea-objective"
+      },
+      {
+        "slug": "100-days-at-sea-solo",
+        "file": "100-days-at-sea-solo"
+      },
+      {
+        "slug": "100-days-at-sea-walkthrough",
+        "file": "100-days-at-sea-walkthrough"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "100-days-at-sea-cargo-ship",
+        "file": "100-days-at-sea-cargo-ship"
+      },
+      {
+        "slug": "100-days-at-sea-crewmate-yacht",
+        "file": "100-days-at-sea-crewmate-yacht"
+      },
+      {
+        "slug": "100-days-at-sea-cruise-ship",
+        "file": "100-days-at-sea-cruise-ship"
+      },
+      {
+        "slug": "100-days-at-sea-dinghy-fuel",
+        "file": "100-days-at-sea-dinghy-fuel"
+      },
+      {
+        "slug": "100-days-at-sea-ghost-ship",
+        "file": "100-days-at-sea-ghost-ship"
+      },
+      {
+        "slug": "100-days-at-sea-oil-rig",
+        "file": "100-days-at-sea-oil-rig"
+      },
+      {
+        "slug": "100-days-at-sea-red-key",
+        "file": "100-days-at-sea-red-key"
+      },
+      {
+        "slug": "100-days-at-sea-volcano",
+        "file": "100-days-at-sea-volcano"
+      }
+    ],
+    "revive": [
+      {
+        "slug": "100-days-at-sea-defibrillator",
+        "file": "100-days-at-sea-defibrillator"
+      },
+      {
+        "slug": "100-days-at-sea-how-to-save-the-sailor",
+        "file": "100-days-at-sea-how-to-save-the-sailor"
+      },
+      {
+        "slug": "100-days-at-sea-multiplayer-revive",
+        "file": "100-days-at-sea-multiplayer-revive"
+      },
+      {
+        "slug": "100-days-at-sea-revive",
+        "file": "100-days-at-sea-revive"
+      },
+      {
+        "slug": "100-days-at-sea-survivors",
+        "file": "100-days-at-sea-survivors"
+      }
+    ],
+    "seeds": [
+      {
+        "slug": "100-days-at-sea-best-seed",
+        "file": "100-days-at-sea-best-seed"
+      },
+      {
+        "slug": "100-days-at-sea-custom-seed",
+        "file": "100-days-at-sea-custom-seed"
+      },
+      {
+        "slug": "100-days-at-sea-hard-seeds",
+        "file": "100-days-at-sea-hard-seeds"
+      },
+      {
+        "slug": "100-days-at-sea-ice-seed",
+        "file": "100-days-at-sea-ice-seed"
+      },
+      {
+        "slug": "100-days-at-sea-map-seed",
+        "file": "100-days-at-sea-map-seed"
+      },
+      {
+        "slug": "100-days-at-sea-seeds",
+        "file": "100-days-at-sea-seeds"
+      }
+    ]
+  },
+  "pt": {
+    "classes": [
+      {
+        "slug": "100-days-at-sea-best-class",
+        "file": "100-days-at-sea-best-class"
+      },
+      {
+        "slug": "100-days-at-sea-chef-class",
+        "file": "100-days-at-sea-chef-class"
+      },
+      {
+        "slug": "100-days-at-sea-class-tier-list",
+        "file": "100-days-at-sea-class-tier-list"
+      },
+      {
+        "slug": "100-days-at-sea-classes",
+        "file": "100-days-at-sea-classes"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "100-days-at-sea-codes",
+        "file": "100-days-at-sea-codes"
+      }
+    ],
+    "crafting": [
+      {
+        "slug": "100-days-at-sea-container-shelter",
+        "file": "100-days-at-sea-container-shelter"
+      },
+      {
+        "slug": "100-days-at-sea-crab-trap",
+        "file": "100-days-at-sea-crab-trap"
+      },
+      {
+        "slug": "100-days-at-sea-fish-filet",
+        "file": "100-days-at-sea-fish-filet"
+      },
+      {
+        "slug": "100-days-at-sea-fish-sandwich",
+        "file": "100-days-at-sea-fish-sandwich"
+      },
+      {
+        "slug": "100-days-at-sea-makeshift-building",
+        "file": "100-days-at-sea-makeshift-building"
+      },
+      {
+        "slug": "100-days-at-sea-medkit",
+        "file": "100-days-at-sea-medkit"
+      },
+      {
+        "slug": "100-days-at-sea-outpost",
+        "file": "100-days-at-sea-outpost"
+      },
+      {
+        "slug": "100-days-at-sea-raft",
+        "file": "100-days-at-sea-raft"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "100-days-at-sea-beginner-tips",
+        "file": "100-days-at-sea-beginner-tips"
+      },
+      {
+        "slug": "100-days-at-sea-ending",
+        "file": "100-days-at-sea-ending"
+      },
+      {
+        "slug": "100-days-at-sea-full-gameplay",
+        "file": "100-days-at-sea-full-gameplay"
+      },
+      {
+        "slug": "100-days-at-sea-guide",
+        "file": "100-days-at-sea-guide"
+      },
+      {
+        "slug": "100-days-at-sea-how-long-does-it-take",
+        "file": "100-days-at-sea-how-long-does-it-take"
+      },
+      {
+        "slug": "100-days-at-sea-objective",
+        "file": "100-days-at-sea-objective"
+      },
+      {
+        "slug": "100-days-at-sea-solo",
+        "file": "100-days-at-sea-solo"
+      },
+      {
+        "slug": "100-days-at-sea-walkthrough",
+        "file": "100-days-at-sea-walkthrough"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "100-days-at-sea-cargo-ship",
+        "file": "100-days-at-sea-cargo-ship"
+      },
+      {
+        "slug": "100-days-at-sea-crewmate-yacht",
+        "file": "100-days-at-sea-crewmate-yacht"
+      },
+      {
+        "slug": "100-days-at-sea-cruise-ship",
+        "file": "100-days-at-sea-cruise-ship"
+      },
+      {
+        "slug": "100-days-at-sea-dinghy-fuel",
+        "file": "100-days-at-sea-dinghy-fuel"
+      },
+      {
+        "slug": "100-days-at-sea-ghost-ship",
+        "file": "100-days-at-sea-ghost-ship"
+      },
+      {
+        "slug": "100-days-at-sea-oil-rig",
+        "file": "100-days-at-sea-oil-rig"
+      },
+      {
+        "slug": "100-days-at-sea-red-key",
+        "file": "100-days-at-sea-red-key"
+      },
+      {
+        "slug": "100-days-at-sea-volcano",
+        "file": "100-days-at-sea-volcano"
+      }
+    ],
+    "revive": [
+      {
+        "slug": "100-days-at-sea-defibrillator",
+        "file": "100-days-at-sea-defibrillator"
+      },
+      {
+        "slug": "100-days-at-sea-how-to-save-the-sailor",
+        "file": "100-days-at-sea-how-to-save-the-sailor"
+      },
+      {
+        "slug": "100-days-at-sea-multiplayer-revive",
+        "file": "100-days-at-sea-multiplayer-revive"
+      },
+      {
+        "slug": "100-days-at-sea-revive",
+        "file": "100-days-at-sea-revive"
+      },
+      {
+        "slug": "100-days-at-sea-survivors",
+        "file": "100-days-at-sea-survivors"
+      }
+    ],
+    "seeds": [
+      {
+        "slug": "100-days-at-sea-best-seed",
+        "file": "100-days-at-sea-best-seed"
+      },
+      {
+        "slug": "100-days-at-sea-custom-seed",
+        "file": "100-days-at-sea-custom-seed"
+      },
+      {
+        "slug": "100-days-at-sea-hard-seeds",
+        "file": "100-days-at-sea-hard-seeds"
+      },
+      {
+        "slug": "100-days-at-sea-ice-seed",
+        "file": "100-days-at-sea-ice-seed"
+      },
+      {
+        "slug": "100-days-at-sea-map-seed",
+        "file": "100-days-at-sea-map-seed"
+      },
+      {
+        "slug": "100-days-at-sea-seeds",
+        "file": "100-days-at-sea-seeds"
+      }
+    ]
+  }
+}
