@@ -2,11 +2,15 @@
 
 import { Suspense, lazy } from "react";
 import {
+  Anchor,
   ArrowRight,
   BookOpen,
+  CalendarClock,
   Check,
   Compass,
   Gift,
+  Hammer,
+  Medal,
   PawPrint,
   Search,
   Shield,
@@ -249,7 +253,7 @@ export default function HomePageClient({
         </div>
       </section>
 
-      {/* Tools Grid - 模块导航区（4 张卡片，位于视频区之后、Latest Updates 之前） */}
+      {/* Tools Grid - 模块导航区（8 张卡片，位于视频区之后、Latest Updates 之前） */}
       <section className="px-4 py-14 md:py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
@@ -264,12 +268,16 @@ export default function HomePageClient({
             </p>
           </div>
 
-          <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-4">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-4 md:gap-4">
             {[
               { href: "#codes", card: t.tools.cards[0], delay: 0 },
-              { href: "#beginner-guide", card: t.tools.cards[1], delay: 50 },
-              { href: "#classes-tier-list", card: t.tools.cards[2], delay: 100 },
-              { href: "#companions-tier-list", card: t.tools.cards[3], delay: 150 },
+              { href: "#beginner-guide", card: t.tools.cards[1], delay: 40 },
+              { href: "#classes-tier-list", card: t.tools.cards[2], delay: 80 },
+              { href: "#companions-tier-list", card: t.tools.cards[3], delay: 120 },
+              { href: "#badges-and-achievements", card: t.tools.cards[4], delay: 160 },
+              { href: "#islands-bosses-and-weapons", card: t.tools.cards[5], delay: 200 },
+              { href: "#raft-base-building-guide", card: t.tools.cards[6], delay: 240 },
+              { href: "#updates-and-patch-tracker", card: t.tools.cards[7], delay: 280 },
             ].map((entry) => (
               <a
                 key={entry.href}
@@ -658,6 +666,282 @@ export default function HomePageClient({
           className="md:hidden"
         />
       )}
+
+      {/* Module 5: Badges and Achievements */}
+      <section
+        id="badges-and-achievements"
+        className="scroll-mt-24 px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-3 md:mb-4 text-xs md:text-sm font-medium bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+              <Medal className="w-4 h-4" />
+              {t.modules.badgesAndAchievements.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.badgesAndAchievements.title}
+            </h2>
+            <p className="text-base md:text-lg text-[hsl(var(--nav-theme-light))] font-medium max-w-3xl mx-auto mb-3">
+              {t.modules.badgesAndAchievements.subtitle}
+            </p>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.badgesAndAchievements.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal overflow-x-auto rounded-2xl border border-border bg-white/[0.02]">
+            <table className="w-full min-w-[680px] text-left text-sm">
+              <thead className="bg-[hsl(var(--nav-theme)/0.12)] text-[hsl(var(--nav-theme-light))]">
+                <tr>
+                  <th className="px-4 py-3 font-semibold">Badge</th>
+                  <th className="px-4 py-3 font-semibold">Category</th>
+                  <th className="px-4 py-3 font-semibold">How to Unlock</th>
+                  <th className="px-4 py-3 font-semibold">Stage</th>
+                  <th className="px-4 py-3 font-semibold">Win Rate</th>
+                  <th className="px-4 py-3 font-semibold text-right">Awarded</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.badgesAndAchievements.items.map((item: any, i: number) => (
+                  <tr
+                    key={i}
+                    className="border-t border-border hover:bg-[hsl(var(--nav-theme)/0.05)] transition-colors"
+                  >
+                    <td className="px-4 py-3 font-semibold text-[hsl(var(--nav-theme-light))]">
+                      {item.badge}
+                    </td>
+                    <td className="px-4 py-3 text-muted-foreground">{item.category}</td>
+                    <td className="px-4 py-3 text-muted-foreground">{item.unlock}</td>
+                    <td className="px-4 py-3">
+                      <span className="inline-flex items-center rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.08)] px-2 py-0.5 text-xs font-medium text-[hsl(var(--nav-theme-light))]">
+                        {item.stage}
+                      </span>
+                    </td>
+                    <td className="px-4 py-3 font-medium">{item.winRate}</td>
+                    <td className="px-4 py-3 text-right font-medium text-muted-foreground">
+                      {item.awarded}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 8 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-728x90"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90}
+        className="hidden md:flex"
+      />
+
+      {/* Module 6: Islands, Bosses, and Weapons */}
+      <section
+        id="islands-bosses-and-weapons"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-3 md:mb-4 text-xs md:text-sm font-medium bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+              <Anchor className="w-4 h-4" />
+              {t.modules.islandsBossesAndWeapons.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.islandsBossesAndWeapons.title}
+            </h2>
+            <p className="text-base md:text-lg text-[hsl(var(--nav-theme-light))] font-medium max-w-3xl mx-auto mb-3">
+              {t.modules.islandsBossesAndWeapons.subtitle}
+            </p>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.islandsBossesAndWeapons.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+            {t.modules.islandsBossesAndWeapons.items.map((item: any, i: number) => (
+              <div
+                key={i}
+                className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+              >
+                <div className="flex items-start justify-between gap-2 mb-3">
+                  <h3 className="font-bold text-base md:text-lg">{item.title}</h3>
+                  <span className="inline-flex items-center whitespace-nowrap rounded-full bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)] px-2 py-0.5 text-xs font-medium text-[hsl(var(--nav-theme-light))]">
+                    {item.tag}
+                  </span>
+                </div>
+                <p className="text-sm text-muted-foreground mb-3">{item.focus}</p>
+                <dl className="space-y-2 text-sm">
+                  <div className="flex flex-col gap-0.5">
+                    <dt className="text-xs uppercase tracking-wider text-muted-foreground/80">
+                      Boss or Threat
+                    </dt>
+                    <dd className="font-medium">{item.bossOrThreat}</dd>
+                  </div>
+                  <div className="flex flex-col gap-0.5">
+                    <dt className="text-xs uppercase tracking-wider text-muted-foreground/80">
+                      Weapon Focus
+                    </dt>
+                    <dd className="font-medium text-[hsl(var(--nav-theme-light))]">
+                      {item.weaponFocus}
+                    </dd>
+                  </div>
+                </dl>
+                <div className="mt-3 flex flex-wrap gap-1.5">
+                  {item.badgeSignals.map((signal: string, j: number) => (
+                    <span
+                      key={j}
+                      className="inline-flex items-center rounded-md border border-border bg-white/5 px-2 py-0.5 text-xs text-muted-foreground"
+                    >
+                      {signal}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 9 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 7: Raft Base Building Guide */}
+      <section
+        id="raft-base-building-guide"
+        className="scroll-mt-24 px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-3 md:mb-4 text-xs md:text-sm font-medium bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+              <Hammer className="w-4 h-4" />
+              {t.modules.raftBaseBuildingGuide.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.raftBaseBuildingGuide.title}
+            </h2>
+            <p className="text-base md:text-lg text-[hsl(var(--nav-theme-light))] font-medium max-w-3xl mx-auto mb-3">
+              {t.modules.raftBaseBuildingGuide.subtitle}
+            </p>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.raftBaseBuildingGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-3 md:space-y-4">
+            {t.modules.raftBaseBuildingGuide.items.map((item: any, index: number) => (
+              <div
+                key={index}
+                className="flex gap-4 p-4 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+              >
+                <div className="flex h-10 w-10 md:h-12 md:w-12 flex-shrink-0 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.5)] bg-[hsl(var(--nav-theme)/0.2)]">
+                  <span className="text-base md:text-xl font-bold text-[hsl(var(--nav-theme-light))]">
+                    {item.step}
+                  </span>
+                </div>
+                <div className="min-w-0">
+                  <h3 className="text-lg md:text-xl font-bold mb-1.5">
+                    {item.title}
+                  </h3>
+                  <p className="text-sm md:text-base font-medium text-[hsl(var(--nav-theme-light))] mb-2">
+                    {item.objective}
+                  </p>
+                  <ul className="space-y-1.5 mb-2">
+                    {item.actions.map((action: string, j: number) => (
+                      <li key={j} className="flex items-start gap-2">
+                        <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
+                        <span className="text-sm text-muted-foreground">{action}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="text-xs text-muted-foreground/80">
+                    <span className="font-semibold">Badge signal: </span>
+                    {item.badgeSignal}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 10 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-728x90"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90}
+        className="hidden md:flex"
+      />
+
+      {/* Module 8: Updates and Patch Tracker */}
+      <section
+        id="updates-and-patch-tracker"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <span className="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-3 md:mb-4 text-xs md:text-sm font-medium bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+              <CalendarClock className="w-4 h-4" />
+              {t.modules.updatesAndPatchTracker.eyebrow}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.updatesAndPatchTracker.title}
+            </h2>
+            <p className="text-base md:text-lg text-[hsl(var(--nav-theme-light))] font-medium max-w-3xl mx-auto mb-3">
+              {t.modules.updatesAndPatchTracker.subtitle}
+            </p>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.updatesAndPatchTracker.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal relative mx-auto max-w-4xl">
+            <div className="absolute left-4 md:left-5 top-2 bottom-2 w-px bg-[hsl(var(--nav-theme)/0.3)]" />
+            <div className="space-y-5">
+              {t.modules.updatesAndPatchTracker.items.map((item: any, i: number) => (
+                <div key={i} className="relative pl-12 md:pl-14">
+                  <div className="absolute left-2 md:left-3 top-4 flex h-5 w-5 items-center justify-center rounded-full bg-[hsl(var(--nav-theme))] ring-4 ring-background">
+                    <span className="h-1.5 w-1.5 rounded-full bg-white" />
+                  </div>
+                  <div className="p-4 md:p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                    <div className="flex flex-col gap-1 md:flex-row md:items-center md:justify-between md:gap-2 mb-2">
+                      <div className="flex flex-wrap items-center gap-2">
+                        <h3 className="font-bold text-base md:text-lg">{item.label}</h3>
+                        <span className="inline-flex items-center whitespace-nowrap rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.08)] px-2 py-0.5 text-xs font-medium text-[hsl(var(--nav-theme-light))]">
+                          {item.type}
+                        </span>
+                      </div>
+                      <span className="text-xs text-muted-foreground">{item.period}</span>
+                    </div>
+                    <p className="text-sm text-muted-foreground mb-2">{item.details}</p>
+                    <p className="text-sm text-[hsl(var(--nav-theme-light))] font-medium">
+                      {item.playerFocus}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Latest Updates Section（保留模板1 Latest Updates 模块，置于 Tools Grid 之后） */}
       <LatestGuidesAccordion

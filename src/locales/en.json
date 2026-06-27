@@ -58,7 +58,7 @@
   "tools": {
     "title": "100 Days At Sea",
     "titleHighlight": "Survival Hub",
-    "subtitle": "Codes, classes, companions, and beginner routes for surviving 100 days at sea on Roblox.",
+    "subtitle": "Codes, classes, companions, badges, boss routes, raft building, and updates for surviving 100 days at sea on Roblox.",
     "cards": [
       {
         "icon": "Sparkles",
@@ -79,6 +79,26 @@
         "icon": "Star",
         "title": "100 Days At Sea Companions Tier List",
         "description": "Companion chest rolls ranked by perk, cost, drop chance, and run value"
+      },
+      {
+        "icon": "Trophy",
+        "title": "100 Days At Sea Badges and Achievements",
+        "description": "Survival milestones, bonfire levels, boss combat, rescue goals, and rare run challenges"
+      },
+      {
+        "icon": "Compass",
+        "title": "100 Days At Sea Islands, Bosses, and Weapons",
+        "description": "Exploration routes into boss fights, biome goals, and chest weapon unlocks"
+      },
+      {
+        "icon": "Hammer",
+        "title": "100 Days At Sea Raft Base Building Guide",
+        "description": "Build order for resources, raft expansion, defenses, food, and bonfire progress"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "100 Days At Sea Updates and Patch Tracker",
+        "description": "Live Roblox stats, developer updates, region changes, and badge activity"
       }
     ]
   },
@@ -513,6 +533,243 @@
           "perk": "5% less hungry.",
           "sources": "Fisherman's Chest — 40 Pearls (25%)",
           "bestFor": "Early hunger help until stronger rolls replace it."
+        }
+      ]
+    },
+    "badgesAndAchievements": {
+      "title": "100 Days At Sea Badges and Achievement Goals",
+      "eyebrow": "Achievements",
+      "subtitle": "Track the main badge routes for survival days, bonfire upgrades, combat wins, exploration, rescue goals, and loot challenges.",
+      "intro": "100 Days At Sea badges are built around the full survival loop: start a run, use the harpoon, upgrade the raft base, survive longer day milestones, explore islands, defeat bosses, rescue biome targets, and complete rare run challenges.",
+      "items": [
+        { "badge": "Out At Sea", "category": "Starter", "unlock": "Play the game for the first time.", "stage": "Beginner", "winRate": "100.0%", "awarded": "34,636,574" },
+        { "badge": "Hooked!", "category": "Core Tool", "unlock": "Grab an object with your harpoon.", "stage": "Beginner", "winRate": "100.0%", "awarded": "24,909,604" },
+        { "badge": "Survive 5 Days", "category": "Survival Milestone", "unlock": "Reach day 5 in a run.", "stage": "Beginner", "winRate": "59.8%", "awarded": "15,547,872" },
+        { "badge": "Survive 10 Days", "category": "Survival Milestone", "unlock": "Reach day 10 in a run.", "stage": "Beginner", "winRate": "35.2%", "awarded": "8,821,824" },
+        { "badge": "Survive 50 Days", "category": "Survival Milestone", "unlock": "Reach day 50 in a run.", "stage": "Mid Game", "winRate": "4.2%", "awarded": "1,091,606" },
+        { "badge": "Survive 90 Days", "category": "Survival Milestone", "unlock": "Reach day 90 in a run.", "stage": "Late Game", "winRate": "2.0%", "awarded": "478,581" },
+        { "badge": "Rescued!", "category": "Completion", "unlock": "Get to day 100.", "stage": "Completion", "winRate": "1.8%", "awarded": "439,772" },
+        { "badge": "Bonfire 1", "category": "Raft Base", "unlock": "Reach bonfire level 1.", "stage": "Beginner", "winRate": "100.0%", "awarded": "28,472,445" },
+        { "badge": "Bonfire 5", "category": "Raft Base", "unlock": "Reach bonfire level 5.", "stage": "Mid Game", "winRate": "14.2%", "awarded": "4,092,222" },
+        { "badge": "Bonfire 9", "category": "Raft Base", "unlock": "Reach bonfire level 9.", "stage": "Late Game", "winRate": "1.0%", "awarded": "226,568" },
+        { "badge": "Bonfire Master", "category": "Raft Base Challenge", "unlock": "Reach max bonfire before day 3.", "stage": "Challenge", "winRate": "0.0%", "awarded": "1,454" },
+        { "badge": "We Cookin", "category": "Resource Utility", "unlock": "Cook your first chowder with the cooking pot.", "stage": "Beginner", "winRate": "33.8%", "awarded": "10,516,551" },
+        { "badge": "Firepower", "category": "Weapon", "unlock": "Get a gun from a chest.", "stage": "Beginner to Mid Game", "winRate": "28.7%", "awarded": "5,454,882" },
+        { "badge": "Magellan", "category": "Exploration", "unlock": "Visit all the islands in a single session.", "stage": "Completion", "winRate": "0.1%", "awarded": "14,235" },
+        { "badge": "Arms of Victory", "category": "Boss Combat", "unlock": "Defeat the Squid Boss.", "stage": "Late Game", "winRate": "0.3%", "awarded": "34,483" },
+        { "badge": "King Of The Snow", "category": "Biome Boss", "unlock": "Defeat the boss in the Ice Biome.", "stage": "Late Game", "winRate": "0.2%", "awarded": "14,274" },
+        { "badge": "Arctic Rescue", "category": "Biome Rescue", "unlock": "Rescue all of the penguins in the Ice Biome.", "stage": "Late Game", "winRate": "0.2%", "awarded": "15,613" },
+        { "badge": "All Alone", "category": "Run Modifier", "unlock": "Survive 100 days completely solo.", "stage": "Challenge", "winRate": "0.2%", "awarded": "59,622" },
+        { "badge": "Blunder Buddies", "category": "Run Modifier", "unlock": "Survive 100 days in a duo.", "stage": "Challenge", "winRate": "1.0%", "awarded": "254,535" }
+      ]
+    },
+    "islandsBossesAndWeapons": {
+      "title": "100 Days At Sea Islands, Bosses, and Weapon Routes",
+      "eyebrow": "Exploration",
+      "subtitle": "Use island exploration to move from basic raft survival into boss fights, biome goals, and stronger combat unlocks.",
+      "intro": "The official game loop points players from harpoon gathering into raft building, island exploration, weapon finding, and boss combat. The safest progression path is to stabilize the raft first, then route islands and biome bosses around badges and weapon goals.",
+      "items": [
+        {
+          "title": "Open-Sea Island Route",
+          "tag": "Exploration Core",
+          "focus": "Sail out from the raft to visit mysterious islands, gather better loot, and prepare for longer survival milestones.",
+          "bossOrThreat": "Island enemies and sea threats",
+          "weaponFocus": "Chest weapons and basic combat tools",
+          "badgeSignals": ["Magellan", "Firepower", "Survive 50 Days"]
+        },
+        {
+          "title": "Chest Weapon Route",
+          "tag": "Weapon Unlock",
+          "focus": "Use island and chest runs to improve combat readiness before boss attempts.",
+          "bossOrThreat": "Standard enemies, raids, and higher-risk island fights",
+          "weaponFocus": "Gun from chest",
+          "badgeSignals": ["Firepower", "Plunderer", "Money Marauder"]
+        },
+        {
+          "title": "Squid Boss Route",
+          "tag": "Boss Fight",
+          "focus": "Prepare food, healing, weapons, and raft safety before attempting the Squid Boss.",
+          "bossOrThreat": "Squid Boss",
+          "weaponFocus": "Boss-ready ranged damage and sustained survival supplies",
+          "badgeSignals": ["Arms of Victory"]
+        },
+        {
+          "title": "Ghost Galleon Route",
+          "tag": "Combat Challenge",
+          "focus": "Push beyond normal raid survival by defeating the Ghost Galleon multiple times in one run.",
+          "bossOrThreat": "Ghost Galleon",
+          "weaponFocus": "Consistent boss damage and enough supplies for repeated fights",
+          "badgeSignals": ["Third Bell Rung", "They'll be back!"]
+        },
+        {
+          "title": "Rival Rig Route",
+          "tag": "Exploration Combat",
+          "focus": "Find and defeat all 3 rival rigs in a single session for a rare combat-exploration clear.",
+          "bossOrThreat": "3 rival rigs",
+          "weaponFocus": "Sustained weapons, ammo, and healing between rig fights",
+          "badgeSignals": ["There can be only one"]
+        },
+        {
+          "title": "Volcano Region Route",
+          "tag": "Region Boss",
+          "focus": "Visit the Volcano region, defeat Fire Golems, and take on the Lord of Lava route.",
+          "bossOrThreat": "Fire Golems and Lord of Lava",
+          "weaponFocus": "Magma Staff route and fire-region combat prep",
+          "badgeSignals": ["Late-game boss progression", "Volcano update focus"]
+        },
+        {
+          "title": "Ice Biome Route",
+          "tag": "Ice Update",
+          "focus": "Enter the Ice Biome, rescue penguins, and defeat the Ice Biome boss.",
+          "bossOrThreat": "Ice Biome boss",
+          "weaponFocus": "Ice-region survival and boss damage setup",
+          "badgeSignals": ["Arctic Rescue", "King Of The Snow"]
+        },
+        {
+          "title": "Day 100 Completion Route",
+          "tag": "Final Run Goal",
+          "focus": "Combine island loot, raft upgrades, food, weapons, and boss avoidance or boss clearing into a full day 100 survival run.",
+          "bossOrThreat": "Long-run pressure, raids, hunger, and route mistakes",
+          "weaponFocus": "Chest weapons, boss-capable damage, and enough supplies for late days",
+          "badgeSignals": ["Rescued!", "All Alone", "Blunder Buddies", "Three's a party", "Four is plenty"]
+        }
+      ]
+    },
+    "raftBaseBuildingGuide": {
+      "title": "100 Days At Sea Raft Base Building Guide",
+      "eyebrow": "Base Building",
+      "subtitle": "Build for survival first: resources, space, defenses, food, weapons, and bonfire progress matter more than decoration early.",
+      "intro": "Raft building is one of the core survival systems in 100 Days At Sea. A strong early base keeps the run stable while you gather with the harpoon, cook food, find weapons, survive raids, and push toward longer day milestones.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Hook Resources Before Taking Risks",
+          "objective": "Use the harpoon to pull in early resources and avoid wasting health on unsafe movement.",
+          "actions": [
+            "Grab floating objects with the harpoon.",
+            "Keep gathering before leaving the raft for longer routes.",
+            "Use early resources on survival tools and raft progress first."
+          ],
+          "badgeSignal": "Hooked!"
+        },
+        {
+          "step": 2,
+          "title": "Expand the Raft Around Function",
+          "objective": "Create enough room for movement, storage habits, cooking, and defense placement.",
+          "actions": [
+            "Build a stable working area before chasing a large decorative raft.",
+            "Keep key survival structures easy to reach.",
+            "Leave space to move during raids and night pressure."
+          ],
+          "badgeSignal": "Just Getting Started"
+        },
+        {
+          "step": 3,
+          "title": "Push Bonfire Levels Early",
+          "objective": "Use bonfire progress as the clearest raft-base milestone path.",
+          "actions": [
+            "Upgrade bonfire levels as the run develops.",
+            "Use Bonfire 1 through Bonfire 9 as visible progress checks.",
+            "Treat Bonfire Master as a fast-upgrade challenge for experienced players."
+          ],
+          "badgeSignal": "Bonfire 1 to Bonfire 9, Bonfire Master"
+        },
+        {
+          "step": 4,
+          "title": "Add Food Support Before Long Trips",
+          "objective": "Make the raft support healing and hunger before committing to bigger island routes.",
+          "actions": [
+            "Cook chowder with the cooking pot.",
+            "Stock food before longer exploration loops.",
+            "Return to the raft to reset supplies instead of overextending."
+          ],
+          "badgeSignal": "We Cookin"
+        },
+        {
+          "step": 5,
+          "title": "Build With Night Defense in Mind",
+          "objective": "Place structures and defenses so the raft can survive attacks while still giving you room to fight.",
+          "actions": [
+            "Keep combat lanes clear.",
+            "Avoid blocking movement around key raft structures.",
+            "Use weapons found from chests to strengthen defense before boss routes."
+          ],
+          "badgeSignal": "Firepower, They'll be back!"
+        },
+        {
+          "step": 6,
+          "title": "Prepare the Raft Before Boss Routes",
+          "objective": "Treat the raft as the launch point for Squid Boss, Ice Biome, Volcano, and day 100 attempts.",
+          "actions": [
+            "Bring food, healing, and stronger weapons before leaving for boss-focused regions.",
+            "Do not start rare boss or biome objectives from a weak raft.",
+            "Use survival day badges to judge whether the base is ready for harder routes."
+          ],
+          "badgeSignal": "Arms of Victory, King Of The Snow, Rescued!"
+        }
+      ]
+    },
+    "updatesAndPatchTracker": {
+      "title": "100 Days At Sea Updates and Patch Tracker",
+      "eyebrow": "Updates",
+      "subtitle": "Follow the live Roblox page, developer group, player stats, badge activity, and major region updates.",
+      "intro": "100 Days At Sea is actively watched through the Roblox game page, Stranded Devs community, Rolimon's game statistics, public badge activity, and update-focused gameplay videos. This tracker focuses on player-facing changes that affect routes, bosses, badges, and current interest.",
+      "items": [
+        {
+          "label": "Live Game Snapshot",
+          "period": "June 27, 2026",
+          "type": "Roblox Stats",
+          "details": "The game is listed by Stranded Devs with 27 max players, 40,762 current players, 97,318,586 visits, 246,810 upvotes, 6,805 downvotes, 97.317% rating, 2,666,457 favorites, and 17.22 minutes average playtime.",
+          "playerFocus": "Use this as the current popularity and freshness snapshot."
+        },
+        {
+          "label": "Recent Live Update",
+          "period": "June 27, 2026",
+          "type": "Game Update",
+          "details": "Rolimon's shows the game updated 7 hours ago, with the past-24-hour peak listed at 48,101 players and the all-time peak listed at 52,341 players 5 days ago.",
+          "playerFocus": "Fresh update activity supports new-update, live-stats, and current-player-interest searches."
+        },
+        {
+          "label": "Ice Biome Badge Wave",
+          "period": "1 week ago",
+          "type": "Region Update",
+          "details": "Ice-region achievement tracking includes King Of The Snow for defeating the Ice Biome boss and Arctic Rescue for rescuing all penguins in the Ice Biome.",
+          "playerFocus": "Best for Ice Biome, Ice Region, penguin rescue, and ice boss searches."
+        },
+        {
+          "label": "Bonfire Progression Update",
+          "period": "1 month ago",
+          "type": "Base Progression",
+          "details": "Bonfire 1 through Bonfire 9 and Bonfire Master are active badge goals, turning raft-base development into a visible progression path.",
+          "playerFocus": "Best for raft base, bonfire level, early upgrade, and long-run preparation searches."
+        },
+        {
+          "label": "Volcano Region Spotlight",
+          "period": "3 months ago",
+          "type": "Region and Boss Route",
+          "details": "Volcano-region gameplay coverage highlights the route to Fire Golems and the Lord of Lava, with Magma Staff appearing in the region's weapon route discussion.",
+          "playerFocus": "Best for Volcano update, Lord of Lava, Fire Golems, and Magma Staff searches."
+        },
+        {
+          "label": "Squid Boss Tracking",
+          "period": "3 weeks ago",
+          "type": "Boss Badge",
+          "details": "Arms of Victory is the tracked combat badge for defeating the Squid Boss, with 34,483 awards and a 0.3% recent win rate.",
+          "playerFocus": "Best for Squid Boss, boss fight, and rare combat achievement searches."
+        },
+        {
+          "label": "Core Survival Loop",
+          "period": "Live Roblox Description",
+          "type": "Gameplay Foundation",
+          "details": "The official page describes the loop as grabbing resources or hooking them with the harpoon, building a raft base with structures and defenses, exploring mysterious islands, finding weapons, and taking on fearsome foes.",
+          "playerFocus": "Best for beginner guide, how to play, harpoon, raft, islands, weapons, and bosses searches."
+        },
+        {
+          "label": "Game Creation Window",
+          "period": "7 months ago",
+          "type": "Game Listing",
+          "details": "Rolimon's lists 100 Days At Sea as a Roblox game created by Stranded Devs, with the game page presenting it as an open-world survival experience about the Bermuda Triangle and surviving 100 days.",
+          "playerFocus": "Best for release timing, creator, Roblox listing, and official game overview sections."
         }
       ]
     }
