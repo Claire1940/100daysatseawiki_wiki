@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cómo tirar objetos en 100 Days at Sea: Guía de saco e inventario",
+  description: "Domina la gestión del inventario en Roblox 100 Days at Sea. Aprende a tirar objetos, mejorar tu saco y optimizar tu distribución de supervivencia.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=How+to+Drop+Items",
+  date: "2026-06-28",
+  author: "Equipo de la Wiki de 100 days at sea"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Mecánica de descarte**: Equipar tu saco y presionar **F** tira el último objeto guardado.
+- **Objetos de la barra de acceso rápido**: Selecciona cualquier herramienta o arma en tu barra y presiona **Retroceso (Backspace)** para descartarla.
+- **Mejoras de saco**: Compra sacos más grandes al Comerciante Ambulante para expandir tus limitadas ranuras de inventario.
+- **Gestión de recursos**: Construye cofres de almacenamiento cerca de tu mesa de trabajo para usar automáticamente los materiales almacenados al fabricar.
+</Callout>
+
+<Section icon={Map} title="100 Days at Sea: Cómo tirar objetos">
+
+Sobrevivir al implacable océano en el éxito de Roblox *100 Days at Sea* requiere reflejos rápidos, planificación estratégica y una gestión de recursos impecable. A medida que navegas por las misteriosas aguas del Triángulo de las Bermudas, tu inventario se llenará rápidamente de madera a la deriva, chatarra y materiales de islas salvajes. Saber **cómo tirar objetos en 100 days at sea** es esencial para evitar que tu inventario se obstruya, permitiéndote priorizar recursos de gran valor como el hierro, el platino y los cofres de compañeros raros.
+
+La gestión de tu inventario gira en torno a dos sistemas principales: tu barra de acceso rápido (que contiene herramientas y armas activas) y tu saco de almacenamiento (que contiene los materiales a granel recolectados del mar). Tirar objetos de estos dos sistemas requiere controles diferentes.
+
+### Tirar objetos de tu saco
+
+El saco es tu unidad de almacenamiento principal para recursos básicos. Cuando usas tu arpón para enganchar cajas flotantes o recoger materiales en las islas, estos van automáticamente a tu saco equipado. 
+
+Para volver a tirar estos objetos en tu balsa o en el suelo, sigue este método:
+
+1. Presiona la tecla numérica correspondiente en tu teclado para equipar tu **Saco** desde tu barra de acceso rápido.
+2. Presiona la tecla **F** en el teclado de tu PC. Si juegas en móvil, toca el botón **Sacar (Unstore)** o **Tirar (Drop)** que aparece en tu pantalla.
+3. El saco funciona con un sistema **LIFO (Último en entrar, primero en salir)**. Esto significa que al presionar la tecla para tirar, se descartará el último objeto que hayas recogido.
+4. Sigue presionando la tecla para tirar objetos secuencialmente hasta que tu saco esté vacío.
+
+### Descartar herramientas y armas de tu barra de acceso rápido
+
+Si necesitas liberar espacio en la barra de acceso rápido o compartir un arma con un compañero de tripulación, puedes tirar las herramientas activas directamente:
+
+1. Presiona el número de la ranura de la barra para equipar la herramienta o el arma que deseas tirar.
+2. Presiona la tecla **Retroceso (Backspace)** en tu teclado.
+3. El objeto caerá directamente frente a tu personaje, lo que te permitirá a ti o a otro jugador recogerlo.
+
+| Acción | Control de PC | Control de Móvil | Descripción |
+| :--- | :--- | :--- | :--- |
+| Equipar saco | Barra 1-9 | Tocar icono de barra | Selecciona tu bolsa de almacenamiento para prepararte para tirar |
+| Guardar objeto | Tecla F | Tocar recoger | Coloca los materiales básicos seleccionados en tu saco |
+| Tirar/Sacar objeto | Tecla F | Tocar sacar | Descarta el último objeto colocado en tu saco equipado |
+| Tirar herramienta/arma | Retroceso | Tocar tirar | Tira la herramienta o arma de la barra que sostienes actualmente |
+| Interactuar | Tecla E | Tocar interactuar | Abre cofres o usa estaciones de fabricación en tu balsa |
+
+<Callout type="tip" title="Automatización de la trituradora">
+En lugar de tirar objetos al suelo de tu balsa, párate directamente al lado de tu Trituradora (Grinder) o Fogata (Campfire). Presionar la tecla de tirar mientras miras hacia estas estaciones depositará automáticamente los materiales directamente en ellas, ahorrándote un tiempo valioso.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejoras de saco y ventajas de clase">
+
+Al comenzar tu viaje, tu saco inicial por defecto tiene una capacidad muy limitada. Acumular recursos de nivel bajo, como tablones de madera básicos, llenará rápidamente tus ranuras, obligándote a tirar objetos constantemente para hacer espacio para minerales raros. Para evitar este cuello de botella, debes priorizar la mejora de tu saco lo antes posible.
+
+Mejorar la capacidad de tu inventario está ligado a dos mecánicas principales de progresión: desbloquear **Clases** especializadas usando Perlas y comprar mejoras físicas al **Comerciante Ambulante**.
+
+### Clases enfocadas en el inventario
+
+Desbloquear clases específicas otorga ventajas pasivas permanentes y te equipa con un equipo inicial superior al comienzo de cada partida. 
+
+| Clase | Calificación de estrellas | Coste de perlas | Mejora de saco inicial | Ventajas pasivas |
+| :--- | :--- | :--- | :--- | :--- |
+| **Marinero (Sailor)** | 1 estrella | 40 perlas | Ninguna | Mayor velocidad y manejo del barco |
+| **Superviviente (Survivor)** | 1 estrella | 50 perlas | Ninguna | Regeneración de salud más rápida, menos hambre |
+| **Campista (Camper)** | 2 estrellas | 70 perlas | Saco bueno (+10 ranuras) | **+10% de salud máxima** |
+| **Aventurero (Adventurer)** | 3 estrellas | 250 perlas | Saco gigante (+15 ranuras) | **+15% de salud máxima, menos hambre** |
+
+### El Comerciante Ambulante
+
+Si no tienes suficientes Perlas para desbloquear clases de nivel alto, mantente atento al **Comerciante Ambulante** que visita periódicamente tu base de balsa. Venden el **Saco bueno** y el **Saco gigante** directamente a cambio de Doblones, lo que te permite mejorar tu inventario a mitad de la partida. 
+
+<CardGrid cols={3}>
+  <Card title="Saco inicial">
+    - **5 ranuras de inventario**
+    - Bolsa inicial por defecto
+    - Se llena a los pocos minutos de usar el arpón
+  </Card>
+  <Card title="Saco bueno">
+    - **10 ranuras de inventario**
+    - Desbloqueado mediante la clase Campista
+    - Excelente para la estabilidad al principio y a mitad del juego
+  </Card>
+  <Card title="Saco gigante">
+    - **15 ranuras de inventario**
+    - Desbloqueado mediante la clase Aventurero
+    - Esencial para la exploración de islas en la fase final del juego
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Perder tu equipo">
+Ten cuidado al tirar armas de alto nivel como el Mosquete de chispa (Flintlock) o el Machete. Si las tiras directamente en aguas profundas, podrían hundirse y desaparecer, costándote recursos valiosos para volver a fabricarlas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gestión del inventario paso a paso">
+
+Mantener tu balsa organizada es el secreto para llegar al Día 100. Un suelo de balsa desordenado hace que las incursiones nocturnas de tiburones y piratas fantasma sean increíblemente difíciles de manejar. Sigue esta estrategia paso a paso para optimizar el flujo de tu inventario.
+
+<Steps>
+  <Step num="1" title="Filtra tus capturas con el arpón">
+    No recojas a ciegas cada trozo de escombro que veas. Apunta primero a las cajas flotantes y barriles de plástico de gran valor. Si tu saco está casi lleno, ignora los tablones de madera individuales y prioriza la chatarra metálica.
+  </Step>
+  <Step num="2" title="Procesa los materiales básicos de inmediato">
+    Tan pronto como regreses a tu balsa, ve a tu línea de procesamiento. Saca la madera y la chatarra recolectadas directamente en tu Aserradero (Sawmill) y Trituradora (Grinder). Procesar los materiales básicos de inmediato mantiene tu saco vacío y listo para tu próximo viaje a una isla.
+  </Step>
+  <Step num="3" title="Utiliza cofres de almacenamiento organizados">
+    Fabrica varios cofres de almacenamiento de madera y colócalos en un área de fabricación designada. Agrupa tus objetos por tipo: mantén un cofre para materiales de construcción (madera, piedra), uno para componentes de fabricación (engranajes, chatarra) y uno para comida y medicina.
+  </Step>
+  <Steps num="4" title="Recicla la chatarra no deseada">
+    Construye una estructura de Reciclador (Recycler) en tu balsa. Si tienes un exceso de objetos de nivel bajo o herramientas viejas que ya no necesitas, tiralos en el Reciclador para convertirlos de nuevo en valiosos Doblones.
+  </Steps>
+</Steps>
+
+<Callout type="success" title="Integración de cofres y fabricación">
+¡Tu mesa de trabajo detecta automáticamente los recursos almacenados en los cofres de tu balsa, siempre que estén colocados dentro de un radio cercano. No necesitas sacar manualmente los objetos de tus cofres para fabricar nuevas defensas!
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Automatización de recursos con compañeros">
+
+Si te resulta tedioso recoger y tirar objetos manualmente, puedes automatizar estos procesos equipando **Compañeros (Companions)**. Los compañeros son aliados útiles que se obtienen comprando cofres especializados en la tienda del juego con Perlas. Varios compañeros poseen ventajas únicas que ayudan directamente con la recolección de recursos y la gestión del inventario.
+
+| Compañero | Origen del cofre | Coste de perlas | Probabilidad de aparición | Ventaja de utilidad de inventario |
+| :--- | :--- | :--- | :--- | :--- |
+| **Pulpo (Octopus)** | Cofre del guerrero | 80 perlas | 16% | **Trae automáticamente materiales cercanos** cada 120 segundos |
+| **Salamandra (Salamander)** | Cofre de magma | 120 perlas | 5% | **Recoge y entrega el botín cercano** directamente en tu balsa |
+| **Cuervo (Crow)** | Cofre de magma | 120 perlas | 30% | **Busca en los alrededores y trae comida** cada 120 segundos |
+| **Gaviota (Seagull)** | Cofre pirata | 120 perlas | 30% | **Trae alimentos** para evitar la hambruna durante viajes largos |
+
+Al utilizar estos compañeros, puedes concentrarte en construir defensas y explorar islas mientras tus mascotas se encargan de la tediosa tarea de recolectar y organizar el botín tirado.
+
+<Checklist
+  id="inventory-checklist"
+  title="Lista de verificación de supervivencia diaria:"
+  items={[
+    "Verifica la durabilidad de las herramientas antes de salir de la base de tu balsa [1.1.1]",
+    "Vacía tu saco de almacenamiento por completo antes de atracar en una nueva isla",
+    "Funde los minerales básicos en lingotes para maximizar el espacio del cofre",
+    "Equipa a un compañero de recolección de recursos como el Pulpo o la Salamandra"
+  ]}
+/>
+
+<Callout type="info" title="Acumulación de compañeros">
+Aunque puedes tener varios compañeros, solo puedes tener un compañero activo equipado a la vez. Elige una mascota de recolección durante el día y cambia a una mascota de combate como el Tiburón o el Golem de magma antes del anochecer.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+Para ayudarte a gestionar tus recursos sin problemas y dominar las mecánicas de *100 Days at Sea*, hemos recopilado respuestas a las preguntas más comunes sobre la gestión del inventario y el descarte de objetos.
+
+<FAQ items={[
+  {
+    question: "¿Cómo tiro objetos de mi saco en 100 Days at Sea?",
+    answer: "Equipa tu saco desde tu barra de acceso rápido, luego presiona la tecla F en PC o toca el botón Sacar (Unstore) en móvil. Esto tirará el último objeto que hayas recogido usando el método LIFO (Último en entrar, primero en salir)."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de vaciar un inventario lleno?",
+    answer: "Acércate a tu Trituradora, Fogata o Aserradero, equipa tu saco y toca repetidamente la tecla de tirar. Esto deposita directamente tus materiales básicos en las estaciones de procesamiento sin desordenar el suelo de tu balsa."
+  },
+  {
+    question: "¿Puedo tirar armas y herramientas activas para compartirlas con amigos?",
+    answer: "Sí. Simplemente selecciona la herramienta o el arma en tu barra de acceso rápido para que tu personaje la sostenga, y presiona la tecla Retroceso (Backspace) en PC. El objeto caerá al suelo para que tus compañeros de tripulación lo recojan."
+  },
+  {
+    question: "¿Dónde puedo conseguir un saco más grande para llevar más objetos?",
+    answer: "Puedes mejorar permanentemente tu bolsa inicial desbloqueando la clase Campista (Saco bueno) o la clase Aventurero (Saco gigante) usando Perlas. Alternativamente, puedes comprar estos sacos al Comerciante Ambulante usando Doblones."
+  }
+]} />
+
+<Callout type="success" title="¿Listo para zarpar?">
+¡Con tu saco organizado y tu automatización de recursos lista, estás completamente preparado para sobrevivir a los desafíos del Triángulo de las Bermudas y llegar al Día 100!
+</Callout>
+
+</Section>

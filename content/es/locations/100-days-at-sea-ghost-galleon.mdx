@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Galeón fantasma de 100 días en el mar: Guía para Planos y Botín Raro",
+  description: "Domina el encuentro con el galeón fantasma en 100 días en el mar con nuestra guía sobre cómo encontrar planos, derrotar tripulaciones espectrales y asegurar botín legendario.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Ghost+Galleon+Blueprint+Guide",
+  date: "2026-06-28",
+  author: "Equipo de Wiki de 100 días en el mar",
+  keywords: "100 días en el mar, galeón fantasma, planos, guía de combate, botín raro"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Galeón fantasma de 100 días en el mar**: Un evento marítimo legendario que aparece durante la progresión del juego tardío, principalmente después del Día 50.
+- **Adquisición de Planos**: El Plano del Galeón Fantasma es un botín raro necesario para fabricar la variante de barco espectral.
+- **Condiciones de Aparición**: Ocurre durante niebla densa o ciclos de medianoche en el bioma de Mar Profundo.
+- **Estrategia de Combate**: Utiliza armamento imbuido en bendiciones sagradas o cañones de alta velocidad para perforar la armadura espectral.
+- **Recompensa Clave**: Además de los planos, los jugadores pueden obtener Ectoplasma y Doblones Antiguos para mejoras de alto nivel.
+</Callout>
+
+<Section icon={Map} title="Localización del galeón fantasma de 100 días en el mar">
+
+Encontrar el **galeón fantasma de 100 días en el mar** requiere paciencia y una comprensión aguda de las señales ambientales del juego. A diferencia de los barcos mercantes estándar o los asaltantes piratas, el Galeón Fantasma no sigue una ruta de patrulla fija. En su lugar, se manifiesta como un evento marítimo dinámico activado por estados específicos del mundo. Los jugadores suelen informar avistamientos en la "Zona de Medianoche" o durante el evento climático "Niebla Etérea", que reduce significativamente la visibilidad pero aumenta la tasa de aparición de entidades sobrenaturales.
+
+Para rastrear con éxito este navío elusivo, debes vigilar el horizonte en busca de una tenue luminiscencia verde. El barco típicamente emite un brillo espectral que puede verse a través de la espesa niebla antes de que el casco se vuelva lo suficientemente físico como para entablar combate.
+
+| Factor de Aparición | Requisito | Impacto en la Tasa de Aparición |
+| :--- | :--- | :--- |
+| **Hora del Día** | Medianoche (00:00 - 03:00) | Aumento Alto |
+| **Clima** | Niebla Densa / Bruma Espectral | Requisito Obligatorio |
+| **Progresión** | Día 50+ | Desbloquea el Encuentro |
+| **Ubicación** | Mar Profundo / Borde Exterior | Zona de Aparición Primaria |
+
+<Callout type="warning" title="Advertencia de Peligro">
+El Galeón Fantasma está rodeado por un "Aura de Frío" que drena la resistencia del jugador y ralentiza el movimiento del barco. Asegúrate de que tu navío esté equipado con una Linterna de Calor o una mejora de calefacción similar antes de acercarte a la bruma espectral.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Señales Visuales">
+    - **Faroles Verdes**: Luces tenues visibles a través de la niebla.
+    - **Velas Desgarradas**: El barco cuenta con velas rotas y translúcidas que se mueven contra el viento.
+    - **Saloma Siniestra**: Una melodía baja y distorsionada suena cuando el barco está a menos de 500 metros.
+  </Card>
+  <Card title="Herramientas de Detección">
+    - **Brújula Espectral**: Apunta hacia la entidad no muerta más cercana.
+    - **Catalejo (Nivel 3)**: Permite ver a través del 50% de la densidad de la niebla.
+    - **Vigía del Carajo**: Los NPCs con alta percepción pueden detectar el brillo antes.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Cómo encontrar el Plano del Galeón Fantasma">
+
+La motivación principal para cazar el **galeón fantasma de 100 días en el mar** es la adquisición de su plano único. Este objeto permite a los jugadores construir el Galeón Fantasma para su propia flota, proporcionando un sigilo y una velocidad incomparables durante los ciclos nocturnos. Sin embargo, el plano no es un botín garantizado. A menudo está escondido dentro del Cofre del Capitán, que solo aparece después de que el núcleo espectral del barco ha sido destruido.
+
+Basado en datos de la comunidad de 2026, la tasa de caída del plano se mantiene aproximadamente entre el 5% y el 10% por encuentro exitoso. Los jugadores pueden aumentar estas probabilidades utilizando consumibles que mejoren la suerte o enfrentándose al barco durante un evento de "Luna de Sangre".
+
+<Steps>
+  <Step num="1" title="Iniciar el Encuentro">
+    Localiza el Galeón Fantasma en el Mar Profundo durante un evento de niebla. Debes realizar el primer disparo para "anclar" el barco al reino físico, evitando que desaparezca.
+  </Step>
+  <Step num="2" title="Desactivar las Escoltas Espectrales">
+    El Galeón suele estar custodiado por 2 o 3 Esquifes Fantasmas. Estos navíos más pequeños deben ser hundidos primero, ya que proporcionan un escudo al casco del barco principal.
+  </Step>
+  <Step num="3" title="Apuntar a las Brechas del Casco">
+    Usa Munición Pesada o Balas de Cadena para apuntar a las secciones brillantes del casco del Galeón. Estos son los "puntos de alma" que mantienen unido al barco.
+  </Step>
+  <Step num="4" title="Abordar el Navío">
+    Una vez que el barco alcance el 20% de salud, se ralentizará. Aborda el barco y derrota al Capitán Espectral en el camarote de popa para desbloquear el cofre de botín.
+  </Step>
+</Steps>
+
+| Nombre del Objeto | Probabilidad de Caída | Utilidad |
+| :--- | :--- | :--- |
+| **Plano del Galeón Fantasma** | 5% - 10% | Desbloquea la construcción del barco Galeón Fantasma |
+| **Seda Espectral** | 40% | Material para fabricar velas resistentes a fantasmas |
+| **Residuo Ectoplásmico** | 100% | Moneda para el mercader del Bazar Sombrío |
+| **Hoja Maldita del Capitán** | 2% | Arma cuerpo a cuerpo de alto nivel con robo de vida |
+
+<Callout type="tip" title="Estrategia de Farmeo">
+Si estás buscando específicamente el plano, no malgastes recursos en el Galeón Fantasma a menos que tengas un "Pergamino de Botín" activo. Estos pergaminos duplican las tiradas de botín para planos raros y son esenciales para minimizar el esfuerzo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategia de Combate y Equipamiento del Barco">
+
+Enfrentarse al **galeón fantasma de 100 días en el mar** requiere un equipamiento especializado. Las balas de cañón de hierro estándar infligen daño reducido a las entidades espectrales. En su lugar, los jugadores deben centrarse en tipos de daño "Sagrado" o de "Plata". Si aún no los has desbloqueado, los ataques basados en fuego son una alternativa secundaria, ya que las velas desgarradas del barco fantasma son altamente inflamables una vez que se vuelve físico.
+
+El posicionamiento de tu barco es crucial. El Galeón Fantasma utiliza una andanada de "Fuego Fantasma" que puede atravesar el casco de tu barco, dañando los componentes internos y la tripulación sin dejar un agujero. Mantener una posición diagonal de "enfilada" es la mejor manera de minimizar los daños.
+
+| Componente | Mejora Recomendada | Razón |
+| :--- | :--- | :--- |
+| **Cañones** | Cañones Largos Plateados | Mayor daño contra no muertos y alcance |
+| **Casco** | Roble Reforzado con Bandas de Hierro | Alta durabilidad para soportar colisiones espectrales |
+| **Velas** | Velas de Tejido de Tormenta | Necesarias para maniobrar en los vientos de niebla densa |
+| **Tripulación** | NPC Sacerdote / Exorcista | Proporciona un aura pasiva de "Bendición Sagrada" a todos los ataques |
+
+<Callout type="success" title="Consejo de Combate Pro">
+Apunta primero al timón del Galeón Fantasma. Deshabilitar su movimiento evita que realice el movimiento "Desplazamiento de Fase", que le permite teletransportarse detrás de tu navío para un ataque sorpresa devastador.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="La Construcción de Tanque">
+    - **Enfoque**: HP de casco alto.
+    - **Estrategia**: Absorber golpes mientras la tripulación aborda.
+    - **Objeto Clave**: Blindaje de Hierro.
+  </Card>
+  <Card title="La Construcción de Francotirador">
+    - **Enfoque**: Cañones de largo alcance.
+    - **Estrategia**: Mantenerse fuera del rango del Aura de Frío.
+    - **Objeto Clave**: Cañones Largos de Plata.
+  </Card>
+  <Card title="La Construcción de Velocista">
+    - **Enfoque**: Maniobrabilidad.
+    - **Estrategia**: Rodear al Galeón para evitar las andanadas.
+    - **Objeto Clave**: Velas de Tormenta.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Supervivencia y Gestión de Recursos">
+
+Sobrevivir 100 días en el mar es lo suficientemente difícil sin la amenaza de los barcos fantasma. Al cazar al **galeón fantasma de 100 días en el mar**, debes gestionar tus recursos con cuidado. El encuentro puede durar entre 10 y 20 minutos de tiempo de juego, durante los cuales la cordura y el hambre de tu tripulación se agotarán más rápido de lo habitual debido al efecto negativo de "Miedo".
+
+Asegúrate de que tu cocina esté abastecida con "Raciones Bendecidas" o "Ron Especiado" para mantener la moral alta. Si la moral cae por debajo del 30%, tu tripulación podría negarse a disparar los cañones, lo que llevaría a una derrota rápida.
+
+<Checklist
+  id="pre-battle-checklist"
+  title="Lista de Verificación de Preparación:"
+  items={[
+    "Abastecer al menos 50 balas de cañón plateadas",
+    "Equipar la Linterna de Calor en el mástil delantero",
+    "Cocinar más de 10 raciones bendecidas para aumentos de moral",
+    "Reparar el casco al 100% en el puesto de avanzada más cercano",
+    "Asegurarse de que la Brújula Espectral esté calibrada"
+  ]}
+/>
+
+<Callout type="warning" title="Nota Crítica">
+Si el "Medidor de Cordura" de tu barco llega a cero durante la pelea, el Galeón Fantasma se volverá invisible para ti, pero aún podrá infligir daño. Retírate de inmediato si te quedas sin objetos para aumentar la moral.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas y Progresión Post-Encuentro">
+
+Una vez que el **galeón fantasma de 100 días en el mar** es derrotado y has asegurado el plano, comienza el verdadero trabajo. Construir el barco requiere materiales raros que solo se encuentran en las regiones del Mar Profundo. El Galeón Fantasma se considera un navío de "Nivel 4", lo que lo convierte en uno de los barcos más poderosos para el tramo final del desafío de los 100 días.
+
+El mercader del Bazar Sombrío, que a menudo se encuentra en barcos mercantes errantes por la noche, intercambiará Ectoplasma por decoraciones exclusivas para el barco y cosméticos para el jugador que mejorarán aún más tu estatus de "Cazador de Fantasmas".
+
+| Material | Cantidad Requerida | Fuente Principal |
+| :--- | :--- | :--- |
+| **Plano del Galeón Fantasma** | 1 | Botín del Galeón Fantasma |
+| **Ectoplasma** | 250 | Encuentros con Barcos Fantasma |
+| **Tablón de Roble Antiguo** | 100 | Pecios Hundidos |
+| **Hilo Espiritual** | 50 | Botín de Esquifes Fantasmas |
+
+<Callout type="info" title="Consejo de Progresión Final">
+El Galeón Fantasma es particularmente efectivo para el evento "Fauces Abisales" del Día 90+. Su capacidad para atravesar obstáculos físicos te permite navegar por las estrechas trincheras llenas de rocas de la zona final con facilidad.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Puedo encontrar el galeón fantasma de 100 días en el mar antes del Día 50?",
+    answer: "No, el encuentro está bloqueado estrictamente tras el hito de progresión del Día 50. Incluso si entras en el Mar Profundo antes, la niebla espectral no activará la aparición del Galeón."
+  },
+  {
+    question: "¿El Plano del Galeón Fantasma cae siempre?",
+    answer: "No, el plano tiene una tasa de caída base de aproximadamente el 5-10%. Es posible que necesites derrotar al barco varias veces para obtenerlo."
+  },
+  {
+    question: "¿Cuál es la mejor arma contra la tripulación espectral?",
+    answer: "El Sable Plateado o cualquier arma imbuida con Agua Bendita inflige el daño más constante a los marineros no muertos durante las acciones de abordaje."
+  },
+  {
+    question: "¿Puedo jugar 100 días en el mar en solitario y aun así vencer al Galeón Fantasma?",
+    answer: "Sí, pero es significativamente más difícil. Necesitarás confiar en cañones giratorios automatizados y blindaje de casco de alto nivel para compensar la falta de una tripulación de reparación manual."
+  }
+]} />
+
+</Section>

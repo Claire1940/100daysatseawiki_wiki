@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "100 Days at Sea How to Drop Items: Sack & Inventory Guide",
+  description: "Master inventory management in Roblox 100 Days at Sea. Learn how to drop items, upgrade your sack, and optimize your survival layout.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=How+to+Drop+Items",
+  date: "2026-06-28",
+  author: "100 days at sea Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Drop Mechanic**: Equipping your sack and pressing **F** drops the last item stored.
+- **Hotbar Items**: Select any tool or weapon in your hotbar and press **Backspace** to discard it.
+- **Sack Upgrades**: Purchase larger sacks from the Traveling Merchant to expand your limited inventory slots.
+- **Resource Management**: Build storage chests near your workbench to automatically use stored materials for crafting.
+</Callout>
+
+<Section icon={Map} title="100 Days at Sea: How to Drop Items">
+
+Surviving the unforgiving ocean in the Roblox hit *100 Days at Sea* requires quick reflexes, strategic planning, and flawless resource management. As you navigate the mysterious waters of the Bermuda Triangle, your inventory will quickly fill up with driftwood, scrap metal, and wild island materials. Knowing **100 days at sea how to drop items** is essential to prevent your inventory from clogging, allowing you to prioritize high-value resources like iron, platinum, and rare companion chests.
+
+Managing your inventory revolves around two main systems: your hotbar (which holds active tools and weapons) and your storage sack (which holds bulk materials gathered from the sea). Dropping items from these two systems requires different controls.
+
+### Dropping Items from Your Sack
+
+The sack is your primary storage unit for raw resources. When you use your Harpoon to hook floating boxes or pick up materials on islands, they automatically go into your equipped sack. 
+
+To drop these items back onto your raft or the ground, follow this method:
+
+1. Press the corresponding number key on your keyboard to equip your **Sack** from your hotbar.
+2. Press the **F** key on your PC keyboard. If you are playing on mobile, tap the **Unstore** or **Drop** button that appears on your screen.
+3. The sack operates on a **Last In, First Out (LIFO)** system. This means pressing the drop key will discard the very last item you picked up.
+4. Continue pressing the key to drop items sequentially until your sack is empty.
+
+### Discarding Tools and Weapons from Your Hotbar
+
+If you need to free up hotbar space or share a weapon with a crewmate, you can drop active tools directly:
+
+1. Press the hotbar slot number to equip the tool or weapon you wish to drop.
+2. Press the **Backspace** key on your keyboard.
+3. The item will drop directly in front of your character, allowing you or another player to pick it up.
+
+| Action | PC Control | Mobile Control | Description |
+| :--- | :--- | :--- | :--- |
+| Equip Sack | 1-9 Hotbar | Tap Hotbar Icon | Selects your storage bag to prepare for dropping |
+| Store Item | F Key | Tap Pick Up | Places targeted raw materials into your sack |
+| Drop/Unstore Item | F Key | Tap Unstore | Discards the last item placed in your equipped sack |
+| Drop Tool/Weapon | Backspace | Tap Drop | Drops the currently held hotbar tool or weapon |
+| Interact | E Key | Tap Interact | Opens chests or uses crafting stations on your raft |
+
+<Callout type="tip" title="Grinder Automation">
+Instead of dropping items onto the floor of your raft, stand directly next to your Grinder or Campfire. Pressing the drop key while facing these stations will automatically deposit the materials directly into them, saving you valuable time.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sack Upgrades and Class Buffs">
+
+When you first begin your journey, your default starter sack has very limited capacity. Hoarding low-tier resources like basic wood planks will quickly max out your slots, forcing you to constantly drop items to make room for rare ores. To avoid this bottleneck, you should prioritize upgrading your sack as early as possible.
+
+Upgrading your inventory capacity is tied to two main progression mechanics: unlocking specialized **Classes** using Pearls and purchasing physical upgrades from the **Traveling Merchant**.
+
+### Inventory-Focused Classes
+
+Unlocking specific classes grants permanent passive buffs and equips you with superior starting gear at the beginning of each run. 
+
+| Class | Star Rating | Pearl Cost | Starter Sack Upgrade | Passive Buffs |
+| :--- | :--- | :--- | :--- | :--- |
+| **Sailor** | 1 Star | 40 Pearls | None | Faster boat speed and handling |
+| **Survivor** | 1 Star | 50 Pearls | None | Faster health regeneration, less hunger |
+| **Camper** | 2 Stars | 70 Pearls | Good Sack (+10 Slots) | **+10% Max Health** |
+| **Adventurer** | 3 Stars | 250 Pearls | Giant Sack (+15 Slots) | **+15% Max Health, Less Hunger** |
+
+### The Traveling Merchant
+
+If you do not have enough Pearls to unlock high-tier classes, keep an eye out for the **Traveling Merchant** who periodically visits your raft base. They sell the **Good Sack** and **Giant Sack** directly for Doubloons, allowing you to upgrade your inventory mid-run. 
+
+<CardGrid cols={3}>
+  <Card title="Starter Sack">
+    - **5 Inventory Slots**
+    - Default starting bag
+    - Fills up within minutes of harpooning
+  </Card>
+  <Card title="Good Sack">
+    - **10 Inventory Slots**
+    - Unlocked via Camper Class
+    - Great for early-to-mid game stability
+  </Card>
+  <Card title="Giant Sack">
+    - **15 Inventory Slots**
+    - Unlocked via Adventurer Class
+    - Essential for late-game island exploration
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Losing Your Gear">
+Be careful when dropping high-tier weapons like the Flintlock or Machete. If you drop them directly into deep water, they may sink and despawn, costing you valuable resources to craft them again.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Inventory Management">
+
+Keeping your raft organized is the secret to reaching Day 100. A cluttered raft floor makes night-time raids from Ghost Pirates and sharks incredibly difficult to manage. Follow this step-by-step strategy to optimize your inventory flow.
+
+<Steps>
+  <Step num="1" title="Filter Your Harpoon Grabs">
+    Do not blindly reel in every piece of debris you see. Target high-value floating crates and plastic barrels first. If your sack is nearly full, ignore single wood planks and prioritize metal scrap.
+  </Step>
+  <Step num="2" title="Process Raw Materials Immediately">
+    As soon as you return to your raft, walk to your processing line. Unstore your gathered wood and scrap metal directly into your Sawmill and Grinder. Processing raw materials immediately keeps your sack empty and ready for your next island trip.
+  </Step>
+  <Step num="3" title="Utilize Organized Chest Storage">
+    Craft several wooden storage chests and place them in a designated crafting area. Group your items by type: keep one chest for building materials (wood, stone), one for crafting components (gears, scrap), and one for food and medicine.
+  </Step>
+  <Steps num="4" title="Recycle Unwanted Junk">
+    Build a Recycler structure on your raft. If you have excess low-tier items or old tools that you no longer need, drop them into the Recycler to convert them back into valuable Doubloons.
+  </Steps>
+</Steps>
+
+<Callout type="success" title="Chests and Crafting Integration">
+Your crafting workbench automatically detects resources stored in chests on your raft, provided they are placed within a close radius. You do not need to manually unstore items from your chests to craft new defenses!
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Automating Resources with Companions">
+
+If you find manual looting and dropping tedious, you can automate these processes by equipping **Companions**. Companions are helpful allies obtained by purchasing specialized chests from the game's shop using Pearls. Several companions possess unique buffs that directly assist with resource collection and inventory management.
+
+| Companion | Chest Source | Pearl Cost | Drop Rate | Inventory Utility Buff |
+| :--- | :--- | :--- | :--- | :--- |
+| **Octopus** | Warrior Chest | 80 Pearls | 16% | **Automatically brings nearby materials** every 120 seconds |
+| **Salamander** | Magma Chest | 120 Pearls | 5% | **Picks up and delivers nearby loot** directly to your raft |
+| **Crow** | Magma Chest | 120 Pearls | 30% | **Searches surroundings and brings food** every 120 seconds |
+| **Seagull** | Pirate Chest | 120 Pearls | 30% | **Brings food items** to prevent starvation during long voyages |
+
+By utilizing these companions, you can focus on building defenses and exploring islands while your pets handle the tedious task of gathering and organizing dropped loot.
+
+<Checklist
+  id="inventory-checklist"
+  title="Daily Survival Checklist:"
+  items={[
+    "Verify tool durability before leaving your raft base [1.1.1]",
+    "Empty your storage sack completely before docking at a new island",
+    "Smelt raw ores into ingots to maximize chest space",
+    "Equip a resource-gathering companion like the Octopus or Salamander"
+  ]}
+/>
+
+<Callout type="info" title="Companion Stacking">
+While you can own multiple companions, you can only have one active companion equipped at a time. Choose a gathering pet during the day and switch to a combat pet like the Shark or Magma Golem before nightfall.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+To help you seamlessly manage your resources and master the mechanics of *100 Days at Sea*, we have compiled answers to the most common questions regarding inventory management and dropping items.
+
+<FAQ items={[
+  {
+    question: "How do I drop items from my sack in 100 Days at Sea?",
+    answer: "Equip your Sack from your hotbar, then press the F key on PC or tap the Unstore button on mobile. This drops the last item you picked up using the Last In, First Out (LIFO) method."
+  },
+  {
+    question: "What is the fastest way to empty a full inventory?",
+    answer: "Walk over to your Grinder, Campfire, or Sawmill, equip your sack, and tap the drop key repeatedly. This directly deposits your raw materials into the processing stations without cluttering your raft floor."
+  },
+  {
+    question: "Can I drop active weapons and tools to share with friends?",
+    answer: "Yes. Simply select the tool or weapon in your hotbar so your character is holding it, and press the Backspace key on PC. The item will drop onto the ground for your crewmates to collect."
+  },
+  {
+    question: "Where can I get a larger sack to carry more items?",
+    answer: "You can permanently upgrade your starting bag by unlocking the Camper Class (Good Sack) or the Adventurer Class (Giant Sack) using Pearls. Alternatively, you can purchase these sacks from the Traveling Merchant using Doubloons."
+  }
+]} />
+
+<Callout type="success" title="Ready to Set Sail?">
+With your sack organized and your resource automation in place, you are fully prepared to survive the challenges of the Bermuda Triangle and reach Day 100!
+</Callout>
+
+</Section>

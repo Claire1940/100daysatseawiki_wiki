@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Galeão Fantasma de 100 Dias no Mar: Passo a Passo para Plantas e Drops Raros",
+  description: "Domine o encontro com o galeão fantasma em 100 Dias no Mar com nosso guia sobre como encontrar plantas, derrotar tripulações espectrais e garantir saques lendários.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Ghost+Galleon+Blueprint+Guide",
+  date: "2026-06-28",
+  author: "Equipe da Wiki de 100 Dias no Mar",
+  keywords: "100 dias no mar, galeão fantasma, plantas, guia de combate, mar profundo"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Galeão fantasma de 100 Dias no Mar**: Um evento marítimo lendário que aparece durante a progressão de final de jogo, principalmente após o Dia 50.
+- **Aquisição de Plantas**: A Planta do Galeão Fantasma é um drop raro necessário para fabricar a variante de navio espectral.
+- **Condições de Spawn**: Ocorre durante névoa densa ou ciclos de meia-noite no bioma de Mar Profundo.
+- **Estratégia de Combate**: Utilize armamento infundido com sagrado ou canhões de alta velocidade para perfurar a armadura espectral.
+- **Recompensa Principal**: Além das plantas, os jogadores podem obter Ectoplasma e Dobrões Antigos para melhorias de alto nível.
+</Callout>
+
+<Section icon={Map} title="Localizando o galeão fantasma de 100 Dias no Mar">
+
+Encontrar o **galeão fantasma de 100 Dias no Mar** requer paciência e uma compreensão aguçada das pistas ambientais do jogo. Diferente de navios mercantes padrão ou invasores piratas, o Galeão Fantasma não segue uma rota de patrulha fixa. Em vez disso, ele se manifesta como um evento marítimo dinâmico acionado por estados específicos do mundo. Os jogadores frequentemente relatam avistamentos na "Zona da Meia-noite" ou durante o evento climático "Névoa Etérea", que reduz significativamente a visibilidade, mas aumenta a taxa de spawn de entidades sobrenaturais.
+
+Para rastrear com sucesso esta embarcação elusiva, você deve monitorar o horizonte em busca de uma leve luminescência verde. O navio normalmente emite um brilho espectral que pode ser visto através da névoa espessa antes que o casco se torne físico o suficiente para o combate.
+
+| Fator de Spawn | Requisito | Impacto na Taxa de Spawn |
+| :--- | :--- | :--- |
+| **Hora do Dia** | Meia-noite (00:00 - 03:00) | Aumento Alto |
+| **Clima** | Névoa Densa / Bruma Espectral | Requisito Obrigatório |
+| **Progressão** | Dia 50+ | Desbloqueia o Encontro |
+| **Localização** | Mar Profundo / Orla Externa | Zona de Spawn Principal |
+
+<Callout type="warning" title="Aviso de Perigo">
+O Galeão Fantasma é cercado por uma "Aura Gélida" que drena a estamina do jogador e retarda o movimento do navio. Certifique-se de que sua embarcação esteja equipada com uma Lanterna de Calor ou melhoria de aquecimento semelhante antes de se aproximar da bruma espectral.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Pistas Visuais">
+    - **Lanternas Verdes**: Luzes fracas visíveis através da névoa.
+    - **Velas Esfarrapadas**: O navio apresenta velas rasgadas e translúcidas que se movem contra o vento.
+    - **Cantiga Assustadora**: Uma trilha sonora distorcida e baixa toca quando o navio está a menos de 500 metros.
+  </Card>
+  <Card title="Ferramentas de Detecção">
+    - **Bússola Espectral**: Aponta para a entidade morta-viva mais próxima.
+    - **Luneta (Nível 3)**: Permite ver através de 50% da densidade da névoa.
+    - **Vigia no Cesto da Gávea**: NPCs com alta percepção podem avistar o brilho mais cedo.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Como Encontrar a Planta do Galeão Fantasma">
+
+A principal motivação para caçar o **galeão fantasma de 100 Dias no Mar** é a aquisição de sua planta única. Este item permite que os jogadores construam o Galeão Fantasma para sua própria frota, proporcionando furtividade e velocidade inigualáveis durante os ciclos noturnos. No entanto, a planta não é um drop garantido. Ela geralmente está escondida dentro do Baú do Capitão, que só aparece após o núcleo espectral do navio ser destruído.
+
+Com base nos dados da comunidade de 2026, a taxa de drop para a planta permanece em aproximadamente 5-10% por encontro bem-sucedido. Os jogadores podem aumentar essas chances utilizando consumíveis que aumentam a sorte ou enfrentando o navio durante um evento de "Lua de Sangue".
+
+<Steps>
+  <Step num="1" title="Inicie o Encontro">
+    Localize o Galeão Fantasma no Mar Profundo durante um evento de névoa. Você deve disparar o primeiro tiro para "ancorar" o navio no plano físico, evitando que ele desapareça.
+  </Step>
+  <Step num="2" title="Desative as Escoltas Espectrais">
+    O Galeão é frequentemente guardado por 2 a 3 Esquifes Fantasmas. Essas embarcações menores devem ser afundadas primeiro, pois fornecem um escudo ao casco do navio principal.
+  </Step>
+  <Step num="3" title="Alveje as Brechas no Casco">
+    Use Tiro Pesado ou Tiro de Corrente para atingir as seções brilhantes do casco do Galeão. Estes são os "pontos de alma" que mantêm o navio unido.
+  </Step>
+  <Step num="4" title="Aborde a Embarcação">
+    Quando o navio atingir 20% de vida, ele diminuirá a velocidade. Aborde o navio e derrame o Capitão Espectral na cabine da popa para desbloquear o baú de saque.
+  </Step>
+</Steps>
+
+| Nome do Item | Chance de Drop | Utilidade |
+| :--- | :--- | :--- |
+| **Planta do Galeão Fantasma** | 5% - 10% | Desbloqueia a construção do navio Galeão Fantasma |
+| **Seda Espectral** | 40% | Material para fabricar velas resistentes a fantasmas |
+| **Resíduo Ectoplasmático** | 100% | Moeda para o mercador do Bazar Sombrio |
+| **Lâmina Amaldiçoada do Capitão** | 2% | Arma corpo a corpo de alto nível com roubo de vida |
+
+<Callout type="tip" title="Estratégia de Farm">
+Se você estiver farmando especificamente pela planta, não desperdice recursos no Galeão Fantasma a menos que tenha um "Pergaminho de Saque" ativo. Esses pergaminhos dobram as rolagens de drop para plantas raras e são essenciais para minimizar a repetição.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estratégia de Combate e Equipamentos de Navio">
+
+Enfrentar o **galeão fantasma de 100 Dias no Mar** requer um conjunto de equipamentos especializado. Balas de canhão de ferro padrão causam dano reduzido a entidades espectrais. Em vez disso, os jogadores devem focar em tipos de dano "Sagrado" ou "Prata". Se você ainda não os desbloqueou, ataques baseados em fogo são uma alternativa secundária, já que as velas esfarrapadas do navio fantasma são altamente inflamáveis uma vez que ele se torna físico.
+
+O posicionamento do seu navio é crucial. O Galeão Fantasma utiliza uma lateral de "Fogo Fantasma" que pode atravessar o casco do seu navio, danificando componentes internos e a tripulação sem deixar um buraco. Manter uma posição de "enfiada" diagonal é a melhor maneira de minimizar os danos.
+
+| Componente | Melhoria Recomendada | Motivo |
+| :--- | :--- | :--- |
+| **Canhões** | Canhões Longos Prateados | Aumento de dano contra mortos-vivos e alcance |
+| **Casco** | Carvalho Reforçado com Bandas de Ferro | Alta durabilidade para suportar colisões espectrais |
+| **Velas** | Velas de Trama de Tempestade | Necessárias para manobrar nos ventos da névoa densa |
+| **Tripulação** | NPC Padre / Exorcista | Fornece um buff passivo de "Aura Sagrada" a todos os ataques |
+
+<Callout type="success" title="Dica Pro de Combate">
+Alveje o leme do Galeão Fantasma primeiro. Desativar seu movimento o impede de realizar a "Investida de Fase", que permite que ele teletransporte para trás da sua embarcação para um ataque surpresa devastador.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="A Build Tank">
+    - **Foco**: HP de Casco Elevado
+    - **Estratégia**: Absorver golpes enquanto a tripulação aborda.
+    - **Item Chave**: Placas de Ferro.
+  </Card>
+  <Card title="A Build Sniper">
+    - **Foco**: Canhões de Longo Alcance
+    - **Estratégia**: Ficar fora do alcance da Aura Gélida.
+    - **Item Chave**: Canhões Longos Prateados.
+  </Card>
+  <Card title="A Build Veloz">
+    - **Foco**: Manobrabilidade
+    - **Estratégia**: Circular o Galeão para evitar as laterais.
+    - **Item Chave**: Velas de Tempestade.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Sobrevivência e Gerenciamento de Recursos">
+
+Sobreviver a 100 dias no mar já é difícil o suficiente sem a ameaça de navios fantasmas. Ao caçar o **galeão fantasma de 100 Dias no Mar**, você deve gerenciar seus recursos com cuidado. O encontro pode durar de 10 a 20 minutos de tempo de jogo, durante os quais a sanidade e a fome da sua tripulação diminuirão mais rápido que o normal devido ao debuff de "Medo".
+
+Certifique-se de que sua cozinha esteja abastecida com "Rações Abençoadas" ou "Rum Especiado" para manter o moral alto. Se o moral cair abaixo de 30%, sua tripulação pode se recusar a disparar os canhões, levando a uma derrota rápida.
+
+<Checklist
+  id="pre-battle-checklist"
+  title="Checklist de Preparação:"
+  items={[
+    "Estoque pelo menos 50 Balas de Canhão Prateadas",
+    "Equipe a Lanterna de Calor no mastro frontal",
+    "Cozinhe 10+ Rações Abençoadas para bônus de moral",
+    "Repare o casco para 100% no Posto Avançado mais próximo",
+    "Certifique-se de que a Bússola Espectral esteja calibrada"
+  ]}
+/>
+
+<Callout type="warning" title="Nota Crítica">
+Se o "Medidor de Sanidade" do seu navio chegar a zero durante a luta, o Galeão Fantasma se tornará invisível para você, mas ainda poderá causar dano. Recue imediatamente se ficar sem itens de aumento de moral.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas e Progressão Pós-Encontro">
+
+Uma vez que o **galeão fantasma de 100 Dias no Mar** seja derrotado e você tenha garantido a planta, o verdadeiro trabalho começa. Construir o navio requer materiais raros que só são encontrados nas regiões de Mar Profundo. O Galeão Fantasma é considerado uma embarcação de "Nível 4", tornando-o um dos navios mais poderosos para o trecho final do desafio de 100 dias.
+
+O mercador do Bazar Sombrio, frequentemente encontrado em navios mercantes errantes à noite, trocará Ectoplasma por decorações exclusivas de navios e cosméticos de jogador que aprimoram ainda mais seu status de "Caçador de Fantasmas".
+
+| Material | Quantidade Necessária | Fonte Primária |
+| :--- | :--- | :--- |
+| **Planta do Galeão Fantasma** | 1 | Drop do Galeão Fantasma |
+| **Ectoplasma** | 250 | Encontros com Navios Fantasmas |
+| **Tábua de Carvalho Antigo** | 100 | Destroços Submersos |
+| **Fio de Espírito** | 50 | Drops de Esquifes Fantasmas |
+
+<Callout type="info" title="Dica Final de Progressão">
+O Galeão Fantasma é particularmente eficaz para o evento "Boca Abissal" do Dia 90+. Sua habilidade de atravessar obstáculos físicos permite navegar pelas trincheiras estreitas e cheias de rochas da zona final com facilidade.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Posso encontrar o galeão fantasma de 100 Dias no Mar antes do Dia 50?",
+    answer: "Não, o encontro é bloqueado pela progressão até o marco do Dia 50. Mesmo que você entre no Mar Profundo antes, a névoa espectral não ativará o spawn do Galeão."
+  },
+  {
+    question: "A Planta do Galeão Fantasma cai todas as vezes?",
+    answer: "Não, a planta tem uma taxa de drop base de aproximadamente 5-10%. Você pode precisar derrotar o navio várias vezes para obtê-la."
+  },
+  {
+    question: "Qual é a melhor arma contra a tripulação espectral?",
+    answer: "A Cimitarra Prateada ou qualquer arma infundida com Água Benta causa o dano mais consistente aos marinheiros mortos-vivos durante as ações de abordagem."
+  },
+  {
+    question: "Posso jogar 100 Dias no Mar sozinho e ainda vencer o Galeão Fantasma?",
+    answer: "Sim, mas é significativamente mais difícil. Você precisará contar com canhões giratórios automatizados e armadura de casco de alto nível para compensar a falta de uma tripulação de reparo manual."
+  }
+]} />
+
+</Section>
