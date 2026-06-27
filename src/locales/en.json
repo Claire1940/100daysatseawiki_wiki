@@ -10,14 +10,7 @@
       "twitterDescription": "100 Days At Sea Wiki covers Roblox codes, classes, raft survival, badges, weapons, islands, and beginner tips for safer ocean runs."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
