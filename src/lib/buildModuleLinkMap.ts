@@ -14,46 +14,30 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  codes: { field: 'redeemSteps', nameKey: 'title' },
+  beginnerGuide: { field: 'steps', nameKey: 'title' },
+  classesTierList: { field: 'items', nameKey: 'name' },
+  companionsTierList: { field: 'items', nameKey: 'name' },
+  badgesAndAchievements: { field: 'items', nameKey: 'badge' },
+  islandsBossesAndWeapons: { field: 'items', nameKey: 'title' },
+  raftBaseBuildingGuide: { field: 'items', nameKey: 'title' },
+  updatesAndPatchTracker: { field: 'items', nameKey: 'label' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  codes: ['codes', 'pearls', 'redeem', 'rewards', '20pearls', 'redemption'],
+  beginnerGuide: ['guide', 'beginner', 'how to play', 'walkthrough', 'full gameplay', 'objective', 'day 100', 'solo', 'harpoon'],
+  classesTierList: ['classes', 'tier list', 'pearls', 'survivor', 'medic', 'sharpshooter', 'pirate', 'best class'],
+  companionsTierList: ['companions', 'tier list', 'chest', 'perks', 'salamander', 'octopus', 'companion'],
+  badgesAndAchievements: ['badges', 'achievements', 'bonfire', 'boss', 'milestones', 'achievement'],
+  islandsBossesAndWeapons: ['islands', 'bosses', 'weapons', 'squid boss', 'ice biome', 'volcano', 'ghost galleon', 'cargo ship', 'oil rig', 'exploration'],
+  raftBaseBuildingGuide: ['raft', 'base building', 'bonfire', 'shelter', 'container shelter', 'outpost', 'build'],
+  updatesAndPatchTracker: ['updates', 'patch', 'patch notes', 'changelog', 'region update', 'ice biome', 'volcano update'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['100', 'days', 'sea', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +61,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of "100 Days At Sea")
+  const strippedQuery = normalizedQuery.replace(/100 days at sea\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/100 days at sea\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
