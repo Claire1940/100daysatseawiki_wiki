@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "100 Days At Sea Wiki - Codes, Classes & Survival Guide",
+  "short_name": "100 Days At Sea",
+  "description": "100 Days At Sea Wiki covers Roblox codes, classes, raft survival, badges, weapons, islands, updates, and beginner tips for safer ocean runs.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#0a7a85",
+  "background_color": "#0a1a26",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

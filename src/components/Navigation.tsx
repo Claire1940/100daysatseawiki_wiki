@@ -104,11 +104,11 @@ export default function Navigation({ navPreviewData, wikiLinks }: NavigationProp
 						href="/"
 						className="flex items-center space-x-2 hover:opacity-80 transition"
 					>
-						<div className="w-10 h-10 bg-[hsl(var(--nav-theme))] rounded-lg flex items-center justify-center font-bold text-xl">
-							L
+						<div className="w-10 h-10 bg-[hsl(var(--nav-theme))] rounded-lg flex items-center justify-center font-bold text-base">
+							100
 						</div>
-						<span className="font-bold text-lg hidden sm:inline">Lucid Blocks</span>
-						<span className="font-bold text-lg sm:hidden">LB</span>
+						<span className="font-bold text-lg hidden sm:inline">100 Days At Sea</span>
+						<span className="font-bold text-lg sm:hidden">100 Days</span>
 					</Link>
 
 					{/* Desktop Navigation */}
